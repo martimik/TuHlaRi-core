@@ -1,14 +1,19 @@
-# Virallinen vaatimusmäärittely
+# XYZÅÄÖ-palvelun vaatimusmäärittely
 
 ![](https://openclipart.org/image/300px/svg_to_png/38449/58294main-The.Brain.in.Space-page-111-experiment-3d-2.png&disposition=attachment)
 
 
-# XYZ -palvelun vaatimusmäärittely  - 
+# TTOS0100 Kurssin harjoitustyö HT1 - TOIMEKSIANTO KOODI
+
 
 * Nimimerkki/gitlab tunnus
+* Kevät xxx
 * Versionumero X.Y.Z
 
+
 ## Sisällysluettelo 
+
+**Pidä sisällysluettelo kunnossa, eli päivitä sitä tarpeen mukaan! Huomaa MarkDown-ankkurilinkitys**
 
 * [Tuotteen kuvaus](#Johdatus)
 * [Palvelukuvaus](#Palvelukuvaus)
@@ -28,7 +33,9 @@
 
 # Johdatus
 
-__Kerro millaisesta projektista on kyse, hieman taustaa ja aiheeseen olennaisesti liittyviä asioita?__
+**Kerro millaisesta projektista on kyse, hieman taustaa ja aiheeseen olennaisesti liittyviä asioita?**
+
+**Älä käytä tilaajien todellisia nimiä vaan muuta henkilötiedot ja toimeksiantajan viralliset tiedot**
 
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
 totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
@@ -38,8 +45,9 @@ qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non
 incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, 
 quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
 
-* [Youtube-tarinaa](https://www.youtube.com/watch?v=0zVNZNbphfE&t=255s)
-* [Palvelun rajaaminen](https://www.youtube.com/watch?v=fOlmrsp2iRc&t=5s)
+[![](http://img.youtube.com/vi/0zVNZNbphfE/0.jpg)](http://www.youtube.com/watch?v=0zVNZNbphfE "")
+
+
 
 ## Vaatimusmäärittelytyön tilaaja
 
@@ -57,7 +65,7 @@ quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid 
 
 # Palvelukuvaus
 
-__Mitä palvelun avulla voidaan tehdä?__
+**Mitä palvelun avulla voidaan tehdä? Mikä sen tehtävä on sidosryhmän kannalta?**
 
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
 totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
@@ -68,11 +76,16 @@ incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minim
 quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? 
 
 
-## Esimerkki asiakastarinat
+[![](http://img.youtube.com/vi/fOlmrsp2iRc/0.jpg)](http://www.youtube.com/watch?v=fOlmrsp2iRc "")
 
-__Kerro palvelun käytöstä eri asiakasprofiilien/sidoryhmäedustajinen näkökulmasta__
 
-* [Mikä ihme on asiakastarina](https://www.youtube.com/watch?v=m8WEoyyFUww&t=36s)
+## Valitut asiakastarinat
+
+**Kerro palvelun käytöstä eri asiakasprofiilien/sidoryhmäedustajinen näkökulmasta**
+
+[![](http://img.youtube.com/vi/m8WEoyyFUww/0.jpg)](http://www.youtube.com/watch?v=m8WEoyyFUww "")
+
+[![](http://img.youtube.com/vi/MCs4dRPtOJU/0.jpg)](http://www.youtube.com/watch?v=MCs4dRPtOJU "")
 
 
 A: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
@@ -99,22 +112,29 @@ __Kerätään kaikki sidosryhmät yhteen kuvaan ja pohditaan erityisesti mikä o
 
 ## Tunnistetut sidosryhmäkuvaukset (Stakeholders) 
 
-* [Sidosryhmistä](https://www.youtube.com/watch?v=VmotZXBdrDs&t=14s)
+[![](http://img.youtube.com/vi/VmotZXBdrDs/0.jpg)](http://www.youtube.com/watch?v=VmotZXBdrDs "")
 
-__Kirjoitetaan auki yksittäiset sidosryhmät ja eri profiilit__ 
 
+**Kuvaa valitut sidosryhmät ja niihin liittyvät profiilikuvaukset** 
+
+**Muista kirjata kuvauksiin erityisesti sidosryhmän motivaatio! Eli miksi sidosryhmä syy käyttää/soveltaa palvelua**
 
 * [Profile 1](stakeholder-profile1.md)
 * [Profile 2](stakeholder-profile2.md)
 * [Profile 3](stakeholder-profile3.md)
 
 
-## Asiakaspolut (Customer Journey/Path)
+## Palvelu/asiakaspolku (Customer Journey/Path)
 
-* ![Youtube-tarinaa](https://www.youtube.com/watch?v=O04EYNKmEXc)
+[![](http://img.youtube.com/vi/O04EYNKmEXc/0.jpg)](http://www.youtube.com/watch?v=O04EYNKmEXc "")
 
-__Käydään läpi yksittäinen asiakaspolku piirtäen se esim Swimlane/BluePrint/tilakone -kuvauksena. Asiakaspolku voi olla aluksi tekstimuotoinen ja se piirretään sen pohjalta__
-__Asiakaspolun voi kirjoittaa auki käyttäen aiemmin määriteltyjä profiileja.. __
+
+**Käy läpi yksittäinen asiakaspolku piirtäen se esim Swimlane/BluePrint/tilakone -kuvauksena. Asiakaspolku voi olla aluksi tekstimuotoinen ja se piirretään sen pohjalta**
+
+[![](http://img.youtube.com/vi/TLFBPQQ95ZE/0.jpg)](http://www.youtube.com/watch?v=TLFBPQQ95ZE "")
+
+
+**Asiakaspolun voi kirjoittaa auki käyttäen aiemmin määriteltyjä profiileja..** 
 
 Esim. 
 
@@ -127,7 +147,7 @@ qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non
 incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, 
 quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
 
-__Polkuja tehdään tarvittaessa useita eri tarkoituksiin__
+**Polkuja kannattaa määritellä useampia useita eri tilanteiden pohjalta. Yhteen kuvaukseen ei kannata upottaa liikaa tapahtumia**
 
 ![](https://openclipart.org/image/800px/svg_to_png/17266/berteh-flow-diagram-symbols.png&disposition=attachment)
 
@@ -153,6 +173,9 @@ incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minim
 
 Voit esittää ne taulukossa tai viitata [yhteen](pohjat/pohja-vaatimuslistalle.md) laajempaan kokonaisuuteen
 
+[![](http://img.youtube.com/vi/s6v0g1Ut-SY/0.jpg)](http://www.youtube.com/watch?v=s6v0g1Ut-SY "")
+
+
 | VaatimusID | Tyyppi | Kuvaus | Ominaisuus johon vaikuttaa |								
 |:-:|:-:|:-:|:-:|
 | SYSTEM-REQ-0001 | System Requirement | Kirjatumispalvelulla on oltava itsenäinen kolmannen osapuolen toimittama varmistusjärjestelmä | [Kirjautuminen ft1](ft1-ominaisuus.md) |
@@ -177,12 +200,15 @@ Voit esittää ne taulukossa tai viitata [yhteen](pohjat/pohja-vaatimuslistalle.
 ## Tärkeimmät käyttötapaukset (General Use Cases)
 
 
-* [Käyttötapauksista 1](https://www.youtube.com/watch?v=rADU4vWTfyY)
-* [Käyttötapauksista 2](https://www.youtube.com/watch?v=rADU4vWTfyY)
 
-__Millaisia ovat yleisimmät UML-käyttötapaukset liittyen palveluun? Muista, ettei käyttötapaus ole sama kuin käyttökohde tai soveltamis alue__
+**Millaisia ovat tärkeimmät käyttötapaukset (Use Caset) tuotteeseen/palveluun liittyen? Muista, ettei käyttötapauksella ei tarkoiteta käyttökohdetta/soveltamiskohdetta**
 
 
+[![](http://img.youtube.com/vi/rADU4vWTfyY/0.jpg)](http://www.youtube.com/watch?v=rADU4vWTfyY "")
+
+[![](http://img.youtube.com/vi/BjQAWfBMpcw/0.jpg)](http://www.youtube.com/watch?v=BjQAWfBMpcw "")
+
+[![](http://img.youtube.com/vi/Yj7LBkL5oEE/0.jpg)](http://www.youtube.com/watch?v=Yj7LBkL5oEE "")
 
 
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
@@ -195,7 +221,7 @@ quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid 
 
 ![](https://openclipart.org/image/800px/svg_to_png/28058/cfry-Use-Case.png&disposition=attachment)
 
-__Esimerkit__
+**Esimerkit**
 
 * [Käyttötapaus 1 - Uusi asiakas luo tunnuksen]()
 * [Käyttötapaus 2 - Uusi asiaks poistaa tunnukset]()
@@ -210,7 +236,10 @@ qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non
 incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, 
 quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
 
-__Mitä olivat toiminnalliset vaatimukset?__
+**Mitä ovat toiminnalliset vaatimukset?**
+
+
+
 
 Voit esittää ne taulukossa tai viitata [yhteen](pohjat/pohja-vaatimuslistalle.md) laajempaan kokonaisuuteen
 
@@ -327,13 +356,16 @@ quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid 
 ![](https://openclipart.org/image/800px/svg_to_png/236916/1452485143.png&disposition=attachment)
 
 
-## Tärkeimmät tunnistetut ominaisuudet (Features)
+## Tärkeimmät tunnistetut ominaisuudet/piirteet (Features)
 
-* [](https://www.youtube.com/watch?v=lYBhXz-_mIs&t=87s)
+[![](http://img.youtube.com/vi/eTeUxYSdCxA/0.jpg)](http://www.youtube.com/watch?v=eTeUxYSdCxA "")
 
 qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora 
 incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, 
 quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+
+** Mieti ovatko kaikki ominaisuudet tarpeellisia?**
+[![](http://img.youtube.com/vi/pIDSK21PE9M/0.jpg)](http://www.youtube.com/watch?v=pIDSK21PE9M "")
 
 | Ominaisuus | Prioriteetti | Muuta |
 | :-: | :-: | :-: |
@@ -344,8 +376,26 @@ quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid 
 | [Ominaisuus 5](pohjat/pohja-ominaisuus.md) | | |
 
 
+## Hyväksyntätestit
+
+**Kiinnitetään alustavat hyväksyntätestit vaatimuksiin taulukon muodossa**
+
+[![](http://img.youtube.com/vi/EYEc8C57lbo/0.jpg)](http://www.youtube.com/watch?v=EYEc8C57lbo "")
+
+[![](http://img.youtube.com/vi/F2M93uWWXk8/0.jpg)](http://www.youtube.com/watch?v=F2M93uWWXk8 "")
+
+
+| VaatimusID | Testitapaus | Kuvaus |  |								
+|:-:|:-:|:-:|:-:|
+| USE-CASE-007,SYSTEM-REQ-0001,SYSTEM-REQ-0004, SYSTEM-REQ-0012 | [Test Case Id X](Linkki testiin) | Hyväksyntätesti  |
+| USE-CASE-017,SYSTEM-REQ-0011,SYSTEM-REQ-0004, SYSTEM-REQ-0012 | [Test Case Id Y](Linkki testiin) | Hyväksyntätesti  |
+| USE-CASE-011,USE-CASE-013,SYSTEM-REQ-0204, SYSTEM-REQ-0212 | [Test Case Id Z](Linkki testiin) | Hyväksyntätesti  |
+| USE-CASE-002,SYSTEM-REQ-0301,SYSTEM-REQ-0304, SYSTEM-REQ-0312 | [Test Case Id O](Linkki testiin) | Hyväksyntätesti  |
 
 ## Julkaisun suunnitelma
+
+
+
 
 | Aika + Ominaisuuus | Kuvaus | Vastuu | Prioriteetti |
 |:-:|:-:|:-:|:-:|
@@ -364,6 +414,9 @@ quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid 
 
 
 ### Yleinen sijoittelunäkymä (Deployment diagram )
+
+[![](http://img.youtube.com/vi/tLuiQ9p8RkU/0.jpg)](http://www.youtube.com/watch?v=tLuiQ9p8RkU "")
+
 
 ![](https://openclipart.org/image/800px/svg_to_png/17266/berteh-flow-diagram-symbols.png&disposition=attachment)
 
@@ -425,6 +478,8 @@ __ER-kaavio__
 
 ### Kaikki vaatimukset listattuna
 
+**Tähän osaan voidaan linkittää vaatimuslista, josta kaikki tunnistetut vaatimukset löytyvät**
+
 * [Linkki vaatimuslistaan](pohjat/vaatimuslista.md)
 
 
@@ -437,8 +492,8 @@ quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid 
 *Lähteet/Standardit/Suositukset*
 
 | ID | Linkki |  |  
-|:-:|:-:|:-:|:-:| 
+|:-:|:-:|:-:|
 | JHS 165 ICT | http://www.jhs-suositukset.fi/c/document_library/get_file?uuid=b8118ad7-8ee4-459a-a12b-f56655e4ab9d&groupId=14 | Vaatimusmäärittely |
 | SO 9241-11 | https://fi.wikipedia.org/wiki/K%C3%A4ytett%C3%A4vyys  | Käytettävyys | 
-| - | -  | - | 
+| ISO9001 | https://www.sfs.fi/julkaisut_ja_palvelut/tuotteet_valokeilassa/iso_9000_laadunhallinta/iso_9001_2015  | - | 
 | - | -  | - | 
