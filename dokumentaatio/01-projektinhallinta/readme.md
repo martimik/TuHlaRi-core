@@ -1,6 +1,6 @@
 # 01-Projektinhallinta
 
-Tästä kansiosta löytyvät projektinhallinan kannalta oleelliset dokumentaatiot
+Tästä kansiosta löytyvät projektinhallinnan näkökulmasta oleelliset dokumentaatiot
 
 * Projektisuunnitelma
 * projektiryhman-esittely.md	
