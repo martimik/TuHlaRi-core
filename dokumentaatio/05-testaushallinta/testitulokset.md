@@ -11,6 +11,12 @@
 * Fail 
 * Issues reported: #1, #2, #123 
 
+## Linkki tuloksiin
+
+<iframe height="1000" src="http://testlink.labranet.jamk.fi/testlink/lnl.php?apikey=24dd003aac8457938e1778808d65efe331b422290d02d734fe503a60dcf3d01b&tproject_id=2&tplan_id=664&type=charts_basic" style="border: currentColor; border-image: none;" width="100%"></iframe>
+
+
+
 
 ## Kuormitus: 6/5
 
