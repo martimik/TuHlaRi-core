@@ -18,9 +18,9 @@
 
 <iframe height="1000" src="http://testlink.labranet.jamk.fi/testlink/lib/results/resultsByStatus.php?type=f&apikey=24dd003aac8457938e1778808d65efe331b422290d02d734fe503a60dcf3d01b&tproject_id=2&tplan_id=664&format=0" style="border: currentColor; border-image: none;" width="100%"></iframe>
 
-## Kuormitus: 6/5
+## Kuormitus: 5/5
 
-* 6/5
+* 5/5
 
 ## Stabiilius: 1/5
 
