@@ -8,4 +8,4 @@ Tee seuraavat asiat... ja siirrä sitten "issue" tehtyjen töiden puolelle
 - [] askel
 
 
-/label ~"Assignment"
+/label ~"Assignment" /milestone Backlog
