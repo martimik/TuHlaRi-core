@@ -1,8 +1,4 @@
-![](https://openclipart.org/image/300px/svg_to_png/185078/oldmanreadsabook.png&disposition=attachment)
-
-
-[![Käyttöohje](https://i.ytimg.com/vi/WBVTXEXkLLI/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLBxuIzi6eSPuSVFoi9jBpTueIPueQ)](https://www.youtube.com/watch?v=WBVTXEXkLLI&index=11&list=PLOyRnRI1_Cl47Q6tiFByWSVBialcz_bxp)
-
+[![](http://img.youtube.com/vi/P_ExkvEoj6k/0.jpg)](http://www.youtube.com/watch?v=P_ExkvEoj6k "")
 
 
 # Projektisuunnitelma pohja / sisältö
