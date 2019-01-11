@@ -1,4 +1,4 @@
-[Alkuperäinen lähde](https://drive.google.com/open?id=0B-hPgXTXfK9ENkJjRFFDa2N1NVU)
+[![](http://img.youtube.com/vi/P_ExkvEoj6k/0.jpg)](http://www.youtube.com/watch?v=P_ExkvEoj6k "")
 
 SOPIMUS OPISKELIJAPROJEKTIYHTEISTYÖSTÄ
 
