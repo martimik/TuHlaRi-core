@@ -1,4 +1,4 @@
-# oOOOOo-palvelun vaatimusmäärittely
+# Palvelun/tuotteen vaatimusmäärittely
 
 [![](http://img.youtube.com/vi/jH43MPe1Ceg/0.jpg)](http://www.youtube.com/watch?v=jH43MPe1Ceg "")
 
