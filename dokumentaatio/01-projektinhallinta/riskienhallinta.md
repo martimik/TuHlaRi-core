@@ -1,5 +1,7 @@
 # Riskihallintasuunnitelma
 
+[![](http://img.youtube.com/vi/7U9tTavGnAc/0.jpg)](http://www.youtube.com/watch?v=7U9tTavGnAc "")
+
 
 
 [![Projektin riskienhallinta](https://i.ytimg.com/vi/25N3h8J0Y00/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLB3t34pViNdNHDM9Am2swE9nGWLbA)](https://www.youtube.com/watch?v=25N3h8J0Y00&index=13&list=PLOyRnRI1_Cl47Q6tiFByWSVBialcz_bxp)
