@@ -1,14 +1,15 @@
-# Palvelun  X vaatimusmäärittely
+# oOOOOo-palvelun vaatimusmäärittely
 
-![](https://openclipart.org/image/300px/svg_to_png/38449/58294main-The.Brain.in.Space-page-111-experiment-3d-2.png&disposition=attachment)
+[![](http://img.youtube.com/vi/jH43MPe1Ceg/0.jpg)](http://www.youtube.com/watch?v=jH43MPe1Ceg "")
 
 
-# TTOS0800 Kurssin harjoitustyö - TOIMEKSIANTO KOODI
+
+# TTOS0100 Kurssin harjoitustyö HT1 - [TOIMEKSIANTO KOODI TÄHÄN] 
 
 
 * Nimimerkki/gitlab tunnus
-* Kevät xxx
-* Versionumero X.Y.Z
+* Vuosi 
+* Versionumero X.Y
 
 
 ## Sisällysluettelo 
@@ -46,7 +47,6 @@ incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minim
 quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
 
 [![](http://img.youtube.com/vi/0zVNZNbphfE/0.jpg)](http://www.youtube.com/watch?v=0zVNZNbphfE "")
-
 
 
 ## Vaatimusmäärittelytyön tilaaja
@@ -106,7 +106,7 @@ quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid 
 __Kerätään kaikki sidosryhmät yhteen kuvaan ja pohditaan erityisesti mikä on ko. ryhmän/edustajan motivaatio liittyen palveluun__
 
 
-![](https://openclipart.org/image/800px/svg_to_png/17266/berteh-flow-diagram-symbols.png&disposition=attachment)
+![](https://camo.githubusercontent.com/0d665c81987cc940b4d93c0dfdfcf0128d1d5754/68747470733a2f2f7777772e6c7563696463686172742e636f6d2f7075626c69635365676d656e74732f766965772f30303736373365342d333361362d346131312d623465312d6163366461633130306537352f696d6167652e706e67)
 
 
 
@@ -149,16 +149,10 @@ quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid 
 
 **Polkuja kannattaa määritellä useampia useita eri tilanteiden pohjalta. Yhteen kuvaukseen ei kannata upottaa liikaa tapahtumia**
 
-![](https://openclipart.org/image/800px/svg_to_png/17266/berteh-flow-diagram-symbols.png&disposition=attachment)
-
 
 * Mieti onko mahdollista hyödynnetään jotain ulkopuolista palvelua kuvauksen apuna?
 
 Esim. Canvanizer https://canvanizer.com
-
-<div id="can_widget_container"></div><script type="text/javascript" src="http://api.canvanizer.com/api/widget.js?v=1&canvas_id=rOTvl2nds7E1Y&mode=compact-nobg&revision=sync"></script>
-
-
 
 # Vaatimukset, käyttötapaukset ja ominaisuudet
 
@@ -174,7 +168,6 @@ incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minim
 Voit esittää ne taulukossa tai viitata [yhteen](pohjat/pohja-vaatimuslistalle.md) laajempaan kokonaisuuteen
 
 [![](http://img.youtube.com/vi/s6v0g1Ut-SY/0.jpg)](http://www.youtube.com/watch?v=s6v0g1Ut-SY "")
-
 
 | VaatimusID | Tyyppi | Kuvaus | Ominaisuus johon vaikuttaa |								
 |:-:|:-:|:-:|:-:|
@@ -218,8 +211,6 @@ sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. N
 qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora 
 incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, 
 quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
-
-![](https://openclipart.org/image/800px/svg_to_png/28058/cfry-Use-Case.png&disposition=attachment)
 
 **Esimerkit**
 
@@ -396,6 +387,7 @@ quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid 
 
 
 
+Perinteinen listaus
 
 | Aika + Ominaisuuus | Kuvaus | Vastuu | Prioriteetti |
 |:-:|:-:|:-:|:-:|
@@ -403,6 +395,22 @@ quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid 
 | 1.10.2019 [Ominaisuus 2](pohjat/pohja-ominaisuus.md) | | |
 | 15.11.2019 [Ominaisuus 3](pohjat/pohja-ominaisuus.md) | | |
 | 5.12.2019 [Ominaisuus 4](pohjat/pohja-ominaisuus.md) | | |
+
+
+
+Tutustu Mermaid skriptiin?
+
+```mermaid
+gantt
+        dateFormat  YYYY-MM-DD
+        title GANTT -kaavio julkaisusuunnitelman pohjaksi?
+        section A section
+        Lorem Ipsumit alkuun            :done,    des1, 2019-01-06,2019-01-08
+        Parem poxum               :active,  des2, 2019-01-09, 3d
+        Tirem taxum               :         des3, after des2, 5d
+        Quatro Station               :         des4, after des3, 5d
+        
+```
 
 
 # Palvelun/ohjelmiston arkkitehtuuri 
@@ -417,18 +425,9 @@ quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid 
 
 [![](http://img.youtube.com/vi/tLuiQ9p8RkU/0.jpg)](http://www.youtube.com/watch?v=tLuiQ9p8RkU "")
 
-
-![](https://openclipart.org/image/800px/svg_to_png/17266/berteh-flow-diagram-symbols.png&disposition=attachment)
-
-
 # Arkkitehtuuriin/teknologiaan liityvät vaatimukset
 
 ### Tekniset vaatimukset 
-
-
-
-
-
 
 | Id | Vaatimuksen kuvaus | kategoria | Vastuullinen |
 |:-:|:-:|:-:|:-:|
@@ -438,9 +437,9 @@ quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid 
 | REQ00x | Vaatimus? | Käytettävyys | Kuka vastaa | 
 | REQ00x | Vaatimus? | Käytettävyys | Kuka vastaa | 
 
-
-
 ### Ylläpito (Maintenance)
+
+_Tähän kirjataan vaatimuksia, joiden merkitys tulee esiin vasta tuotteen julkaisun jälkeen. Miten tuotteen ylläpidettävyyttä parannetaan? Mitä pitää ottaa huomioon, että ylläpidettävyys on helpompaa__
 
 | Id | Vaatimuksen kuvaus | kategoria | Vastuullinen |
 |:-:|:-:|:-:|:-:|
@@ -452,10 +451,7 @@ quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid 
 
 ### Tietokantakuvaus (Database ER-diagram)
 
-__ER-kaavio__
-
-![](https://openclipart.org/image/800px/svg_to_png/17266/berteh-flow-diagram-symbols.png&disposition=attachment)
-
+ Tähän esim alustava __ER-kaavio__
 
 # Testauksen vaatimukset (Testing requirements)
 
