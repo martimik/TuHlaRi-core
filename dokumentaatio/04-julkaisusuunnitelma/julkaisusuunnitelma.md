@@ -1,4 +1,9 @@
+
+
 # Julkaisusuunnitelma
+
+[![](http://img.youtube.com/vi/ggFEhR3OZsk/0.jpg)](http://www.youtube.com/watch?v=ggFEhR3OZsk "")
+
 
 
 ```mermaid
