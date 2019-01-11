@@ -1,10 +1,24 @@
-# Käyttötapaus -pohja
+# Use Case
 
 
-## Use Case kuvaus
+[![](http://img.youtube.com/vi/cCP8WcQ9dqE/0.jpg)](http://www.youtube.com/watch?v=cCP8WcQ9dqE "")
+
+
+
+
+## Use Case 
+
+Tähän on hyvä liittää näkymä valitusta asiaan liittyvistä käyttötapauskuvauksesta. 
+
+Muista, että piirretty kuvaus on vain osa käyttötapausten kuvaamista! Tekstimuodossa palastellaan yksittäinen käyttötapaus tarkemmin!
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Edit_an_article.svg/261px-Edit_an_article.svg.png)
 
+Yllä karkea esimerkki, joka pitää poistaa..
+
+__Tsekkaa video ja poista linkki, jos homma selvä__
+
+[![](http://img.youtube.com/vi/BjQAWfBMpcw/0.jpg)](http://www.youtube.com/watch?v=BjQAWfBMpcw "")
 
 
 

@@ -1,17 +1,16 @@
-# Testitapaus -pohja
+# Hyväksyntätestin -pohja
 
-[![](http://img.youtube.com/vi/9PNY4BrAiHQ/0.jpg)](http://www.youtube.com/watch?v=9PNY4BrAiHQ "")
-
+[![](http://img.youtube.com/vi/YQ9rZBOMs6g/0.jpg)](http://www.youtube.com/watch?v=YQ9rZBOMs6g "")
 
 
 | | |
 |:-:|:-:|
-| Testitapauksen kuvaus | Tarkistetaan, että.... |
+| Testitapauksen kuvaus | Kelpuutetaan asiakkaalla skenaario...   |
 | Testitapaus ID | XXXX |
 | Testitapauksen suunnittelija | XXXXX XXX | 
 | Testitapauksen hyväksyjä: | XXXXX XXX |
 | Luontipvm | X.Y.ABCD |
-| Luokitus | toiminnallinen/ei-toiminnallinen |
+| Luokitus | Hyväksyntätesti / Acceptance Test |
 
 **Päivityshistoria**
 
@@ -33,19 +32,16 @@
 
 **Testiaskeleet (Test Steps)**
 
+Hyväksyntä testissä voidaan rajata suoritus esim. valittujen käyttötapauksien pohjalta
 
-1. Askel
-2. Askel
-3. Askel
-4. Askel
-5. Askel
-6. Askel
-7. 
-
+Suoritetaan Use Case 1, 2 ja 17
 
 **Testin lopputilanne (End-State)**
 
+
 * Mitä tapahtuu testin ajon jälkeen
+
+
 
 **Huomioitava testin aikana**
 
@@ -58,5 +54,3 @@
 
 * PASS ehto? 
 * FAIL ehto ?
-
-

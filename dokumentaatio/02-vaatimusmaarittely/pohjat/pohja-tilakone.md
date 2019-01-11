@@ -1,8 +1,6 @@
-# Tilakonekuvaus -pohja
+# Tilakone -pohja
 
-
-Voit käyttää tilakonekuvauksia varsin kätevästi osana MarkDown -dokumentaatiota, kun 
-käytät Mermaid -skriptausta.. Tutustu.. 
+Esimerkki tilakoneen piirtämisestä soveltaen Mermaid -skpritiä. 
 
 ```mermaid
 graph TD
@@ -13,7 +11,6 @@ graph TD
     Tarkistus-->|Hyväksytään|Luovutus
     Luovutus-->|Olet vapaa!!|Kotia-kohti
     Tarkistus-->|Vaatii työstämistä|Työskentely
-    
-  
+
 ```
 

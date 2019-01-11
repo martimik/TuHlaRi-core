@@ -1,4 +1,7 @@
-# Tarkistuslista pohja
+# Tarkistulista -pohja
+ 
+[![](http://img.youtube.com/vi/Zz3K7KrQwmI/0.jpg)](http://www.youtube.com/watch?v=Zz3K7KrQwmI "")
+
 
 Tarkasti määritellyn testitapauksen voi tarvittaessa korvata tarkistuslistalla, johon on kerätty tärkeäksi koetut tarkistuskohdat.
 
