@@ -1,7 +1,4 @@
-![](https://openclipart.org/image/300px/svg_to_png/253205/project_manager.png&disposition=attachment)
-
-
-[![Tuntikirjaukset](https://i.ytimg.com/vi/0R51buqmljc/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLB-i549c8QsyErc7TMVVH0DzCmqHg)](https://www.youtube.com/watch?v=0R51buqmljc&list=PLOyRnRI1_Cl47Q6tiFByWSVBialcz_bxp&index=5)
+[![](http://img.youtube.com/vi/eBJpw7Emew8/0.jpg)](http://www.youtube.com/watch?v=eBJpw7Emew8 "")
 
 Tuntikirjaukset ja kulut projektissa XXXXX
 
