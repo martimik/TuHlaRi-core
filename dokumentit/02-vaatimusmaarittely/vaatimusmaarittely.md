@@ -355,7 +355,8 @@ qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non
 incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, 
 quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
 
-** Mieti ovatko kaikki ominaisuudet tarpeellisia?**
+**Mieti ovatko kaikki ominaisuudet tarpeellisia?**
+
 [![](http://img.youtube.com/vi/pIDSK21PE9M/0.jpg)](http://www.youtube.com/watch?v=pIDSK21PE9M "")
 
 
