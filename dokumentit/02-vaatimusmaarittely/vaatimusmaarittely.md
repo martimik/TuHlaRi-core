@@ -358,6 +358,7 @@ quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid 
 ** Mieti ovatko kaikki ominaisuudet tarpeellisia?**
 [![](http://img.youtube.com/vi/pIDSK21PE9M/0.jpg)](http://www.youtube.com/watch?v=pIDSK21PE9M "")
 
+
 | Ominaisuus | Prioriteetti | Muuta |
 | :-: | :-: | :-: |
 | [Ominaisuus 1 - Feature 1](pohjat/pohja-ominaisuus.md) | Tärkeä | |
