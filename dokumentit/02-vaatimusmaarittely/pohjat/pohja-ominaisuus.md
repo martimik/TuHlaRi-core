@@ -35,7 +35,8 @@ vitae condimentum. Ut maximus metus nec lorem ultrices elementum.
 
 *Kirjataan User Storyt alustavasti tähän*
 
-* Käyttäjän haluan, että voin.....
+
+* Käyttäjän haluan, että voin..... katso issue #10 ?
 * Ylläpitäjänä haluan, että voin.....
 
 **Nämä kannattaa siirtää pian issue kuvauksiksi*
