@@ -6,11 +6,20 @@ As a < type of user >, I want < some goal > so that < some reason >.
 
 ## Linked Requirements & Use Cases? 
 
-* ReqID?
-* UseCase?
+* [Link to ReqID]()
+* [Link to UseCase]()
+* [Link to constraint]()
+
+## Definition of done
+
+* Implemented
+* Tested
+* Documented
+* Pair reviewed
+* ?
 
 
-### Acceptance Criteria
+## Acceptance Criterias
 
 - [ ] Check if...
 - [ ] Check also...
