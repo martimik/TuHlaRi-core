@@ -1,10 +1,18 @@
 
-
 # Julkaisusuunnitelma
 
 [![](http://img.youtube.com/vi/ggFEhR3OZsk/0.jpg)](http://www.youtube.com/watch?v=ggFEhR3OZsk "")
 
 
+## Gantt-kaavio PlantUML -notaatiolla
+
+```plantuml
+[Prototype design] lasts 14 days
+then [Test prototype] lasts 4 days
+then [Deploy prototype] lasts 6 days
+```
+
+## Gantt-kaavio Mermaid -notaatiolla
 
 ```mermaid
 gantt
