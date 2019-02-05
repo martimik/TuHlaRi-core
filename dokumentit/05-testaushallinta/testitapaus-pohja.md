@@ -45,3 +45,14 @@ Askel ja odotettu tulos
  1. Step 
  
 ### Huomioitava testin aikana
+
+* huomio 1
+
+### PASS/FAIL Kriteerit
+
+* PASS:
+* FAIL:
+
+
+
+
