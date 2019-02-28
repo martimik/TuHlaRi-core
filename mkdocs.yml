@@ -6,6 +6,7 @@ site_author: Team X
 docs_dir: dokumentit
 site_dir: public
 markdown_extensions:
+    - plantuml
     - toc:
         anchorlink: True
         separator: "_"
