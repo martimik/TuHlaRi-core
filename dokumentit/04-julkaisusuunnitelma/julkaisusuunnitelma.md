@@ -25,7 +25,11 @@ Project starts the 2019-5-15
 ```
 
 
-## Julkaisusuunnitelma taulukkona
+## Julkaisuun liittyvät ominaisuudet
+
+Seuraavassa taulukossa on esitelty eri versioissa julkaistavat ominaisuudet taulukon muodossa. 
+
+
 
 **Julkaisu "EarlyAdopter"**
 
