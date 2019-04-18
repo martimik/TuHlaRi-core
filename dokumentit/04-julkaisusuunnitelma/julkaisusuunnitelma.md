@@ -14,7 +14,7 @@ Julkaisusuunnitelman visualisoidulla muodolla on helpompi esittää ominaisuuksi
 ```plantuml
 Project starts the 2019-5-15
 
-[Release EarlyAdopter] Starts 2019-5-15 and ends 2019-7-30 
+[Version v1.0 EarlyAdopter] Starts 2019-5-15 and ends 2019-7-30 
 [Design Phase] Starts 2019-5-15 and ends 2019-6-15
 [Feature 1  v 1.0] Starts 2019-5-25 and ends 2019-6-15
 [Feature 2  v 1.0] Starts 2019-5-25 and ends 2019-7-1
