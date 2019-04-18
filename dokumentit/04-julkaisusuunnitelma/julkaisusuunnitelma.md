@@ -2,25 +2,19 @@
 
 [![](http://img.youtube.com/vi/ggFEhR3OZsk/0.jpg)](http://www.youtube.com/watch?v=ggFEhR3OZsk "")
 
-## Testataan 
 
-
-
-```plantuml
-Alice -> Bob: Authentication Request
-Bob --> Alice: Authentication Response
-
-Alice -> Bob: Another authentication Request
-Alice <-- Bob: Another authentication Response
-```
 
 
 ## Gantt-kaavio PlantUML -notaatiolla
+
+Julkaisusuunnitelman visualisoidulla muodolla on helpompi esittää ominaisuuksien julkaisut kehityksen aikanan
 
 **Huomio** Alla oleva julkaisusuunnitelman kuva ei näy oikein vaatimusmäärittelydokumentin verkkojulkaisu-sivulla
 
 ```plantuml
 Project starts the 2019-5-15
+
+[Release EarlyAdopter] Starts 2019-5-15 and ends 2019-7-30 
 [Design Phase] Starts 2019-5-15 and ends 2019-6-15
 [Feature 1  v 1.0] Starts 2019-5-25 and ends 2019-6-15
 [Feature 2  v 1.0] Starts 2019-5-25 and ends 2019-7-1
@@ -30,11 +24,6 @@ Project starts the 2019-5-15
 [Accceptance Testing ] Starts 2019-7-21 and ends 2019-7-23
 ```
 
-## Kokeilu
-
-```plantuml
-Project starts the 20th of september 2017
-```
 
 ## Julkaisusuunnitelma taulukkona
 
@@ -53,8 +42,6 @@ Versio 1.0
 | [Feature 5]() | 2.3 | x.y.201z | x+2,y+3.201z |
 | [Feature 6]() | 0.9 | x.y.201z | x+2,y+3.201z |
 | [Feature 7]() | 1.1 | x.y.201z | x+2,y+3.201z |
-
-
 
 
 **Julkaisu "EarlyAdopter Enhanced"**
