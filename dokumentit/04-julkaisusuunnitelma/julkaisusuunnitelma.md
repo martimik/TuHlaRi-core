@@ -29,7 +29,7 @@ Project starts the 2019-5-15
 ```
 
 ```plantuml
-[Design Phase] Starts 2019-5-15 and ends 2019-6-15
+Project starts the 20th of september 2017
 ```
 
 
