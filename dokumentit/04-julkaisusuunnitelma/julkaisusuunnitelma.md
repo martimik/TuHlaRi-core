@@ -1,4 +1,3 @@
-
 # Julkaisusuunnitelma
 
 [![](http://img.youtube.com/vi/ggFEhR3OZsk/0.jpg)](http://www.youtube.com/watch?v=ggFEhR3OZsk "")
@@ -7,9 +6,12 @@
 ## Gantt-kaavio PlantUML -notaatiolla
 
 ```plantuml
-[Prototype design] lasts 14 days
-then [Test prototype] lasts 4 days
-then [Deploy prototype] lasts 6 days
+[Feature 1  v 1.0] lasts 14 days
+then [Feature 2  v 1.0] lasts 4 days
+then [Feature 3  v 1.1] lasts 6 days
+then [Feature 4  v 1.1] lasts 3 days
+then [Feature 5  v 2.3] lasts 6 days
+then [Feature 6  v 0.9] lasts 2 days
 ```
 
 ## Gantt-kaavio Mermaid -notaatiolla
