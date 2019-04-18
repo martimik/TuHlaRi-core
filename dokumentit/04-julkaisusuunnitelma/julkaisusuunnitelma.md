@@ -7,12 +7,12 @@
 
 ```plantuml
 Project starts the 2019-5-15
-[Feature 1  v 1.0] lasts 14 days
-[Feature 2  v 1.0] Starts 2019-6-1 and ends 2019-7-1
-[Feature 3  v 1.1] lasts 6 days
-[Feature 4  v 1.1] lasts 3 days
-[Feature 5  v 2.3] lasts 6 days
-[Feature 6  v 0.9] lasts 2 days
+[Feature 1  v 1.0] Starts 2019-5-25 and ends 2019-6-15
+[Feature 2  v 1.0] Starts 2019-5-25 and ends 2019-7-1
+[Feature 3  v 1.1] Starts 2019-6-1 and ends 2019-7-1
+[Feature 4  v 1.1] Starts 2019-6-1 and ends 2019-7-1
+[Feature 5  v 2.3] Starts 2019-6-1 and ends 2019-7-1
+[Feature 6  v 0.9] Starts 2019-6-1 and ends 2019-7-1
 ```
 
 ## Gantt-kaavio Mermaid -notaatiolla
