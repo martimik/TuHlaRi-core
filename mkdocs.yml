@@ -1,33 +1,25 @@
 site_name: OPF Projektirunko kursseille TTOS0800+TTOS0900 
 site_url: http://open-project-framework.pages.labranet.jamk.fi/opf-for-ttos0800-ttos0900-v1
-
 site_author: Team X 
 
 docs_dir: dokumentit
 site_dir: public
-markdown_extensions:
-    - plantuml
-    - toc:
-        anchorlink: True
-        separator: "_"
-    - admonition
-    - tables
-    - sane_lists
-    - pymdownx.superfences:
-        custom_fences:
-          - name: mermaid
-            class: mermaid
-            format: !!python/name:pymdownx.superfences.fence_div_format
-extra_css:
-  - https://unpkg.com/mermaid@7.1.2/dist/mermaid.css
-extra_javascript:
-  - https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js
+site_name: Example site
 
-    
+
+markdown_extensions:
+  - plantuml-markdown
+  - toc:
+      anchorlink: True
+      separator: "_"
+  - admonition
+  - tables
+  - sane_lists
+
 theme:
-    name: 'material'
-    palette:
-      primary: 'black'
-      accent: 'black'
-    logo:
-      icon: 'home'
+  name: 'material'
+  palette:
+    primary: 'black'
+    accent: 'black'
+  logo:
+    icon: 'assignment'
