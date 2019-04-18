@@ -203,7 +203,7 @@ Voit esittää ne taulukossa tai viitata [yhteen](pohjat/pohja-vaatimuslistalle.
 
 ## Tärkeimmät käyttötapaukset (General Use Cases)
 
-
+[Miten sovellan PlantUML-työkalua](http://plantuml.com/use-case-diagram)
 
 **Millaisia ovat tärkeimmät käyttötapaukset (Use Caset) tuotteeseen/palveluun liittyen? Muista, ettei käyttötapauksella ei tarkoiteta käyttökohdetta/soveltamiskohdetta**
 
@@ -213,6 +213,10 @@ Voit esittää ne taulukossa tai viitata [yhteen](pohjat/pohja-vaatimuslistalle.
 [![](http://img.youtube.com/vi/BjQAWfBMpcw/0.jpg)](http://www.youtube.com/watch?v=BjQAWfBMpcw "")
 
 [![](http://img.youtube.com/vi/Yj7LBkL5oEE/0.jpg)](http://www.youtube.com/watch?v=Yj7LBkL5oEE "")
+
+**Kerätään palvelun kannalta oleellisimmat käyttötapaukset yhteen kuvaan**
+
+
 
 
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
@@ -227,6 +231,12 @@ quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid 
 
 * [Käyttötapaus 1 - Uusi asiakas luo tunnuksen]()
 * [Käyttötapaus 2 - Uusi asiaks poistaa tunnukset]()
+
+```plantuml
+left to right direction
+user1 --> (Usecase 1)
+user2 --> (Usecase 2)
+´´´
 
 ## Palveluun liittyvät tärkeimmät toiminnalliset vaatimukset (Functional Requirements)
 
@@ -380,6 +390,7 @@ quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid 
 | [Ominaisuus 5](pohjat/pohja-ominaisuus.md) | | |
 
 
+
 ## Hyväksyntätestit
 
 **Kiinnitetään alustavat hyväksyntätestit vaatimuksiin taulukon muodossa**
@@ -396,34 +407,7 @@ quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid 
 | USE-CASE-011,USE-CASE-013,SYSTEM-REQ-0204, SYSTEM-REQ-0212 | [Test Case Id Z](Linkki testiin) | Hyväksyntätesti  |
 | USE-CASE-002,SYSTEM-REQ-0301,SYSTEM-REQ-0304, SYSTEM-REQ-0312 | [Test Case Id O](Linkki testiin) | Hyväksyntätesti  |
 
-## Julkaisun suunnitelma
 
-
-
-Perinteinen listaus
-
-| Aika + Ominaisuuus | Kuvaus | Vastuu | Prioriteetti |
-|:-:|:-:|:-:|:-:|
-| 1.9.2019 [Ominaisuus 1](pohjat/pohja-ominaisuus.md) | | |
-| 1.10.2019 [Ominaisuus 2](pohjat/pohja-ominaisuus.md) | | |
-| 15.11.2019 [Ominaisuus 3](pohjat/pohja-ominaisuus.md) | | |
-| 5.12.2019 [Ominaisuus 4](pohjat/pohja-ominaisuus.md) | | |
-
-
-
-Tutustu Mermaid skriptiin?
-
-```mermaid
-gantt
-        dateFormat  YYYY-MM-DD
-        title GANTT -kaavio julkaisusuunnitelman pohjaksi?
-        section A section
-        Lorem Ipsumit alkuun            :done,    des1, 2019-01-06,2019-01-08
-        Parem poxum               :active,  des2, 2019-01-09, 3d
-        Tirem taxum               :         des3, after des2, 5d
-        Quatro Station               :         des4, after des3, 5d
-        
-```
 
 
 # Palvelun/ohjelmiston arkkitehtuuri 
