@@ -18,15 +18,14 @@ Alice <-- Bob: Another authentication Response
 ## Gantt-kaavio PlantUML -notaatiolla
 
 ```plantuml
-
-
+Project starts the 2019-5-15
+[Design Phase] Starts 2019-5-15 and ends 2019-6-15
 [Feature 1  v 1.0] Starts 2019-5-25 and ends 2019-6-15
 [Feature 2  v 1.0] Starts 2019-5-25 and ends 2019-7-1
 [Feature 3  v 1.1] Starts 2019-6-15 and ends 2019-7-15
 [Feature 4  v 1.1] Starts 2019-6-25 and ends 2019-7-20
 [Feature 5  v 2.3] Starts 2019-6-1 and ends 2019-7-21
-
-
+[Accceptance Testing ] Starts 2019-7-21 and ends 2019-7-23
 ```
 
 
