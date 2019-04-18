@@ -28,6 +28,10 @@ Project starts the 2019-5-15
 [Accceptance Testing ] Starts 2019-7-21 and ends 2019-7-23
 ```
 
+```plantuml
+[Design Phase] Starts 2019-5-15 and ends 2019-6-15
+```
+
 
 ![](http://plantuml.labranet.jamk.fi/png/U9oDpi4EWZ0G1D0xNp4_065RWNWqCPv9z6OyD6K3UAYcNVr-HOm4gyRhxhpCrFvqP2i8Ohm4ICTGEItJ8gKYsQyvzAr3tPd01sp7pEiFungmQvwdya4sREJY6GHSGLd-pjHlflvbLKgJqgEYkIhZZTMiRF65VIXJ-SIAWQbCHssnkczSMMlvBCPPnew3zAx5N0wvcEha1iphShy0)
 
