@@ -17,6 +17,8 @@ Alice <-- Bob: Another authentication Response
 
 ## Gantt-kaavio PlantUML -notaatiolla
 
+**Huomio** Alla oleva julkaisusuunnitelman kuva ei näy oikein vaatimusmäärittelydokumentin verkkojulkaisu-sivulla
+
 ```plantuml
 Project starts the 2019-5-15
 [Design Phase] Starts 2019-5-15 and ends 2019-6-15
@@ -37,25 +39,8 @@ Project starts the 20th of september 2017
 
 ![](http://plantuml.labranet.jamk.fi/png/U9oDpi4EWZ0G1D0xNp4_065RWNWqCPv9z6OyD6K3UAYcNVr-HOm4gyRhxhpCrFvqP2i8Ohm4ICTGEItJ8gKYsQyvzAr3tPd01sp7pEiFungmQvwdya4sREJY6GHSGLd-pjHlflvbLKgJqgEYkIhZZTMiRF65VIXJ-SIAWQbCHssnkczSMMlvBCPPnew3zAx5N0wvcEha1iphShy0)
 
-## Gantt-kaavio Mermaid -notaatiolla
 
-```mermaid
-gantt
-    title Julkaisusuunnitelma
-    dateFormat  DD-MM-YYYY
-    section Julkaisut
-    Feature 1  v 1.0       :active,v 1.0, 25-01-2019, 02-04-2019
-    Feature 2  v 1.0       :active,v 1.0, 15-01-2019, 20-03-2019
-    Feature 3  v 1.1       :active,v 1.0, 01-02-2019, 02-04-2019
-    Feature 4  v 1.1       :active,v 1.0, 30-03-2019, 02-04-2019
-    Feature 5  v 2.3       :active,v 1.0, 21-01-2019, 15-03-2019
-    Feature 6  v 0.9       :active,v 1.0, 21-02-2019, 27-03-2019
-    Feature 7  v 1.1       :active,v 1.0, 21-02-2019, 01-04-2019
-
-```
-
-
-
+## Julkaisusuunnitelma taulukkona
 
 **Julkaisu "EarlyAdopter"**
 
