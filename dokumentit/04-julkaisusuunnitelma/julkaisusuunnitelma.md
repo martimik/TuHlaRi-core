@@ -16,8 +16,10 @@ Project starts the 2019-5-15
 [Feature 5  v 2.3] Starts 2019-6-1 and ends 2019-7-21
 [Accceptance Testing ] Starts 2019-7-21 and ends 2019-7-23
 [Fixing phase ] Starts 2019-7-23 and ends 2019-7-27
-[System Release 0.1 ] Starts 2019-7-29 and ends 2019-7-30
-
+[Early Adopter - System Release 1.1 ] Starts 2019-5-15 and ends 2019-7-30
+[Early Adopter Enhanced- System Release 1.1 ] Starts 2019-7-31 and ends 2019-10-30
+[Early Adopter - System Release 1.1 ] Starts 2019-10-31 and ends 2019-21-12
+[Early Adopter & Stabilized - System Release 1.2 ] Starts 2019-5-15 and ends 2019-7-30
 ```
 
 
