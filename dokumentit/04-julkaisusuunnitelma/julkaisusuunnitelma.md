@@ -8,7 +8,8 @@
 ```plantuml
 Project starts the 2019-5-15
 [Early Adopter System Release 1.0] Starts 2019-5-15 and ends 2019-7-30
-[Early Adopter Enhanced System Release 1.1] Starts 2019-7-30 and ends 2019-10-30
+[Early Adopter Enhanced System Release 1.1] Starts 2019-7-30 and ends 2019-8-30
+[Early Adopter System Release 1.1] Starts 2019-8-30 and ends 2019-9-20 
 [Design Phase] Starts 2019-5-15 and ends 2019-6-15
 [Feature 1  v 1.0] Starts 2019-5-25 and ends 2019-6-15
 [Feature 2  v 1.0] Starts 2019-5-25 and ends 2019-7-1
