@@ -6,6 +6,8 @@
 ## Gantt-kaavio PlantUML -notaatiolla
 
 ```plantuml
+Project starts the 2019/5/15
+
 [Feature 1  v 1.0] lasts 14 days
 then [Feature 2  v 1.0] lasts 4 days
 then [Feature 3  v 1.1] lasts 6 days
