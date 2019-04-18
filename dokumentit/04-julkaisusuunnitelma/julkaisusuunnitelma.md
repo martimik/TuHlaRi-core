@@ -18,9 +18,7 @@ Alice <-- Bob: Another authentication Response
 ## Gantt-kaavio PlantUML -notaatiolla
 
 ```plantuml
-Project starts the 2019-5-15
 [Early Adopter System Release 1.0] Starts 2019-5-15 and ends 2019-7-30
-
 
 ```
 
