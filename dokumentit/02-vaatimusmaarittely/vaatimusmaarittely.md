@@ -119,9 +119,9 @@ __Kerätään kaikki sidosryhmät yhteen kuvaan ja pohditaan erityisesti mikä o
 
 **Muista kirjata kuvauksiin erityisesti sidosryhmän motivaatio! Eli miksi sidosryhmä syy käyttää/soveltaa palvelua**
 
-* [Profile 1](..pohja/pohja-profile1.md)
-* [Profile 2](stakeholder-profile2.md)
-* [Profile 3](stakeholder-profile3.md)
+* [Profile 1](..pohja/pohja-profiilikuvaus.md)
+* [Profile 2](..pohja/pohja-profiilikuvaus.md)
+* [Profile 3](..pohja/pohja-profiilikuvaus.md)
 
 
 ## Palvelu/asiakaspolku (Customer Journey/Path)
