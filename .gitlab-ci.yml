@@ -1,6 +1,5 @@
 image: gitlab.labranet.jamk.fi:4567/tools-and-services/mkdocs-plantuml-docker
 
-
 pages:
   script:
     - mkdocs build
