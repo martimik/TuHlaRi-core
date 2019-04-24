@@ -2,9 +2,9 @@
 
 [![](http://img.youtube.com/vi/jH43MPe1Ceg/0.jpg)](http://www.youtube.com/watch?v=jH43MPe1Ceg "")
 
-Vaatimusmäärittely pohjan versio 1.1 - 18.4.2019
+Vaatimusmäärittely pohjan versio 1.1 - 24.4.2019
 
-## TTOS0100 Kurssin harjoitustyö HT1 - [TOIMEKSIANTO KOODI TÄHÄN] 
+## TTOS0800 Kurssi [TOIMEKSIANTO KOODI TÄHÄN] 
 
 * Nimimerkki/gitlab tunnus
 * Vuosi 
