@@ -5,8 +5,8 @@ Vaatimusmäärittely pohjan versio 1.1 - 24.4.2019
 ## TTOS1000 Kurssi TuHlaRi
 
 * Nimimerkki/gitlab tunnus
-* Vuosi 
-* Versionumero X.Y
+* 2019
+* Versionumero 0.1
 
 ## Sisällysluettelo 
 
@@ -63,12 +63,6 @@ Palveluun voi lisätä uusia ohjelmistoja, muokata sekä poistaa niitä.
 
 ```
 
->Mietitään ensin millaisia käyttäjiä/sidosryhmiä liittyy suunniteltuun palvelukokonaisuuteen? Näitä selkeyttääksemme kerätään kaikki sidosryhmät yhteen sidosryhmä-kuvaan ja tarkastellaan samalla mikä on ko. ryhmän/edustajan palveluun liittyvä motivaatio
-
-![](https://camo.githubusercontent.com/0d665c81987cc940b4d93c0dfdfcf0128d1d5754/68747470733a2f2f7777772e6c7563696463686172742e636f6d2f7075626c69635365676d656e74732f766965772f30303736373365342d333361362d346131312d623465312d6163366461633130306537352f696d6167652e706e67)
-
-**Mieti mitä oleellista yllä olevasta kuvasta puuttuu? Yritä tulkita kuvaa nykymuodossaan?**
-
 
 ## Valitut sidosryhmät ja profiilit (Profiles/Stakeholders) 
 
@@ -111,7 +105,6 @@ A["Joku haluaa tunnukset palveluun"]-->B["Pyytää pääkäyttäjää luomaan tu
 B-->C["Pääkäyttäjä luo tunnukset"]
 
 ```
-
 
 ```mermaid
  graph TD
@@ -168,6 +161,16 @@ A["Haluaa löytää tuotteen"]-->B["Etsii tuotteen hakusanalla"]
 
 ```
 
+#### Joku muu
+
+```mermaid
+ graph TD
+A["Haluaa tutkia yrityksen tuottamia tuotteita"]-->B["Menee palveluun"]
+B-->C["Etsii tuotteita"]
+C-->|Näkee vain julkiset tuotteet|D["Selaa tuotteita"]
+
+```
+
 >Tarkennetaan tarinaa ja nostetaan oleelliset profiilit tarkasteluun palvelupolun näkökulmasta. 
 Tämän "polun" tarkoituksena on kuvata sitä tapahtumien sarjaa joka käydään läpi palvelua käytettäessä. 
 Palvelupolkuja voi olla useita, mutta tärkeintä on kuvata oleellisimmat aluksi. Palvelu polku kuvauksessa voidaan hyödyntää Swimlane/BluePrint/tilakone-kuvausta tai muuta sopivaksi katsottua visualisointi tapaa.
@@ -203,13 +206,28 @@ olla useita satoja käyttötilanteita.
 
 
 ```plantuml
-Profiili_1--(Tilauksen tekeminen)
-Profiili_1--(Tilauksen muokkaus)
-Profiili_1--(Tilauksen peruminen)
-Profiili_2--(Tilauksen peruminen)
-Sidosryhmä_1--(Tilauksen muokkaus)
-Sidosryhmä_2--(Tilauksen valvonta)
-Huolto_1--(Tilauksen hyväksyntä)
+left to right direction
+
+(Ylläpitäjä)--(Tuotteiden etsiminen)
+(Ylläpitäjä)--(Tuotteiden palauttaminen)
+(Ylläpitäjä)--(Tuotteiden poistaminen)
+(Ylläpitäjä)--(Salasanan palauttaminen)
+(Ylläpitäjä)--(Käyttäjän luonti)
+(Ylläpitäjä)--(Käyttäjätietojen muokkaus)
+
+(Myyjä)--(Tuotteiden etsiminen)
+(Myyjä)--(Tuoteidean luominen)
+(Myyjä)--(Product ownerin nimeäminen)
+(Myyjä)--(Tuoteidean muokkaaminen)
+
+
+(Product owner)--(Tuotteiden etsiminen)
+(Product owner)--(Tuotteen luominen)
+(Product owner)--(Tuotteen poistaminen)
+(Product owner)--(Tuotteen muokkaaminen)
+
+(Joku muu)--(Tuotteiden etsiminen)
+
 ```
 
 * [Käyttötapaus 1 - Tilauksen muokkaus](../pohjat/pohja-kayttotapaus.md)
