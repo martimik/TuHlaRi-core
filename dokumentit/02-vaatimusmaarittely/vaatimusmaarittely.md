@@ -39,7 +39,9 @@ Vaatimusmäärittely pohjan versio 1.1 - 24.4.2019
 
 ## Vaatimusmäärittelyn toimittaja
 
->Kerro lyhyesti itsestäsi (tarvittaessa pseudonyyminä) tai esim. kuvitteellisen yrityksen työntekijänä
+Olemme tiimi nimeltä ReLamb.
+4 JAMKin opiskelijaa tieto- ja viestintätekniikan linjalta.
+Tavoitteemme on tehdä jokin toimiva ratkaisu toimeksiantoon.
 
 
 ## Palvelukuvaus
