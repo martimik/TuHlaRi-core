@@ -17,8 +17,8 @@ Tuotteiden esittäminen annetuilla hakuehdoilla.
 
 **Esitiedot/ehdot**	
 
-1. Ehto 
-2. Ehto
+1.  
+2. 
 
 **Käyttötapauksen kuvaus**
 
@@ -31,9 +31,8 @@ Tuotteiden esittäminen annetuilla hakuehdoilla.
 
 **Poikkeukset**
  
-* P1	
-
-* P2	
+* Tuotteita ei löydy -> Ilmoitetaan että ei löydy
+* Ei ole oikeuksia nähdä 
 	
 **Lopputulos**	
 
