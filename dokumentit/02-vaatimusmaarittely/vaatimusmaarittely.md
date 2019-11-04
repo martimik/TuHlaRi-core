@@ -84,11 +84,7 @@ skinparam usecase {
 
 ## Valitut sidosryhmät ja profiilit (Profiles/Stakeholders) 
 
-[![](http://img.youtube.com/vi/VmotZXBdrDs/0.jpg)](http://www.youtube.com/watch?v=VmotZXBdrDs "")
-
 >Valitaan aiemmin määritellystä sidosryhmäkuvauksesta tarkempaan tarkasteluun tärkeäksi koetut sidosryhmät/profiilit. Jokainen valittu sidosryhmä kuvataa itsenäisenä profiilikuvauksena ja tallennetaan omaksi tiedostokseen  
-
-[![](http://img.youtube.com/vi/MCs4dRPtOJU/0.jpg)](http://www.youtube.com/watch?v=MCs4dRPtOJU "")
 
 >Jokainen profiili kuvaus tallennetaan itsenäisenä tiedostona, koska tämä helpottaa tulevaisuudessa niihin viittaamista dokumentaatiossa esim. [Loppukäyttäjä - Keijo Korhonen](..pohjat/pohja-profiilikuvaus.md) 
 
@@ -103,8 +99,6 @@ skinparam usecase {
 ## Valitut asiakastarinat
 
 >Valitaan tarvittava määrä eri sidosryhmiä/profiileja ja kirjoitetaan auki valitulle profiilille/sidosryhmälle "asiakastarina". Tavoitteena on kuvata sitä, miten valittu profiili/sidosryhmä käytännössä hyödyntää palvelua. Tavoite ei ole kehua sitä vaan käydä läpi syitä palvelun käyttöön ja miten se auttaa ko. sidosryhmää/profiilia.
-
-[![](http://img.youtube.com/vi/m8WEoyyFUww/0.jpg)](http://www.youtube.com/watch?v=m8WEoyyFUww "")
 
 >Muista kirjoittaa tarina auki pelkästään valitun sidosryhmän näkökulmasta (toiset sidosryhmät saattavat esiintyä tarinassa)
 
@@ -194,12 +188,10 @@ Tämän "polun" tarkoituksena on kuvata sitä tapahtumien sarjaa joka käydään
 Palvelupolkuja voi olla useita, mutta tärkeintä on kuvata oleellisimmat aluksi. Palvelu polku kuvauksessa voidaan hyödyntää Swimlane/BluePrint/tilakone-kuvausta tai muuta sopivaksi katsottua visualisointi tapaa.
 Tärkeää on kuvata polku ja käydä sen avulla eri vaiheet läpi
 
-[![](http://img.youtube.com/vi/O04EYNKmEXc/0.jpg)](http://www.youtube.com/watch?v=O04EYNKmEXc "")
 
 >Asiakaspolkukua on hyvä lähteä luonnostelemaan esim. asiakastarinan pohjalta. Polkuja kannattaa määritellä tarvittaessa useampia eri tilanteiden näkökulmasta. 
 Yhteen kuvaukseen ei kannata upottaa liikaa tapahtumia
 
-[![](http://img.youtube.com/vi/TLFBPQQ95ZE/0.jpg)](http://www.youtube.com/watch?v=TLFBPQQ95ZE "")
 
 >Palvelupolkujen kuvaukseen voidaan hyödyntää myös erillisiä työkaluja. Mieti onko mahdollista hyödynnetään jotain ulkopuolista palvelua kuvauksen apuna?
 
@@ -215,9 +207,6 @@ tarkastelmaan palvelun käyttöä varsin rajatussa tilanteessa. On oleellista ki
 
 **Millaisia ovat tärkeimmät käyttötapaukset (Use Caset) tuotteeseen/palveluun liittyen? Muista, ettei käyttötapauksella ei tarkoiteta käyttökohdetta/soveltamiskohdetta**
 
-[![](http://img.youtube.com/vi/rADU4vWTfyY/0.jpg)](http://www.youtube.com/watch?v=rADU4vWTfyY "")
-
-[![](http://img.youtube.com/vi/BjQAWfBMpcw/0.jpg)](http://www.youtube.com/watch?v=BjQAWfBMpcw "")
 
 >On hyvä kerätä tärkeimmät käyttötapaukset yhteen Use Case-kuvaukseen, josta on helpompi tarkastella järjestelmää. Laajemmassa järjestelmässä saattaa
 olla useita satoja käyttötilanteita. 
@@ -466,7 +455,6 @@ Hyväksyntätesteillä voidaan selvittää onko tuote myös riittävän suoritus
 
 ## Alustava julkaisusuunnitelma
 
-[![](http://img.youtube.com/vi/ggFEhR3OZsk/0.jpg)](http://www.youtube.com/watch?v=ggFEhR3OZsk "")
 
 > Julkaisusuunnitelman visualisoidulla muodolla on helpompi esittää ominaisuuksien julkaisut kehityksen aikanan.
 Alla oleva kuva on luotu käyttäen PlantUML-työkalua. Sen avulla on luoto ns. Gantt-kaavio ominaisuuksien julkaisuajankohdista.
@@ -532,8 +520,6 @@ Seuraavassa julkaisussa on mukana muutamia parannettuja ominaisuuksia, jotka ova
 
 >Sijoittelunäkyvän avulla voi kuvata miten eri palvelu osat toimivat sen ollessa toiminnassa. 
 
-[![](http://img.youtube.com/vi/tLuiQ9p8RkU/0.jpg)](http://www.youtube.com/watch?v=tLuiQ9p8RkU "")
-
 ### Tietokantakuvaus (Database ER-diagram)
 
 >Tähän esim alustava ER-kaavio
@@ -569,8 +555,6 @@ Esimerkkinä voidaan miettiä logien hallintaa, niiden keräämistä, alkutilant
 
 
 ### Vaatimukset yhtenä listana
-
-[![](http://img.youtube.com/vi/s6v0g1Ut-SY/0.jpg)](http://www.youtube.com/watch?v=s6v0g1Ut-SY "")
 
 >Tähän osaan voidaan linkittää vaatimuslista, josta kaikki tunnistetut vaatimukset löytyvät
 
