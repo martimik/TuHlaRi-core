@@ -156,11 +156,13 @@ A1["Myyjä luo uuden tuotteen aihion"]-->|Idea otetaan toteutukseen|B1["Product 
 B1-->C1["Ideasta tulee tuote"]
 
 A2["Tuote pitää poistaa"]-->B2["Poistaa tuotteen"]
+
 B2-->C2["Oikeasti vain piilotetaan"]
 
 A3["Tuote muuttuu"]-->B3["Product owner muokkaa tuotteen tietoja"]
 
-A4["Haluaa löytää tuotteen"]-->B4["Etsii tuotteen hakusanalla"]
+A4["Haluaa löytää tuotteen"]-->B4["Etsii tuotteita"]
+A4-->C4["Selaa tuotteita"]
 
 ```
 
@@ -180,7 +182,8 @@ M --> A3
  
 A1["Myyjä saa hurjan hyvän idean tuotteesta"]-->B1["Luo uuden tuoteidean"]
 
-A2["Haluaa löytää tuotteen"]-->B2["Etsii tuotteen hakusanalla"]
+A2["Haluaa löytää tuotteen"]-->B2["Etsii tuotteita"]
+A2-->C2["Selaa tuotteita"]
 
 A3["Nimeää product ownerin tuotteelle"]
 
@@ -196,8 +199,8 @@ J["Joku muu"]
 J --> A1
 
 A1["Haluaa tutkia yrityksen tuottamia tuotteita"]-->B1["Menee palveluun"]
-B1-->C1["Etsii tuotteita"]
-C1-->|Näkee vain julkiset tuotteet|D1["Selaa tuotteita"]
+B1-->|Näkee vain julkiset tuotteet|C1["Etsii tuotteita"]
+B1-->|Näkee vain julkiset tuotteet|D1["Selaa tuotteita"]
 
 ```
 
