@@ -4,7 +4,7 @@
 
 Vaatimusmäärittely pohjan versio 1.1 - 24.4.2019
 
-## TTOS0800 Kurssi [TOIMEKSIANTO KOODI TÄHÄN] 
+## TTOS1000 Kurssi TuHlaRi
 
 * Nimimerkki/gitlab tunnus
 * Vuosi 
@@ -61,6 +61,15 @@ Vaatimusmäärittely pohjan versio 1.1 - 24.4.2019
 
 
 ## Yleinen sidosryhmäkuva (Stakeholder -Map)
+
+
+```plantuml
+(Pääkäyttäjä)-right->Tuhlari
+(Product owner)-left->Tuhlari
+(Myyjä/Business manager)-->Tuhlari
+(Joku muu)-up->Tuhlari
+
+```
 
 >Mietitään ensin millaisia käyttäjiä/sidosryhmiä liittyy suunniteltuun palvelukokonaisuuteen? Näitä selkeyttääksemme kerätään kaikki sidosryhmät yhteen sidosryhmä-kuvaan ja tarkastellaan samalla mikä on ko. ryhmän/edustajan palveluun liittyvä motivaatio
 
