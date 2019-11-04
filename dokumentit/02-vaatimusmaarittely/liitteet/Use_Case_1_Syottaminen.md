@@ -2,53 +2,36 @@
 
 ## Use Case 
 
-Tähän on hyvä liittää näkymä valitusta asiaan liittyvistä käyttötapauskuvauksesta. 
+Uuden tuotteen syöttäminen järjestelmään
 
-Muista, että piirretty kuvaus on vain osa käyttötapausten kuvaamista! Tekstimuodossa palastellaan yksittäinen käyttötapaus tarkemmin!
-
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Edit_an_article.svg/261px-Edit_an_article.svg.png)
-
-Yllä karkea esimerkki, joka pitää poistaa..
-
-__Tsekkaa video ja poista linkki, jos homma selvä__
-
-[![](http://img.youtube.com/vi/BjQAWfBMpcw/0.jpg)](http://www.youtube.com/watch?v=BjQAWfBMpcw "")
-
-
-
-* Laatija:
-* Päiväys / Versio?.
+* Laatija: Markus Nylund
+* Päiväys / Versio: 4.11.2019 / 1.0
 * Prosessiosa-alue?
 	
 **Käyttäjäroolit**	
 
-1. rooli?
-2. rooli?
-3. rooli?
+1. Product Owner
+2. Myyjä/Bussiness Manager
 
 **Esitiedot/ehdot**	
 
-1. Ehto 
-2. Ehto
+1. Käytäjä on kirjautunut sisään 
+2. Samanimistä tuotetta ei ole jo olemassa
 
 **Käyttötapauksen kuvaus**
 
-1. askel
-2. askel
-3. askel
-4. askel
-5. askel
-6. askel
+1. Käyttäjä painaa nappulaa jossa lukee lisää tuote
+2. Käyttäjä syöttää tuotteelle tarvittavat tiedot
+3. Käyttäjä painaa nappia hyväksyäkseen tiedot
 
 **Poikkeukset**
  
-* P1	
-
-* P2	
+* Tiettyjen tietojen puute
+* Lisää PO:n kuka ei ole olemassa
 	
 **Lopputulos**	
 
-* Lopputulos joka tulee kun Use Case suoritetaan
+* Rekisterissä on uusi tuote
 
 **Käyttötiheys** 
 
@@ -56,7 +39,7 @@ __Tsekkaa video ja poista linkki, jos homma selvä__
 
 **Muuta**	
 
-* Kuvataan muita käyttötapaukseen liittyviä oleellisia tietoja, kuten avoimia asioita, viittauksia käytettäviin koodistoihin jne.
+* Voidaan määritellä onko tuote idea vai jo meneillään oleva homma
 
 
 

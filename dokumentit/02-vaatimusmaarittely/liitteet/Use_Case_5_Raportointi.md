@@ -5,8 +5,6 @@
 Tuotteiden esittäminen annetuilla hakuehdoilla.
 ???Tuotten tiedot hakuehtoja???
 
-__Tsekkaa video ja poista linkki, jos homma selvä__
-
 * Laatija: Markus Nylund
 * Päiväys / Versio: 4.11.2019 / 0.1
 * Prosessiosa-alue?
