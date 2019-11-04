@@ -176,11 +176,13 @@ U --> |Kirjautuu sisään|M
 
 M --> A1
 M --> A2
+M --> A3
  
 A1["Myyjä saa hurjan hyvän idean tuotteesta"]-->B1["Luo uuden tuoteidean"]
-B1-->C1["Nimeää product ownerin tuotteelle"]
 
 A2["Haluaa löytää tuotteen"]-->B2["Etsii tuotteen hakusanalla"]
+
+A3["Nimeää product ownerin tuotteelle"]
 
 ```
 
@@ -198,6 +200,7 @@ B1-->C1["Etsii tuotteita"]
 C1-->|Näkee vain julkiset tuotteet|D1["Selaa tuotteita"]
 
 ```
+
 
 >Tarkennetaan tarinaa ja nostetaan oleelliset profiilit tarkasteluun palvelupolun näkökulmasta. 
 Tämän "polun" tarkoituksena on kuvata sitä tapahtumien sarjaa joka käydään läpi palvelua käytettäessä. 
