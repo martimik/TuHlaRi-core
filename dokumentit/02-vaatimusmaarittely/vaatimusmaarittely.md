@@ -49,6 +49,7 @@ Tavoitteemme on tehdä jokin toimiva ratkaisu toimeksiantoon.
 >Mitä palvelun avulla voidaan tehdä? Mikä sen tehtävä on sidosryhmän kannalta? Kannattaa keskittyä loppukäyttäjiin tai oleellisiin palvelusta hyötyviin sidosryhmiin
 
 Palvelu on tuoterekisteri tuotettujen ohjelmistojen seurantaan.
+Palveluun voi lisätä uusia ohjelmistoja, muokata sekä poistaa niitä.
 
 
 ## Yleinen sidosryhmäkuva (Stakeholder -Map)
@@ -101,6 +102,64 @@ Palvelu on tuoterekisteri tuotettujen ohjelmistojen seurantaan.
 
 
 ## Palvelun tärkeimmät asiakaspolut (Customer Journey/Path)
+
+#### Pääkäyttäjä
+
+```mermaid
+ graph TD
+A["Joku haluaa tunnukset palveluun"]-->B["Pyytää pääkäyttäjää luomaan tunnukset"]
+B-->C["Pääkäyttäjä luo tunnukset"]
+
+```
+
+
+```mermaid
+ graph TD
+A["Palvelun käyttäjä unohtaa salasanan"]-->B["Käyttäjä pyytää salasanan resetointia"]
+B-->C["Pääkäyttäjä resetoi salasanan"]
+
+```
+#### Product owner
+
+```mermaid
+ graph TD
+A["Myyjä luo uuden tuotteen aihion"]-->|Idea otetaan toteutukseen|B["Product owner luo uuden tuotteen"]
+
+```
+
+```mermaid
+ graph TD
+A["Tuote pitää poistaa"]-->B["Poistaa tuotteen"]
+B-->C["Oikeasti vain piilotetaan"]
+
+```
+
+```mermaid
+ graph TD
+A["Tuote muuttuu"]-->B["Product owner muokkaa tuotteen tietoja"]
+
+```
+
+```mermaid
+ graph TD
+A["Haluaa löytää tuotteen"]-->B["Etsii tuotteen hakusanalla"]
+
+```
+
+#### Myyjä
+
+```mermaid
+ graph TD
+A["Myyjä saa hurjan hyvän idean tuotteesta"]-->B["Luo uuden tuoteidean"]
+B-->C["Nimeää product ownerin tuotteelle"]
+
+```
+
+```mermaid
+ graph TD
+A["Haluaa löytää tuotteen"]-->B["Etsii tuotteen hakusanalla"]
+
+```
 
 >Tarkennetaan tarinaa ja nostetaan oleelliset profiilit tarkasteluun palvelupolun näkökulmasta. 
 Tämän "polun" tarkoituksena on kuvata sitä tapahtumien sarjaa joka käydään läpi palvelua käytettäessä. 
