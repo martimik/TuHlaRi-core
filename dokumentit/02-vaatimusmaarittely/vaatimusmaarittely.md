@@ -1,7 +1,5 @@
 ## Ohjelmiston/palvelun vaatimusmäärittely
 
-[![](http://img.youtube.com/vi/jH43MPe1Ceg/0.jpg)](http://www.youtube.com/watch?v=jH43MPe1Ceg "")
-
 Vaatimusmäärittely pohjan versio 1.1 - 24.4.2019
 
 ## TTOS1000 Kurssi TuHlaRi
@@ -39,14 +37,6 @@ Vaatimusmäärittely pohjan versio 1.1 - 24.4.2019
 >Kerro millaisesta projektista on kyse, hieman taustaa ja aiheeseen olennaisesti liittyviä asioita? Älä käytä harjoitustehtävässä tilaajien oikeita nimiä vaan muuta henkilötiedot ja toimeksiantajan viralliset tiedot
 
 
-[![](http://img.youtube.com/vi/0zVNZNbphfE/0.jpg)](http://www.youtube.com/watch?v=0zVNZNbphfE "")
-
-
-## Vaatimusmäärittelytyön toimeksiantaja/tilaaja
-
->Kuka on vaatimusmäärittelyn tilaaja?
-
-
 ## Vaatimusmäärittelyn toimittaja
 
 >Kerro lyhyesti itsestäsi (tarvittaessa pseudonyyminä) tai esim. kuvitteellisen yrityksen työntekijänä
@@ -56,8 +46,7 @@ Vaatimusmäärittely pohjan versio 1.1 - 24.4.2019
 
 >Mitä palvelun avulla voidaan tehdä? Mikä sen tehtävä on sidosryhmän kannalta? Kannattaa keskittyä loppukäyttäjiin tai oleellisiin palvelusta hyötyviin sidosryhmiin
 
-
-[![](http://img.youtube.com/vi/fOlmrsp2iRc/0.jpg)](http://www.youtube.com/watch?v=fOlmrsp2iRc "")
+Palvelu on tuoterekisteri tuotettujen ohjelmistojen seurantaan.
 
 
 ## Yleinen sidosryhmäkuva (Stakeholder -Map)
