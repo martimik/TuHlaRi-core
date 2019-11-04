@@ -4,7 +4,11 @@ Vaatimusmäärittely pohjan versio 1.1 - 24.4.2019
 
 ## TTOS1000 Kurssi TuHlaRi
 
-* Nimimerkki/gitlab tunnus
+* Reko Meriö - K9260
+* 
+*
+*
+
 * 2019
 * Versionumero 0.1
 
