@@ -1,22 +1,16 @@
-# Ominaisuus -pohja
-
-[![](http://img.youtube.com/vi/45aSdlg6NK0/0.jpg)](http://www.youtube.com/watch?v=45aSdlg6NK0 "")
+# Ominaisuus 01 -Kirjautuminen
 
 
 | | |
 |:-:|:-:|
-| Ominaisuus ID |esim. FT0101 |
-| Osajärjestelmä, mihin ominaisuus liittyy | esim laskutus |
-| Ominaisuuden vastuuhenkilö | esim. Mauri Myyrä |
-| Status | esim. hyväksytty |
+| Ominaisuus ID | FT01 |
+| Osajärjestelmä, mihin ominaisuus liittyy | xxx |
+| Ominaisuuden vastuuhenkilö | xxx |
+| Status | hyväksytty |
 
 ### Kuvaus
 
-*Kerro mitä ominaisuudella tarkoitetaan ja mitä sen avulla saavutetaan*
-
-Sed non nisi id ligula interdum mattis. Fusce vel ullamcorper nunc. Nulla pharetra dui ut enim semper semper. 
-Aenean ut leo tortor. Fusce felis nibh, malesuada vitae nibh at, rhoncus feugiat leo. Nam vehicula vitae ligula 
-vitae condimentum. Ut maximus metus nec lorem ultrices elementum.
+Käyttäjä pystyy kirjatutumaan järjestelmään omilla tunnuksillaan.
 
 
 ### Ominaisuuteen liittyvät rajaukset, vaatimukset käyttötapaukset
@@ -33,15 +27,9 @@ vitae condimentum. Ut maximus metus nec lorem ultrices elementum.
 
 ### Alustavat käyttäjätarinat (User Storys)
 
-*Kirjataan User Storyt alustavasti tähän*
+* Käyttäjänä haluan kirjautua sisään palveluun tunnuksillani.
 
-
-* Käyttäjän haluan, että voin..... katso issue #10 ?
-* Ylläpitäjänä haluan, että voin.....
-
-**Nämä kannattaa siirtää pian issue kuvauksiksi*
-
-esim. #8 #2
+#x linkki issueen
 
 
 ### Käyttöliittymänäkymä/mock 
