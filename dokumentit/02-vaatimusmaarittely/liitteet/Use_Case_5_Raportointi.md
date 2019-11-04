@@ -1,36 +1,21 @@
-# Use Case 5 
-
-
-[![](http://img.youtube.com/vi/cCP8WcQ9dqE/0.jpg)](http://www.youtube.com/watch?v=cCP8WcQ9dqE "")
-
-
-
+# Use Case 5 Raportointi
 
 ## Use Case 
 
-Tähän on hyvä liittää näkymä valitusta asiaan liittyvistä käyttötapauskuvauksesta. 
-
-Muista, että piirretty kuvaus on vain osa käyttötapausten kuvaamista! Tekstimuodossa palastellaan yksittäinen käyttötapaus tarkemmin!
-
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Edit_an_article.svg/261px-Edit_an_article.svg.png)
-
-Yllä karkea esimerkki, joka pitää poistaa..
+Tuotteiden esittäminen annetuilla hakuehdoilla.
+???Tuotten tiedot hakuehtoja???
 
 __Tsekkaa video ja poista linkki, jos homma selvä__
 
-[![](http://img.youtube.com/vi/BjQAWfBMpcw/0.jpg)](http://www.youtube.com/watch?v=BjQAWfBMpcw "")
-
-
-
-* Laatija:
-* Päiväys / Versio?.
+* Laatija: Markus Nylund
+* Päiväys / Versio: 4.11.2019 / 0.1
 * Prosessiosa-alue?
 	
 **Käyttäjäroolit**	
 
-1. rooli?
-2. rooli?
-3. rooli?
+1. Product Owner
+2. Myyjä/Bussiness Manager
+3. Joku muu
 
 **Esitiedot/ehdot**	
 
@@ -39,12 +24,12 @@ __Tsekkaa video ja poista linkki, jos homma selvä__
 
 **Käyttötapauksen kuvaus**
 
-1. askel
-2. askel
-3. askel
-4. askel
-5. askel
-6. askel
+1. Käyttäjä syöttää hakuehdon
+2. Tuotteesta/Tuotteista tulee tietoa
+3. 
+4. 
+5. 
+6. 
 
 **Poikkeukset**
  
