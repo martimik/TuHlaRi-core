@@ -5,9 +5,9 @@ Vaatimusmäärittely pohjan versio 1.1 - 24.4.2019
 ## TTOS1000 Kurssi TuHlaRi
 
 * Reko Meriö - K9260
-* 
-*
-*
+* -
+* -
+* -
 
 * 2019
 * Versionumero 0.1
@@ -117,21 +117,23 @@ skinparam usecase {
 
 ```mermaid
  graph TD
-A["Joku haluaa tunnukset palveluun"]-->B["Pyytää pääkäyttäjää luomaan tunnukset"]
-B-->C["Pääkäyttäjä luo tunnukset"]
+ 
+U["Käyttäjä"]
+P["Pääkäyttäjä"]
 
-```
+U --> |Kirjautuu sisään|P
 
-```mermaid
- graph TD
-A["Palvelun käyttäjä unohtaa salasanan"]-->B["Käyttäjä pyytää salasanan resetointia"]
-B-->C["Pääkäyttäjä resetoi salasanan"]
+P --> A1
+P --> A2
+P --> A3
 
-```
+A1["Joku haluaa tunnukset palveluun"]-->B1["Pyytää pääkäyttäjää luomaan tunnukset"]
+B1-->C1["Pääkäyttäjä luo tunnukset"]
 
-```mermaid
- graph TD
-A["Vahingossa poistettu tuote halutaan palauttaa"]-->B["Pääkäyttäjä palauttaa tuotteen"]
+A2["Palvelun käyttäjä unohtaa salasanan"]-->B2["Käyttäjä pyytää salasanan resetointia"]
+B2-->C2["Pääkäyttäjä resetoi salasanan"]
+
+A3["Vahingossa poistettu tuote halutaan palauttaa"]-->B3["Pääkäyttäjä palauttaa tuotteen"]
 
 ```
 
@@ -139,27 +141,26 @@ A["Vahingossa poistettu tuote halutaan palauttaa"]-->B["Pääkäyttäjä palautt
 
 ```mermaid
  graph TD
-A["Myyjä luo uuden tuotteen aihion"]-->|Idea otetaan toteutukseen|B["Product owner hyväksyy tuotteen"]
-B-->C["Ideasta tulee tuote"]
 
-```
+U["Käyttäjä"]
+P["Product owner"]
+ 
+U --> |Kirjautuu sisään|P 
+ 
+P --> A1
+P --> A2
+P --> A3
+P --> A4
 
-```mermaid
- graph TD
-A["Tuote pitää poistaa"]-->B["Poistaa tuotteen"]
-B-->C["Oikeasti vain piilotetaan"]
+A1["Myyjä luo uuden tuotteen aihion"]-->|Idea otetaan toteutukseen|B1["Product owner hyväksyy tuotteen"]
+B1-->C1["Ideasta tulee tuote"]
 
-```
+A2["Tuote pitää poistaa"]-->B2["Poistaa tuotteen"]
+B2-->C2["Oikeasti vain piilotetaan"]
 
-```mermaid
- graph TD
-A["Tuote muuttuu"]-->B["Product owner muokkaa tuotteen tietoja"]
+A3["Tuote muuttuu"]-->B3["Product owner muokkaa tuotteen tietoja"]
 
-```
-
-```mermaid
- graph TD
-A["Haluaa löytää tuotteen"]-->B["Etsii tuotteen hakusanalla"]
+A4["Haluaa löytää tuotteen"]-->B4["Etsii tuotteen hakusanalla"]
 
 ```
 
@@ -167,14 +168,19 @@ A["Haluaa löytää tuotteen"]-->B["Etsii tuotteen hakusanalla"]
 
 ```mermaid
  graph TD
-A["Myyjä saa hurjan hyvän idean tuotteesta"]-->B["Luo uuden tuoteidean"]
-B-->C["Nimeää product ownerin tuotteelle"]
+ 
+U["Käyttäjä"]
+M["Myyjä"]
 
-```
+U --> |Kirjautuu sisään|M
 
-```mermaid
- graph TD
-A["Haluaa löytää tuotteen"]-->B["Etsii tuotteen hakusanalla"]
+M --> A1
+M --> A2
+ 
+A1["Myyjä saa hurjan hyvän idean tuotteesta"]-->B1["Luo uuden tuoteidean"]
+B1-->C1["Nimeää product ownerin tuotteelle"]
+
+A2["Haluaa löytää tuotteen"]-->B2["Etsii tuotteen hakusanalla"]
 
 ```
 
@@ -182,9 +188,14 @@ A["Haluaa löytää tuotteen"]-->B["Etsii tuotteen hakusanalla"]
 
 ```mermaid
  graph TD
-A["Haluaa tutkia yrityksen tuottamia tuotteita"]-->B["Menee palveluun"]
-B-->C["Etsii tuotteita"]
-C-->|Näkee vain julkiset tuotteet|D["Selaa tuotteita"]
+ 
+J["Joku muu"]
+
+J --> A1
+
+A1["Haluaa tutkia yrityksen tuottamia tuotteita"]-->B1["Menee palveluun"]
+B1-->C1["Etsii tuotteita"]
+C1-->|Näkee vain julkiset tuotteet|D1["Selaa tuotteita"]
 
 ```
 
