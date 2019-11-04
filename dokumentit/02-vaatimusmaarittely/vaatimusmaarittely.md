@@ -135,7 +135,8 @@ A["Vahingossa poistettu tuote halutaan palauttaa"]-->B["Pääkäyttäjä palautt
 
 ```mermaid
  graph TD
-A["Myyjä luo uuden tuotteen aihion"]-->|Idea otetaan toteutukseen|B["Product owner luo uuden tuotteen"]
+A["Myyjä luo uuden tuotteen aihion"]-->|Idea otetaan toteutukseen|B["Product owner hyväksyy tuotteen"]
+B-->C["Ideasta tulee tuote"]
 
 ```
 
