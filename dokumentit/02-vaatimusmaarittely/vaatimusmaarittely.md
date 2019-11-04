@@ -429,21 +429,18 @@ Miten hyvin palvelu/komponentti tai muu osa-alue palvelusta suoriutuu kuormituks
 
 ## Tärkeimmät tunnistetut ominaisuudet/piirteet (Features)
 
-[![](http://img.youtube.com/vi/eTeUxYSdCxA/0.jpg)](http://www.youtube.com/watch?v=eTeUxYSdCxA "")
-
 >>Kannataa pohtia määrittely vaiheessa ovatko kaikki ominaisuudet tarpeellisia? Osa toiminnallisista vaatimuksista on oletuksena ominaisuuksia. Kannattaa pyrkiä ryhmittelemään tärkeimmät ominaisuudet ensin.
 Ominaisuuksia voidaa tarkentaa toiminnallisilla vaatimuksilla, jotka ns. laajentavat ominaisuuden kuvausta. Ominaisuudet ovat käytännössä isompia kokonaisuuksia, joista koko palvelu/ohjelmisto on muodostunut.
 Suomenkielen sana ominaisuus saattaa olla hieman harhaan johtava, koska usein tuotteita esiteltäessä pyritään korostamaan tuotteen ominaisuutena sen "tietoturvallisutta". 
 Tämä ei tarkoita, että kyseessä on tuoteeen ohjelmiston yksi ominaisuus vaan yleinen "suunnittelu filosofia". Tuote voi sisältää ominaisuuksia, joiden myötä sitä voidaan kutsua voidaan tietoturvalliseksi.
 
-[![](http://img.youtube.com/vi/pIDSK21PE9M/0.jpg)](http://www.youtube.com/watch?v=pIDSK21PE9M "")
 
 | Ominaisuus | Prioriteetti | Muuta |
 | :-: | :-: | :-: |
-| [Ominaisuus 1 - Feature 1](pohjat/pohja-ominaisuus.md) | Tärkeä | |
-| [Ominaisuus 2](pohjat/pohja-ominaisuus.md) | Tärkeä | |
-| [Ominaisuus 3](pohjat/pohja-ominaisuus.md) | Pakollinen | |
-| [Ominaisuus 4](pohjat/pohja-ominaisuus.md) | Nice to Have | |
+| [Kirjautuminen](pohjat/pohja-ominaisuus.md) | Pakollinen | |
+| [Tuotteiden etsiminen](pohjat/pohja-ominaisuus.md) | Tärkeä | |
+| [Tuotteiden lisääminen](pohjat/pohja-ominaisuus.md) | Pakollinen | |
+| [Tuotteiden muokkaaminen](pohjat/pohja-ominaisuus.md) | Tärkeä | |
 | [Ominaisuus 5](pohjat/pohja-ominaisuus.md) | | |
 
 
@@ -460,10 +457,6 @@ Kokonaispalvelun MockUp-kuva?
 ## Hyväksyntätestit
 
 >Kiinnitetään alustavat hyväksyntätestit vaatimuksiin taulukon muodossa.
-
-[![](http://img.youtube.com/vi/EYEc8C57lbo/0.jpg)](http://www.youtube.com/watch?v=EYEc8C57lbo "")
-
-[![](http://img.youtube.com/vi/F2M93uWWXk8/0.jpg)](http://www.youtube.com/watch?v=F2M93uWWXk8 "")
 
 >Hyväksyntätesteissä keskitytään yleisesti asiakkaan/loppukäyttäjän näkökulmaan. Tavoitteena on kelpuuttaa, eli validoida , onko tuote asiakkaan toiveiden mukainen ja täyttääkö se asetetut vaatimukset.
 Hyväksyntätesteillä voidaan selvittää onko tuote myös riittävän suorituskykyinen, käytettävä tai tietoturvallinen asiakkaiden käyttötarkoitukseen. 
