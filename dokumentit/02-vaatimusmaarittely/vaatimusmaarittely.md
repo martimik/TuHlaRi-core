@@ -56,6 +56,24 @@ Palveluun voi lisätä uusia ohjelmistoja, muokata sekä poistaa niitä.
 
 
 ```plantuml
+skinparam sequence {
+	ArrowColor GreenYellow
+	ActorBorderColor GreenYellow
+	ActorBackgroundColor SpringGreen
+	ActorFontColor Black
+	ActorFontSize 17
+	ActorFontName Aapex
+}
+
+skinparam usecase {
+	BackgroundColor MediumSpringGreen
+	BorderColor GreenYellow
+
+	ArrowColor Lime
+	ActorBorderColor black
+	ActorFontName Courier
+}
+
 (Pääkäyttäjä)-right->Tuhlari
 (Product owner)-left->Tuhlari
 (Myyjä/Business manager)-->Tuhlari
@@ -207,6 +225,17 @@ olla useita satoja käyttötilanteita.
 
 ```plantuml
 left to right direction
+skinparam usecase {
+	BackgroundColor MediumSpringGreen
+	BorderColor GreenYellow
+
+	BackgroundColor<< Main >> YellowGreen
+	BorderColor<< Main >> YellowGreen
+	
+	ArrowColor Lime
+	ActorBorderColor black
+	ActorFontName Courier
+}
 
 (Ylläpitäjä)--(Tuotteiden etsiminen)
 (Ylläpitäjä)--(Tuotteiden palauttaminen)
