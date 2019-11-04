@@ -119,6 +119,13 @@ A["Palvelun käyttäjä unohtaa salasanan"]-->B["Käyttäjä pyytää salasanan 
 B-->C["Pääkäyttäjä resetoi salasanan"]
 
 ```
+
+```mermaid
+ graph TD
+A["Vahingossa poistettu tuote halutaan palauttaa"]-->B["Pääkäyttäjä palauttaa tuotteen"]
+
+```
+
 #### Product owner
 
 ```mermaid
