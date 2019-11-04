@@ -28,7 +28,7 @@ Käyttäjä pystyy lisäämään tietoja erinäisiin kohteisiin, kuten käyttäj
 * Myyjänä haluan lisätä tuoteidealle Product Ownerin
 * Product Ownerina haluan muokata tuotteeseen liityviä tietoja
 
-#25 #28 #29 #32
+#28 #32
 
 
 ### Käyttöliittymänäkymä/mock 
