@@ -362,8 +362,8 @@ Miten hyvin palvelu/komponentti tai muu osa-alue palvelusta suoriutuu kuormituks
 
 | VaatimusID | Tyyppi | Kuvaus | Ominaisuus johon vaikuttaa |								
 |:-:|:-:|:-:|:-:|
-| PERFORMANCE-REQ-0000 | Non-Functional Performance | Kirjautuminen on mahdollista yhtäaikaa 100 käyttäjällä (100 request/s) | [Kirjautuminen ft1](ft1-ominaisuus.md) |								
-| PERFORMANCE-REQ-0001 | Non-Functional Performance |||
+| PERFORMANCE-REQ-0000 | Non-Functional Performance | Kirjautumisen on oltava mahdollista yhtäaikaa 100 käyttäjällä (100 request/s) | [Kirjautuminen ft1](ft1-ominaisuus.md) |								
+| PERFORMANCE-REQ-0001 | Non-Functional Performance | Hakutulosten tulee löytyä alle 2 sekunnissa ||
 | PERFORMANCE-REQ-0002 | Non-Functional Performance |||
 | PERFORMANCE-REQ-0003 | Non-Functional Performance |||
 | PERFORMANCE-REQ-0004 | Non-Functional Performance |||
@@ -377,14 +377,14 @@ Miten hyvin palvelu/komponentti tai muu osa-alue palvelusta suoriutuu kuormituks
 
 | VaatimusID | Tyyppi | Kuvaus | Ominaisuus johon vaikuttaa |								
 |:-:|:-:|:-:|:-:|
-| SECURITY-REQ-0001 | Non-Functional Security | Salasanassa on käytettävä vähintään MD5-tason salausta, koska standardi XY112 sitä edellyttää | [Kirjautuminen ft1](ft1-ominaisuus.md) |								
-| SECURITY-REQ-0002 | Non-Functional Security |||
-| SECURITY-REQ-0003 | Non-Functional Security |||
-| SECURITY-REQ-0004 | Non-Functional Security |||
-| SECURITY-REQ-0005 | Non-Functional Security |||
-| SECURITY-REQ-0006 | Non-Functional Security |||
-| SECURITY-REQ-0007 | Non-Functional Security |||
-| SECURITY-REQ-0008 | Non-Functional Security |||
+| SECURITY-REQ-0001 | Non-Functional Security | Salasanassa on käytettävä vähintään MD5-tason salausta | [Kirjautuminen ft1](ft1-ominaisuus.md) |								
+| SECURITY-REQ-0002 | Non-Functional Security | Salasanan pituuden tulee olla vähintään 6 merkkiä ||
+| SECURITY-REQ-0003 | Non-Functional Security | Salasanassa tulee olla vähintään yksi numero ||
+| SECURITY-REQ-0004 | Non-Functional Security | Salasanassa tulee olla vähintään yksi iso kirjain ||
+| SECURITY-REQ-0005 | Non-Functional Security | Salasanassa tulee olla vähintään yksi pieni kirjain ||
+| SECURITY-REQ-0006 | Non-Functional Security | Yhteyden tulee olla salattu ||
+| SECURITY-REQ-0007 | Non-Functional Security | Käyttäjä ei saa nähdä häneltä salattuja tietoja ||
+| SECURITY-REQ-0008 | Non-Functional Security | Käyttäjän antama data täytyy tarkistaa SQL-injektioiden ja muiden hyökkäysten varalta ||
 | SECURITY-REQ-0009 | Non-Functional Security |||
 | SECURITY-REQ-0010 | Non-Functional Security |||
 
@@ -396,9 +396,9 @@ Miten hyvin palvelu/komponentti tai muu osa-alue palvelusta suoriutuu kuormituks
 
 | VaatimusID | Tyyppi | Kuvaus | Ominaisuus johon vaikuttaa |								
 |:-:|:-:|:-:|:-:|
-| USABILITY-REQ-0000 | Non-Functional Usability | Käyttöliittymän on toimittava myös ääniohjattuna, koska käyttäjillä saattaa olla näkövammoja |  [Kirjautuminen ft1](ft1-ominaisuus.md) | |	
-| USABILITY-REQ-0001 | Non-Functional Usability |||
-| USABILITY-REQ-0002 | Non-Functional Usability |||
+| USABILITY-REQ-0000 | Non-Functional Usability | Käyttöliittymän tulee olla suoraviivainen |  [Kirjautuminen ft1](ft1-ominaisuus.md) | |	
+| USABILITY-REQ-0001 | Non-Functional Usability | Tuotetta lisättäessä tulee käyttäjälle ilmoittaa, jos pakolliseksi merkattu kenttä on tyhjä ||
+| USABILITY-REQ-0002 | Non-Functional Usability | Kirjautuessa tulee käyttäjälle ilmoittaa, jos salasana ja käyttäjätunnus eivät täsmää ||
 | USABILITY-REQ-0003 | Non-Functional Usability |||
 | USABILITY-REQ-0004 | Non-Functional Usability |||
 | USABILITY-REQ-0005 | Non-Functional Usability |||
@@ -410,7 +410,7 @@ Miten hyvin palvelu/komponentti tai muu osa-alue palvelusta suoriutuu kuormituks
 
 | VaatimusID | Tyyppi | Kuvaus | Ominaisuus johon vaikuttaa |								
 |:-:|:-:|:-:|:-:|
-| TESTABILITY-REQ-0000 | Non-Functional Testability | Käyttäjärekisteri on kyettävä palauttamaan alkutilaan ennen testien ajoa  | [Kirjautuminen ft1](ft1-ominaisuus.md)	 |	
+| TESTABILITY-REQ-0000 | Non-Functional Testability | Napeilla on oltava id ||	
 | TESTABILITY-REQ-0001 | Non-Functional Testability |||	
 | TESTABILITY-REQ-0002 | Non-Functional Testability |||	
 | TESTABILITY-REQ-0003 | Non-Functional Testability |||	
