@@ -20,7 +20,6 @@ Käyttäjä pystyy kirjatutumaan järjestelmään omilla tunnuksillaan.
 | | |
 |:-:|:-:|
 | [Use Case 1](FT1-kayttotapaus.md) | |
-| [Use Case 2](FT2-kayttotapaus.md) | |
 | [Vaatimus ReqID]() |  | 
 | [Vaatimus ReqID]() |  | 
 | [Vaatimus ReqID]() |  | 
@@ -29,7 +28,7 @@ Käyttäjä pystyy kirjatutumaan järjestelmään omilla tunnuksillaan.
 
 * Käyttäjänä haluan kirjautua sisään palveluun tunnuksillani.
 
-#x linkki issueen
+#31
 
 
 ### Käyttöliittymänäkymä/mock 
