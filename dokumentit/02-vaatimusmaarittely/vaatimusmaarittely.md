@@ -4,7 +4,11 @@ Vaatimusmäärittely pohjan versio 1.1 - 24.4.2019
 
 ## TTOS1000 Kurssi TuHlaRi
 
-* Nimimerkki/gitlab tunnus
+* Reko Meriö - K9260
+* -
+* -
+* -
+
 * 2019
 * Versionumero 0.1
 
@@ -56,6 +60,24 @@ Palveluun voi lisätä uusia ohjelmistoja, muokata sekä poistaa niitä.
 
 
 ```plantuml
+skinparam sequence {
+	ArrowColor GreenYellow
+	ActorBorderColor GreenYellow
+	ActorBackgroundColor SpringGreen
+	ActorFontColor Black
+	ActorFontSize 17
+	ActorFontName Aapex
+}
+
+skinparam usecase {
+	BackgroundColor MediumSpringGreen
+	BorderColor GreenYellow
+
+	ArrowColor Lime
+	ActorBorderColor black
+	ActorFontName Courier
+}
+
 (Pääkäyttäjä)-right->Tuhlari
 (Product owner)-left->Tuhlari
 (Myyjä/Business manager)-->Tuhlari
@@ -66,11 +88,7 @@ Palveluun voi lisätä uusia ohjelmistoja, muokata sekä poistaa niitä.
 
 ## Valitut sidosryhmät ja profiilit (Profiles/Stakeholders) 
 
-[![](http://img.youtube.com/vi/VmotZXBdrDs/0.jpg)](http://www.youtube.com/watch?v=VmotZXBdrDs "")
-
 >Valitaan aiemmin määritellystä sidosryhmäkuvauksesta tarkempaan tarkasteluun tärkeäksi koetut sidosryhmät/profiilit. Jokainen valittu sidosryhmä kuvataa itsenäisenä profiilikuvauksena ja tallennetaan omaksi tiedostokseen  
-
-[![](http://img.youtube.com/vi/MCs4dRPtOJU/0.jpg)](http://www.youtube.com/watch?v=MCs4dRPtOJU "")
 
 >Jokainen profiili kuvaus tallennetaan itsenäisenä tiedostona, koska tämä helpottaa tulevaisuudessa niihin viittaamista dokumentaatiossa esim. [Loppukäyttäjä - Keijo Korhonen](..pohjat/pohja-profiilikuvaus.md) 
 
@@ -86,8 +104,6 @@ Palveluun voi lisätä uusia ohjelmistoja, muokata sekä poistaa niitä.
 
 >Valitaan tarvittava määrä eri sidosryhmiä/profiileja ja kirjoitetaan auki valitulle profiilille/sidosryhmälle "asiakastarina". Tavoitteena on kuvata sitä, miten valittu profiili/sidosryhmä käytännössä hyödyntää palvelua. Tavoite ei ole kehua sitä vaan käydä läpi syitä palvelun käyttöön ja miten se auttaa ko. sidosryhmää/profiilia.
 
-[![](http://img.youtube.com/vi/m8WEoyyFUww/0.jpg)](http://www.youtube.com/watch?v=m8WEoyyFUww "")
-
 >Muista kirjoittaa tarina auki pelkästään valitun sidosryhmän näkökulmasta (toiset sidosryhmät saattavat esiintyä tarinassa)
 
 * [Profiili 1](..pohjat/pohja-profiilikuvaus.md): Profiili 1 haluaa tuottaa iloa....
@@ -101,21 +117,23 @@ Palveluun voi lisätä uusia ohjelmistoja, muokata sekä poistaa niitä.
 
 ```mermaid
  graph TD
-A["Joku haluaa tunnukset palveluun"]-->B["Pyytää pääkäyttäjää luomaan tunnukset"]
-B-->C["Pääkäyttäjä luo tunnukset"]
+ 
+U["Käyttäjä"]
+P["Pääkäyttäjä"]
 
-```
+U --> |Kirjautuu sisään|P
 
-```mermaid
- graph TD
-A["Palvelun käyttäjä unohtaa salasanan"]-->B["Käyttäjä pyytää salasanan resetointia"]
-B-->C["Pääkäyttäjä resetoi salasanan"]
+P --> A1
+P --> A2
+P --> A3
 
-```
+A1["Joku haluaa tunnukset palveluun"]-->B1["Pyytää pääkäyttäjää luomaan tunnukset"]
+B1-->C1["Pääkäyttäjä luo tunnukset"]
 
-```mermaid
- graph TD
-A["Vahingossa poistettu tuote halutaan palauttaa"]-->B["Pääkäyttäjä palauttaa tuotteen"]
+A2["Palvelun käyttäjä unohtaa salasanan"]-->B2["Käyttäjä pyytää salasanan resetointia"]
+B2-->C2["Pääkäyttäjä resetoi salasanan"]
+
+A3["Vahingossa poistettu tuote halutaan palauttaa"]-->B3["Pääkäyttäjä palauttaa tuotteen"]
 
 ```
 
@@ -123,26 +141,28 @@ A["Vahingossa poistettu tuote halutaan palauttaa"]-->B["Pääkäyttäjä palautt
 
 ```mermaid
  graph TD
-A["Myyjä luo uuden tuotteen aihion"]-->|Idea otetaan toteutukseen|B["Product owner luo uuden tuotteen"]
 
-```
+U["Käyttäjä"]
+P["Product owner"]
+ 
+U --> |Kirjautuu sisään|P 
+ 
+P --> A1
+P --> A2
+P --> A3
+P --> A4
 
-```mermaid
- graph TD
-A["Tuote pitää poistaa"]-->B["Poistaa tuotteen"]
-B-->C["Oikeasti vain piilotetaan"]
+A1["Myyjä luo uuden tuotteen aihion"]-->|Idea otetaan toteutukseen|B1["Product owner hyväksyy tuotteen"]
+B1-->C1["Ideasta tulee tuote"]
 
-```
+A2["Tuote pitää poistaa"]-->B2["Poistaa tuotteen"]
 
-```mermaid
- graph TD
-A["Tuote muuttuu"]-->B["Product owner muokkaa tuotteen tietoja"]
+B2-->C2["Oikeasti vain piilotetaan"]
 
-```
+A3["Tuote muuttuu"]-->B3["Product owner muokkaa tuotteen tietoja"]
 
-```mermaid
- graph TD
-A["Haluaa löytää tuotteen"]-->B["Etsii tuotteen hakusanalla"]
+A4["Haluaa löytää tuotteen"]-->B4["Etsii tuotteita"]
+A4-->C4["Selaa tuotteita"]
 
 ```
 
@@ -150,14 +170,22 @@ A["Haluaa löytää tuotteen"]-->B["Etsii tuotteen hakusanalla"]
 
 ```mermaid
  graph TD
-A["Myyjä saa hurjan hyvän idean tuotteesta"]-->B["Luo uuden tuoteidean"]
-B-->C["Nimeää product ownerin tuotteelle"]
+ 
+U["Käyttäjä"]
+M["Myyjä"]
 
-```
+U --> |Kirjautuu sisään|M
 
-```mermaid
- graph TD
-A["Haluaa löytää tuotteen"]-->B["Etsii tuotteen hakusanalla"]
+M --> A1
+M --> A2
+M --> A3
+ 
+A1["Myyjä saa hurjan hyvän idean tuotteesta"]-->B1["Luo uuden tuoteidean"]
+
+A2["Haluaa löytää tuotteen"]-->B2["Etsii tuotteita"]
+A2-->C2["Selaa tuotteita"]
+
+A3["Nimeää product ownerin tuotteelle"]
 
 ```
 
@@ -165,23 +193,27 @@ A["Haluaa löytää tuotteen"]-->B["Etsii tuotteen hakusanalla"]
 
 ```mermaid
  graph TD
-A["Haluaa tutkia yrityksen tuottamia tuotteita"]-->B["Menee palveluun"]
-B-->C["Etsii tuotteita"]
-C-->|Näkee vain julkiset tuotteet|D["Selaa tuotteita"]
+ 
+J["Joku muu"]
+
+J --> A1
+
+A1["Haluaa tutkia yrityksen tuottamia tuotteita"]-->B1["Menee palveluun"]
+B1-->|Näkee vain julkiset tuotteet|C1["Etsii tuotteita"]
+B1-->|Näkee vain julkiset tuotteet|D1["Selaa tuotteita"]
 
 ```
+
 
 >Tarkennetaan tarinaa ja nostetaan oleelliset profiilit tarkasteluun palvelupolun näkökulmasta. 
 Tämän "polun" tarkoituksena on kuvata sitä tapahtumien sarjaa joka käydään läpi palvelua käytettäessä. 
 Palvelupolkuja voi olla useita, mutta tärkeintä on kuvata oleellisimmat aluksi. Palvelu polku kuvauksessa voidaan hyödyntää Swimlane/BluePrint/tilakone-kuvausta tai muuta sopivaksi katsottua visualisointi tapaa.
 Tärkeää on kuvata polku ja käydä sen avulla eri vaiheet läpi
 
-[![](http://img.youtube.com/vi/O04EYNKmEXc/0.jpg)](http://www.youtube.com/watch?v=O04EYNKmEXc "")
 
 >Asiakaspolkukua on hyvä lähteä luonnostelemaan esim. asiakastarinan pohjalta. Polkuja kannattaa määritellä tarvittaessa useampia eri tilanteiden näkökulmasta. 
 Yhteen kuvaukseen ei kannata upottaa liikaa tapahtumia
 
-[![](http://img.youtube.com/vi/TLFBPQQ95ZE/0.jpg)](http://www.youtube.com/watch?v=TLFBPQQ95ZE "")
 
 >Palvelupolkujen kuvaukseen voidaan hyödyntää myös erillisiä työkaluja. Mieti onko mahdollista hyödynnetään jotain ulkopuolista palvelua kuvauksen apuna?
 
@@ -197,9 +229,6 @@ tarkastelmaan palvelun käyttöä varsin rajatussa tilanteessa. On oleellista ki
 
 **Millaisia ovat tärkeimmät käyttötapaukset (Use Caset) tuotteeseen/palveluun liittyen? Muista, ettei käyttötapauksella ei tarkoiteta käyttökohdetta/soveltamiskohdetta**
 
-[![](http://img.youtube.com/vi/rADU4vWTfyY/0.jpg)](http://www.youtube.com/watch?v=rADU4vWTfyY "")
-
-[![](http://img.youtube.com/vi/BjQAWfBMpcw/0.jpg)](http://www.youtube.com/watch?v=BjQAWfBMpcw "")
 
 >On hyvä kerätä tärkeimmät käyttötapaukset yhteen Use Case-kuvaukseen, josta on helpompi tarkastella järjestelmää. Laajemmassa järjestelmässä saattaa
 olla useita satoja käyttötilanteita. 
@@ -207,6 +236,17 @@ olla useita satoja käyttötilanteita.
 
 ```plantuml
 left to right direction
+skinparam usecase {
+	BackgroundColor MediumSpringGreen
+	BorderColor GreenYellow
+
+	BackgroundColor<< Main >> YellowGreen
+	BorderColor<< Main >> YellowGreen
+	
+	ArrowColor Lime
+	ActorBorderColor black
+	ActorFontName Courier
+}
 
 (Ylläpitäjä)--(Tuotteiden etsiminen)
 (Ylläpitäjä)--(Tuotteiden palauttaminen)
@@ -296,16 +336,17 @@ Voit esittää ne taulukossa tai viitata [yhteen](pohjat/pohja-vaatimuslistalle.
 
 | VaatimusID | Tyyppi | Kuvaus | Ominaisuus johon vaikuttaa |								
 |:-:|:-:|:-:|:-:|
-| FUNCTIONAL-REQ-C0001 | Functional Requirement | Käyttäjänä (Asiakas Profiilit 1-4) voin kirjautua käyttäen Facebook-tunnuksia | [Kirjautuminen ft1](ft1-ominaisuus.md) |
-| FUNCTIONAL-REQ-C0002 | Functional Requirement |||
-| FUNCTIONAL-REQ-C0003 | Functional Requirement |||
-| FUNCTIONAL-REQ-C0004 | Functional Requirement |||
-| FUNCTIONAL-REQ-C0005 | Functional Requirement |||
-| FUNCTIONAL-REQ-C0006 | Functional Requirement |||
-| FUNCTIONAL-REQ-C0007 | Functional Requirement |||
-| FUNCTIONAL-REQ-C0008 | Functional Requirement |||
-| FUNCTIONAL-REQ-C0009 | Functional Requirement |||
-| FUNCTIONAL-REQ-C0010 | Functional Requirement |||
+| FUNCTIONAL-REQ-C0001 | Functional Requirement | Käyttäjä voi kirjautua palveluun omilla tunnuksillaan. | [Kirjautuminen ft1](ft1-ominaisuus.md) |
+| FUNCTIONAL-REQ-C0002 | Functional Requirement | Pääkäyttäjä voi lisätä uusia käyttäjiä ||
+| FUNCTIONAL-REQ-C0003 | Functional Requirement | Pääkäyttäjä voi muokata käyttäjien tietoja ||
+| FUNCTIONAL-REQ-C0004 | Functional Requirement | Pääkäyttäjä voi palauttaa piilotetun tuotteen. ||
+| FUNCTIONAL-REQ-C0005 | Functional Requirement | Myyjä voi lisätä tuoteidean ||
+| FUNCTIONAL-REQ-C0006 | Functional Requirement | Myyjä ja PO voi etsiä tuotteita rekisteristä. ||
+| FUNCTIONAL-REQ-C0007 | Functional Requirement | Myyjä voi muokata tuoteideoidensa tietoja. ||
+| FUNCTIONAL-REQ-C0008 | Functional Requirement | PO voi lisätä tuotteen eli hyväksyä tuoteidean. ||
+| FUNCTIONAL-REQ-C0009 | Functional Requirement | PO voi muokata tuotteidensa tietoja. ||
+| FUNCTIONAL-REQ-C0010 | Functional Requirement | PO voi poistaa eli piilottaa tuotteen. ||
+| FUNCTIONAL-REQ-C0011 | Functional Requirement | Käyttäjä voi etsiä julkisia tuotteita palvelusta ||
 
 ## Palveluun liittyvät tärkeimmät ei-toiminnalliset vaatimukset (Non Functional Requirements)
 
@@ -437,7 +478,6 @@ Hyväksyntätesteillä voidaan selvittää onko tuote myös riittävän suoritus
 
 ## Alustava julkaisusuunnitelma
 
-[![](http://img.youtube.com/vi/ggFEhR3OZsk/0.jpg)](http://www.youtube.com/watch?v=ggFEhR3OZsk "")
 
 > Julkaisusuunnitelman visualisoidulla muodolla on helpompi esittää ominaisuuksien julkaisut kehityksen aikanan.
 Alla oleva kuva on luotu käyttäen PlantUML-työkalua. Sen avulla on luoto ns. Gantt-kaavio ominaisuuksien julkaisuajankohdista.
@@ -503,8 +543,6 @@ Seuraavassa julkaisussa on mukana muutamia parannettuja ominaisuuksia, jotka ova
 
 >Sijoittelunäkyvän avulla voi kuvata miten eri palvelu osat toimivat sen ollessa toiminnassa. 
 
-[![](http://img.youtube.com/vi/tLuiQ9p8RkU/0.jpg)](http://www.youtube.com/watch?v=tLuiQ9p8RkU "")
-
 ### Tietokantakuvaus (Database ER-diagram)
 
 >Tähän esim alustava ER-kaavio
@@ -540,8 +578,6 @@ Esimerkkinä voidaan miettiä logien hallintaa, niiden keräämistä, alkutilant
 
 
 ### Vaatimukset yhtenä listana
-
-[![](http://img.youtube.com/vi/s6v0g1Ut-SY/0.jpg)](http://www.youtube.com/watch?v=s6v0g1Ut-SY "")
 
 >Tähän osaan voidaan linkittää vaatimuslista, josta kaikki tunnistetut vaatimukset löytyvät
 
