@@ -283,56 +283,27 @@ Esimerkki User Story issuesta #1
 
 ## Ohjelmiston/palvelun tekniset vaatimukset 
 
->Ohjelmistoja ja palveluita suunniteltaessa usein tulevat esiin vaatimukset, jotka liittyvät eri teknologioihin, laitteistoon ja fyysiseen rakenteeseen. Näiden rinnalla pohditaan 
-mitä toiminnallisuuksia ratkaisun tulee pitää sisällään. Tästä johtuen kannattaa alkuvaiheessa pyrkiä tunnistamaan puhtaasti tekniset vaatimukset ja kirjata ne vaatimusmäärittelyyn. 
-Liiallinen keskittyminen alussa teknisten vaatimusten kirjaamiseen ei välttämättä ole kannattavaa, koska suunnittelun aikana ohjelmistoa/palvelun tekniset vaatimukset tarkentuvat 
-ja tarpeet saattavat muuttua. Kehityskäytössä näppärä ratkaisu voi osoittatua kalliiksi, kun se tuotteistetaan. 
 
 **Teknisiä järjestelmävaatimuksia**
 
 | VaatimusID | Tyyppi | Kuvaus | Ominaisuus johon vaikuttaa |								
 |:-:|:-:|:-:|:-:|
-| SYSTEM-HW-REQ-0002 | System Technical Requirement | Palvelun tärkeimpien palvelujen on oltava vähintään kahdennettu N+1 | |
-| SYSTEM-HW-REQ-0003 | System Technical Requirement | Palvelimen muistikapasiteeti >16GB  ||
-| SYSTEM-HW-REQ-0004 | System Technical Requirement | Prosessori Intel/AMD x64||
-| SYSTEM-HW-REQ-0005 | System Technical Requirement | Palvelimen fyysinen sijainti on oltava kotimaassa (Suomi) ||
-| SYSTEM-HW-REQ-0005 | System Technical Requirement | Verkkoyhteyden nopeus >100MB/s ||
-| SYSTEM-HW-REQ-0005 | System Technical Requirement | Laitekaapin suositeltava koko 1m X 1m X 2m ||
+| SYSTEM-HW-REQ-0001 | System Technical Requirement | Back-endin tulee olla Docker kontissa |  |
 
 ## Arkkitehtuuriin/teknologiaan liityvät vaatimukset
 
->Nämä voidaan kirjata myös tekniset vaatimukset 
-
 | VaatimusID | Tyyppi | Kuvaus | Ominaisuus johon vaikuttaa |								
 |:-:|:-:|:-:|:-:|
-| ARCH-REQ-0002 | Technical Requirement | Palvelun tärkeimpien palvelujen on oltava vähintään kahdennettu N+1 | |
-| ARCH-REQ-0003 | Technical Requirement | Palvelimen muistikapasiteeti >16GB  ||
-| ARCH-REQ-0004 | Technical Requirement | Prosessori Intel/AMD x64||
-| ARCH-REQ-0005 | Technical Requirement | Palvelimen fyysinen sijainti on oltava kotimaassa (Suomi) ||
-| ARCH-REQ-0005 | Technical Requirement | Verkkoyhteyden nopeus >100MB/s ||
-| ARCH-REQ-0005 | Technical Requirement | Laitekaapin suositeltava koko 1m X 1m X 2m ||
+| ARCH-REQ-0001 | Technical Requirement | Palvelun tulee pyöriä Googlen tai CSC:n alustalla |  |
 
 ## Rajoitteet (Key Requirements and restrictions)
 
->Eri ohjelmistojena/palvelujen toteutusta ja käyttöä ohjaavat usein lait ja säädökset. Näiden edellyttämät vaatimukset kirjataan yleensä rajoitteina 
-ja niiden vaikutus koskee usein koko ohjelmiston/järjestelmän toteuttamista. Tästä syystä ne kannattaa tunnistaa ja selvittää ajoissa, koska vaikutus 
-saataa olla varsin ratkaiseva pitemmällä tähtäimella. Esimerkkinä [EU GDPR-säädös](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation).
-
 | Id | Vaatimuksen kuvaus | kategoria | Vastuullinen |
 |:-:|:-:|:-:|:-:|
-| CONSTRAINT-REQ-S00000 | Constrain | Palvelun kirjautumisprosessin on noudatettava AC5-2009-käytäntöä  | [Kirjautuminen ft1](ft1-ominaisuus.md) |
-| CONSTRAINT-REQ-S00001 | Constrain |||
-| CONSTRAINT-REQ-S00002 | Constrain |||
-| CONSTRAINT-REQ-S00003 | Constrain |||
-| CONSTRAINT-REQ-S00004 | Constrain |||
-| CONSTRAINT-REQ-S00005 | Constrain |||
-| CONSTRAINT-REQ-S00006 | Constrain |||
+| CONSTRAINT-REQ-S0001 | Constrain | Palvelun tulee noudattaa GDPR:ää | [Kirjautuminen ft1](ft1-ominaisuus.md) |
+
 
 ## Toiminnalliset vaatimukset (Functional Requirements)
-
->Mitä ovat toiminnalliset vaatimukset? Toiminnallisilla vaatimuksilla kuvataan ohjelmistolta/järjestelmältä vaadittua toimintaa
-Toiminnalliset vaatimukset ovat helpoimmin tunnistettavia. Vältä useamman vaatimuksen kirjaamista samaan lauseeseen! Jokainen vaatimus erikseen..
-Voit esittää ne taulukossa tai viitata [yhteen](pohjat/pohja-vaatimuslistalle.md) laajempaan kokonaisuuteen
 
 | VaatimusID | Tyyppi | Kuvaus | Ominaisuus johon vaikuttaa |								
 |:-:|:-:|:-:|:-:|
@@ -350,9 +321,13 @@ Voit esittää ne taulukossa tai viitata [yhteen](pohjat/pohja-vaatimuslistalle.
 
 ## Palveluun liittyvät tärkeimmät ei-toiminnalliset vaatimukset (Non Functional Requirements)
 
->Mitä olivat ei-toiminnalliset vaatimukset? Voit esittää eri vaatimuksia erillisessä taulukossa tai viitata tässä [yhteen](pohjat/pohja-vaatimuslistalle.md) laajempaan taulukkoon.
-[Ei-toiminnalliset vaatimukset](https://en.wikipedia.org/wiki/Non-functional_requirement) sisältää laajan joukko eri näkökulmia ohjelmiostotuotteeseen liittyen. Tärkeimmät kirjoittajan 
-näkökulmasta ovat seuraavat: Suorituskyky, käytettävyys, tietoturva ja ylläpidettävyys 
+>[Ei-toiminnalliset vaatimukset](https://en.wikipedia.org/wiki/Non-functional_requirement) sisältää laajan joukko eri näkökulmia ohjelmiostotuotteeseen liittyen. Tärkeimmät kirjoittajan näkökulmasta ovat seuraavat: Suorituskyky, käytettävyys, tietoturva ja ylläpidettävyys 
+
+| VaatimusID | Tyyppi | Kuvaus | Ominaisuus johon vaikuttaa |								
+|:-:|:-:|:-:|:-:|
+| NON-FUNCTIONAL-REQ-C0001 | Non-Functional Requirement | Käyttäjä voi kirjautua palveluun omilla tunnuksillaan. | [Kirjautuminen ft1](ft1-ominaisuus.md) |
+| NON-FUNCTIONAL-REQ-C0002 | Non-Functional Requirement | Pääkäyttäjä voi lisätä uusia käyttäjiä ||
+
 
 ### Suorituskyky? (Performance)
 
@@ -362,12 +337,8 @@ Miten hyvin palvelu/komponentti tai muu osa-alue palvelusta suoriutuu kuormituks
 
 | VaatimusID | Tyyppi | Kuvaus | Ominaisuus johon vaikuttaa |								
 |:-:|:-:|:-:|:-:|
-| PERFORMANCE-REQ-0000 | Non-Functional Performance | Kirjautumisen on oltava mahdollista yhtäaikaa 100 käyttäjällä (100 request/s) | [Kirjautuminen ft1](ft1-ominaisuus.md) |								
-| PERFORMANCE-REQ-0001 | Non-Functional Performance | Hakutulosten tulee löytyä alle 2 sekunnissa ||
-| PERFORMANCE-REQ-0002 | Non-Functional Performance |||
-| PERFORMANCE-REQ-0003 | Non-Functional Performance |||
-| PERFORMANCE-REQ-0004 | Non-Functional Performance |||
-| PERFORMANCE-REQ-0005 | Non-Functional Performance |||
+| PERFORMANCE-REQ-0001 | Non-Functional Performance | Kirjautumisen on oltava mahdollista yhtäaikaa 100 käyttäjällä (100 request/s) | [Kirjautuminen ft1](ft1-ominaisuus.md) |
+| PERFORMANCE-REQ-0002 | Non-Functional Performance | Hakutulosten tulee löytyä alle 2 sekunnissa ||
 
 
 ### Tietoturva?
@@ -382,7 +353,7 @@ Miten hyvin palvelu/komponentti tai muu osa-alue palvelusta suoriutuu kuormituks
 | SECURITY-REQ-0003 | Non-Functional Security | Salasanassa tulee olla vähintään yksi numero ||
 | SECURITY-REQ-0004 | Non-Functional Security | Salasanassa tulee olla vähintään yksi iso kirjain ||
 | SECURITY-REQ-0005 | Non-Functional Security | Salasanassa tulee olla vähintään yksi pieni kirjain ||
-| SECURITY-REQ-0006 | Non-Functional Security | Yhteyden tulee olla salattu ||
+| SECURITY-REQ-0006 | Non-Functional Security | Yhteyden tulee olla salattu (HTTPS) ||
 | SECURITY-REQ-0007 | Non-Functional Security | Käyttäjä ei saa nähdä häneltä salattuja tietoja ||
 | SECURITY-REQ-0008 | Non-Functional Security | Käyttäjän antama data täytyy tarkistaa SQL-injektioiden ja muiden hyökkäysten varalta ||
 
@@ -420,11 +391,12 @@ Miten hyvin palvelu/komponentti tai muu osa-alue palvelusta suoriutuu kuormituks
 
 | Id | Vaatimuksen kuvaus | kategoria | Vastuullinen |
 |:-:|:-:|:-:|:-:|
+| MAINT-REQ00x | Koodin tulee olla kattavasti kommentoitu | Tekninen | Kuka vastaa | 
+| MAINT-REQ00x | Toimintalogiikasta tulee olla kaavioita | Tekninen | Kuka vastaa | 
+| MAINT-REQ00x | Rajapinnoista tulee olla selkeä dokumentaatio | Tekninen | Kuka vastaa | 
 | MAINT-REQ00x | Vaatimus? | Ylläpito | Kuka vastaa | 
-| MAINT-REQ00x | Vaatimus? | Tekninen | Kuka vastaa | 
 | MAINT-REQ00x | Vaatimus? | Käytettävyys | Kuka vastaa | 
-| MAINT-REQ00x | Vaatimus? | Käytettävyys | Kuka vastaa | 
-| MAINT-REQ00x | Vaatimus? | Käytettävyys | Kuka vastaa | 
+
 
 ## Tärkeimmät tunnistetut ominaisuudet/piirteet (Features)
 
