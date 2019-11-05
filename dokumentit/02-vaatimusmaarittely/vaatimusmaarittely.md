@@ -243,37 +243,44 @@ olla useita satoja käyttötilanteita.
 
 ```plantuml
 left to right direction
+skinparam sequence {
+	ArrowColor GreenYellow
+	ActorBorderColor GreenYellow
+	ActorBackgroundColor SpringGreen
+	ActorFontColor Black
+	ActorFontSize 17
+	ActorFontName Aapex
+}
+
 skinparam usecase {
 	BackgroundColor MediumSpringGreen
 	BorderColor GreenYellow
 
-	BackgroundColor<< Main >> YellowGreen
-	BorderColor<< Main >> YellowGreen
-	
 	ArrowColor Lime
 	ActorBorderColor black
 	ActorFontName Courier
 }
 
-(Ylläpitäjä)--(Tuotteiden etsiminen)
-(Ylläpitäjä)--(Tuotteiden palauttaminen)
-(Ylläpitäjä)--(Tuotteiden poistaminen)
-(Ylläpitäjä)--(Salasanan palauttaminen)
-(Ylläpitäjä)--(Käyttäjän luonti)
-(Ylläpitäjä)--(Käyttäjätietojen muokkaus)
 
-(Myyjä)--(Tuotteiden etsiminen)
-(Myyjä)--(Tuoteidean luominen)
-(Myyjä)--(Product ownerin nimeäminen)
-(Myyjä)--(Tuoteidean muokkaaminen)
+:Ylläpitäjä:--(Tuotteiden etsiminen)
+:Ylläpitäjä:--(Tuotteiden palauttaminen)
+:Ylläpitäjä:--(Tuotteiden poistaminen)
+:Ylläpitäjä:--(Salasanan palauttaminen)
+:Ylläpitäjä:--(Käyttäjän luonti)
+:Ylläpitäjä:--(Käyttäjätietojen muokkaus)
+
+:Myyjä:--(Tuotteiden etsiminen)
+:Myyjä:--(Tuoteidean luominen)
+:Myyjä:--(Product ownerin nimeäminen)
+:Myyjä:--(Tuoteidean muokkaaminen)
 
 
-(Product owner)--(Tuotteiden etsiminen)
-(Product owner)--(Tuotteen luominen)
-(Product owner)--(Tuotteen poistaminen)
-(Product owner)--(Tuotteen muokkaaminen)
+:Product owner:--(Tuotteiden etsiminen)
+:Product owner:--(Tuotteen luominen)
+:Product owner:--(Tuotteen poistaminen)
+:Product owner:--(Tuotteen muokkaaminen)
 
-(Joku muu)--(Tuotteiden etsiminen)
+:Joku muu:--(Tuotteiden etsiminen)
 
 ```
 
