@@ -19,8 +19,8 @@ Käyttäjä pystyy hakemaan tuotetietoja järjestelmästä erilaisilla kriteerei
 
 | | |
 |:-:|:-:|
-| [Use Case 1](Use_Case_2_Hakeminen.md) | |
-| [Use Case 2](se_Case_5_Raportointi.md) | |
+| [Use Case 1](Use_Case_2_Hakeminen.md) | Hakeminen |
+| [Use Case 2](se_Case_5_Raportointi.md) | Raportointi |
 | [Vaatimus ReqID]() |  | 
 | [Vaatimus ReqID]() |  | 
 | [Vaatimus ReqID]() |  | 
