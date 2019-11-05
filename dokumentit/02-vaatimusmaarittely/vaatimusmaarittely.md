@@ -385,8 +385,7 @@ Miten hyvin palvelu/komponentti tai muu osa-alue palvelusta suoriutuu kuormituks
 | SECURITY-REQ-0006 | Non-Functional Security | Yhteyden tulee olla salattu ||
 | SECURITY-REQ-0007 | Non-Functional Security | Käyttäjä ei saa nähdä häneltä salattuja tietoja ||
 | SECURITY-REQ-0008 | Non-Functional Security | Käyttäjän antama data täytyy tarkistaa SQL-injektioiden ja muiden hyökkäysten varalta ||
-| SECURITY-REQ-0009 | Non-Functional Security |||
-| SECURITY-REQ-0010 | Non-Functional Security |||
+
 
 ### Käytettävyys
 
@@ -410,7 +409,7 @@ Miten hyvin palvelu/komponentti tai muu osa-alue palvelusta suoriutuu kuormituks
 
 | VaatimusID | Tyyppi | Kuvaus | Ominaisuus johon vaikuttaa |								
 |:-:|:-:|:-:|:-:|
-| TESTABILITY-REQ-0000 | Non-Functional Testability | Napeilla on oltava id ||	
+| TESTABILITY-REQ-0000 | Non-Functional Testability | Jokaisella napilla on oltava uniikki id ||	
 | TESTABILITY-REQ-0001 | Non-Functional Testability |||	
 | TESTABILITY-REQ-0002 | Non-Functional Testability |||	
 | TESTABILITY-REQ-0003 | Non-Functional Testability |||	
@@ -560,10 +559,8 @@ Esimerkkinä voidaan miettiä logien hallintaa, niiden keräämistä, alkutilant
 
 # Tunnistetut riskit ja testikohteet
 
->Millaisia riskeja liittyy tuoteen kehittämiseen, tuotteen markkinoihin, mahdollisiin kilpailijoihin, resursseihin? Nämä on hyvä tunnistaa alkuvaiheessa 
-
-* Riski -> Testaustarve
-* Vaatimus -> Testaustarve
+* Salaisia tietoja näkyy henkilöille, joilla ei ole valtuuksia niiden näkemiseen.
+* Käyttäjällä on liikaa oikeuksia
 
 **Työkalu esimerkki**
 
