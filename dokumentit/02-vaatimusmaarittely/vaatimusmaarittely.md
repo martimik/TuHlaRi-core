@@ -78,10 +78,10 @@ skinparam usecase {
 	ActorFontName Courier
 }
 
-(Pääkäyttäjä)-right->Tuhlari
-(Product owner)-left->Tuhlari
-(Myyjä/Business manager)-->Tuhlari
-(Joku muu)-up->Tuhlari
+:Pääkäyttäjä:-right-->(Tuhlari) : Hallinnoi
+:Product owner:-left-->(Tuhlari) : Luo tuotteita
+:Myyjä/Business manager:-->(Tuhlari) : Luo tuoteideoita
+:Joku muu:-up->(Tuhlari) : Selaa tuotteita
 
 ```
 
