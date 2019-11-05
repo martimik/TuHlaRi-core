@@ -5,9 +5,9 @@ Vaatimusmäärittely pohjan versio 1.1 - 24.4.2019
 ## TTOS1000 Kurssi TuHlaRi
 
 * Reko Meriö - K9260
-* -
-* -
-* -
+* Mikko Martikainen - K8936
+* Elias Kautto - L4177
+* Markus Nylund - L5392
 
 * 2019
 * Versionumero 0.1
