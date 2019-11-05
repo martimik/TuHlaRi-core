@@ -94,10 +94,10 @@ skinparam usecase {
 
 **Muista kirjata kuvauksiin erityisesti sidosryhmän motivaatio! Eli miksi sidosryhmä syy käyttää/soveltaa palvelua**
 
-* [Sidosryhmä](..pohjat/pohja-profiilikuvaus.md)
-* [Profiili 1](..pohjat/pohja-profiilikuvaus.md)
-* [Profiili 2](..pohjat/pohja-profiilikuvaus.md)
-* [Profiili 3](..pohjat/pohja-profiilikuvaus.md)
+* [Pääkäyttäjä](profiilikuvaukset/profiilikuvaus-pääkäyttäjä.md)
+* [Myyjä](profiilikuvaukset/profiilikuvaus-myyja.md)
+* [Product owner](profiilikuvaukset/profiilikuvaus-po.md)
+* [Muu](profiilikuvaukset/profiilikuvaus-muu.md)
 
 
 ## Valitut asiakastarinat
@@ -106,9 +106,16 @@ skinparam usecase {
 
 >Muista kirjoittaa tarina auki pelkästään valitun sidosryhmän näkökulmasta (toiset sidosryhmät saattavat esiintyä tarinassa)
 
-* [Profiili 1](..pohjat/pohja-profiilikuvaus.md): Profiili 1 haluaa tuottaa iloa....
-* [Profiili 2](..pohjat/pohja-profiilikuvaus.md): Profiili 2 aloitaa aamulla palvelun käytön ... 
-* [Sidosryhmä 1](..pohjat/pohja-profiilikuvaus.md): Sidosryhmä 1:en kannalta palvelun...
+* [Myyjä tarina 1](digiateam/core#32): Myyjä haluaa nimetä tuotteelleen Product Ownerin
+* [General story 1](digiateam/core#31): Käyttäjä haluaa kirjautua palveluun
+* [PO/myyjä tarina 1](digiateam/core#27): Käyttäjä haluaa luoda uuden tuotteen
+* [PO tarina 2](digiateam/core#28): Käyttäjä haluaa poistaa tuotteen
+* [PO tarina 3](digiateam/core#29): Käyttäjä haluaa muokata tuotteen tietoja
+* [PO/myyjä tarina 4](digiateam/core#30): Käyttäjä haluaa etsiä palvelusta tuotteita
+* [Pääkäyttäjä tarina 1](digiateam/core#23): Käyttäjä haluaa palauttaa toisen käyttäjän salasanan
+* [Pääkäyttäjä tarina 2](digiateam/core#24): Käyttäjä haluaa luoda palveluun uudet tunnukset
+* [Pääkäyttäjä tarina 3](digiateam/core#25): Käyttäjä haluaa muokata toisen käyttäjän tietoja
+* [Pääkäyttäjä tarina 4](digiateam/core#26): Käyttäjä haluaa palauttaa vahingossa poistetun (piilotetun) tuotteen
 
 
 ## Palvelun tärkeimmät asiakaspolut (Customer Journey/Path)
