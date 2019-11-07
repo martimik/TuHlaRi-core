@@ -17,7 +17,7 @@ Käyttäjä pystyy lisäämään tietoja erinäisiin kohteisiin, kuten käyttäj
 
 | | |
 |:-:|:-:|
-| Use Case 1 |[Päivittäminen](Use_Case_4_Paivittaminen(elinkaari).md) |
+| [Use Case 1](Use_Case_4_Paivittaminen(elinkaari).md) | Päivittäminen. |
 | [Vaatimus ReqID]() |  | 
 | [Vaatimus ReqID]() |  | 
 | [Vaatimus ReqID]() |  | 
