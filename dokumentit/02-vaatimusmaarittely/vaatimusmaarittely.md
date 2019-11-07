@@ -392,12 +392,7 @@ Tämä ei tarkoita, että kyseessä on tuoteeen ohjelmiston yksi ominaisuus vaan
 
 ## Palvelu MockUp-prototyyppi
 
->Suunnittellun palvelun/ohjelmiston yleinen näkymä kannataa esitellä MockUp-muodossa. Tarkemmin määritellyissä ominaisuuskuvauksissa voi esitellä tarkemmin jotain toimintoa. 
-MockUp-kuvaus on hyödyllinen apuväline palvelun tilaajan/toimeksiantajan kanssa käydyissä keskusteluissa.
-
-Kokonaispalvelun MockUp-kuva?
-
-![](https://openclipart.org/image/800px/svg_to_png/236916/1452485143.png&disposition=attachment)
+https://www.figma.com/proto/B19e7eZ0SGsRlZsf30vf9g/Untitled?node-id=0%3A1&scaling=min-zoom
 
 
 ## Hyväksyntätestit
