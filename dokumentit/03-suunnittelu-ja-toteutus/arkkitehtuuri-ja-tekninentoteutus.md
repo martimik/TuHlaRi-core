@@ -1,11 +1,11 @@
 # Arkkitehtuuri ja tekniset ratkaisut
 
-Versio: 0.1
-Näkyvyys: Julkinen
+* Versio: 0.1
+* Näkyvyys: Julkinen
 
 ## Johdatus
 
-* Tässä dokumentissa käsitellään projektin arkkitehtuuria sekä teknisiä ratkaisuja. Dokumentti päivittyy projektin edetessä.
+Tässä dokumentissa käsitellään projektin arkkitehtuuria sekä teknisiä ratkaisuja. Dokumentti päivittyy projektin edetessä.
 
 ## Yleiskuvaus
 
