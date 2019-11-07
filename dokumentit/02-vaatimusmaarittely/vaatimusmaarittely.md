@@ -488,6 +488,7 @@ Seuraavassa julkaisussa on mukana muutamia parannettuja ominaisuuksia, jotka ova
 ### Tietokantakuvaus (Database ER-diagram)
 
 ```plantuml
+skinparam roundcorner 20
 skinparam sequence {
 	ArrowColor GreenYellow
 	ActorBorderColor GreenYellow
@@ -504,12 +505,16 @@ skinparam class {
 	ArrowColor Lime
 	ActorBorderColor black
 	ActorFontName Courier
+	FontSize 20
+	AttributeFontSize 16
 }
 
-MongoDB *-- product
-MongoDB *-- user
+MongoDB *-- products
+MongoDB *-- users
 
-class product {
+class MongoDB << (M, Silver) >>
+
+class products << (P, Silver) >> {
  +int id
 --
  +string name
@@ -537,7 +542,8 @@ class product {
  +bool classified
 }
 
-class user {
+class users << (U, Silver) >> {
+
   +int id
 --
   +string name
