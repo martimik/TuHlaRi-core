@@ -24,6 +24,10 @@ Julkinen
 
 ## Käytetyt teknologiat
 
+Rajallisten resurssien vuoksi teknologioiksi on valittu sellaiset teknologiat, jotka ovat nopeita kehittää.
+
+NodeJS ja React ovat molemmat ohjelmoitavissa korkean luokan JavaScript kielellä, joka on tiimille jo tuttua.
+
   * Back-end: NodeJS - Helppokäyttöinen ja ominaisuuksiltaan riittävä
   * Front-end: React - Monipuolinen ja hyväksi todettu
   * Tietokanta: MongoDB - Helppo datan hallinta
