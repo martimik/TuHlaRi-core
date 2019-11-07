@@ -1,13 +1,6 @@
 # Arkkitehtuuri ja tekniset ratkaisut
 
-Tämä dokumentti on "elävä"-dokumentti, joka päivittyy jatkuvasti. Se on nykymuodossaan vain karkea runko, jota "voi" käyttää projektien teknisen dokumentoinnin pohjana. Rakennetta saa ja pitää muokata! Tavoitteena on luoda dokumentti, joka yhdistää suunnitteludokumentaation saumattomasti yhteen projektin muun dokumentaation kanssa. Tekijä ei ota mitään vastuuta dokumentin sisällöstä.
-
-tv:NarsuMan
-
-## Otsikko
-
 0.1
-
 Julkinen
 
 
@@ -28,9 +21,9 @@ Rajallisten resurssien vuoksi teknologioiksi on valittu sellaiset teknologiat, j
 
 NodeJS ja React ovat molemmat ohjelmoitavissa korkean luokan JavaScript kielellä, joka on tiimille jo tuttua.
 
-  * Back-end: NodeJS - Helppokäyttöinen ja ominaisuuksiltaan riittävä
-  * Front-end: React - Monipuolinen ja hyväksi todettu
-  * Tietokanta: MongoDB - Helppo datan hallinta
+* Back-end: NodeJS - Helppokäyttöinen ja ominaisuuksiltaan riittävä
+* Front-end: React - Monipuolinen ja hyväksi todettu
+* Tietokanta: MongoDB - Helppo datan hallinta
 
   
 ## Tuotekehitysympäristöjen kuvaukset
@@ -52,23 +45,23 @@ Eli miten nuo eri ympäristöt on toteutettu ko. projektissa
 ## Tärkeimmät tekniset ratkaisut joihin tuote nojaa
 
 
-  * Käytetyt kirjastot(library)/kehikot(Framework) (JQuery v 23456, JAVA EE 8 + Spring ZZZ, React IO)   
-  * Muut jipot ja kikat
-  * Perustelut miksi! 
+* Käytetyt kirjastot(library)/kehikot(Framework) (JQuery v 23456, JAVA EE 8 + Spring ZZZ, React IO)   
+* Muut jipot ja kikat
+* Perustelut miksi! 
   
 
 ## Yleinen ohjelmsto arkkitehtuuri
 
-  * Back-end pyörii CSC:n cPouta palvelun virtuaalikoneella
+* Back-end pyörii CSC:n cPouta palvelun virtuaalikoneella
 
 ## Palvelujen/n rajapinnat (Interfaces)
 
-  * [Esimerkki elävästä elämästä](https://virkailija.opintopolku.fi/koodisto-service/swagger/index.html)
+* [Esimerkki elävästä elämästä](https://virkailija.opintopolku.fi/koodisto-service/swagger/index.html)
 
 ## Suoritysympäristön (tuotanto) kuvaus
 
-  * GitLabiin työnnetään koodi, josta GitLabin runneri rakentaa docker kontin ja työntää sen cPoudan virtuaalikoneeseen
-  * Sijoittelunäkymä (Depoyment diagram)
+* GitLabiin työnnetään koodi, josta GitLabin runneri rakentaa docker kontin ja työntää sen cPoudan virtuaalikoneeseen
+* Sijoittelunäkymä (Depoyment diagram)
 
 ## Tietokantakuvaukset
 
