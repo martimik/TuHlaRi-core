@@ -487,7 +487,56 @@ Seuraavassa julkaisussa on mukana muutamia parannettuja ominaisuuksia, jotka ova
 
 ### Tietokantakuvaus (Database ER-diagram)
 
->Tähän esim alustava ER-kaavio
+```plantuml
+skinparam sequence {
+	ArrowColor GreenYellow
+	ActorBorderColor GreenYellow
+	ActorBackgroundColor SpringGreen
+	ActorFontColor Black
+	ActorFontSize 17
+	ActorFontName Aapex
+}
+
+skinparam class {
+	BackgroundColor MediumSpringGreen
+	BorderColor Yellow
+
+	ArrowColor Lime
+	ActorBorderColor black
+	ActorFontName Courier
+}
+
+
+class asd {
+  id
+  --
+  name
+  --
+  shortDesc
+  longDesc
+  logo
+  technologies
+  components
+  environmentRequirements
+  customer
+  lifecycleStatus
+  businessType
+  pricing
+}
+
+class Dummy {
+  {field} A field (despite parentheses)
+  --
+  {field} Some method
+  --
+  {field} Some masdod
+}
+
+Class03 *-- Class04
+Class05 o-- Class06
+Class07 .. Class08
+Class09 -- Class10
+```
 
 # Tunnistetut riskit ja testikohteet
 
