@@ -15,7 +15,7 @@ Käyttäjä pystyy kirjatutumaan järjestelmään omilla tunnuksillaan.
 
 ### Ominaisuuteen liittyvät rajaukset, vaatimukset käyttötapaukset
 
-*Kerätään tähän kaikki oleelliset asiat, jotka liittyvät ominaisuuden määrittelyyn tai osaltaan määrittävät sitä*
+* Käyttäjällä on oltava voimassaolevat tunnukset palveluun.
 
 | | |
 |:-:|:-:|
