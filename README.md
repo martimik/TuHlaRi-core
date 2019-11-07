@@ -1,3 +1,3 @@
-### OPF for TTOS0800 + TTOS0900
+### Project documentation
 
-http://open-project-framework.pages.labranet.jamk.fi/opf-for-ttos0800-ttos0900-v1/
+http://digiateam.pages.labranet.jamk.fi/core/
