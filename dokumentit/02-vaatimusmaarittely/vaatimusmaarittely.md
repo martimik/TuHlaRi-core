@@ -421,15 +421,8 @@ Alla oleva kuva on luotu käyttäen PlantUML-työkalua. Sen avulla on luoto ns. 
 >Oletamme, että tuotteessa on muutamia ominaisuuksia, joiden järjestys on mietitty ennakkoon..
 
 ```plantuml
-Project starts the 2019-5-15
-[Version v1.0 EarlyAdopter] Starts 2019-5-15 and ends 2019-7-30 
-[Design Phase] Starts 2019-5-15 and ends 2019-6-15
-[Feature 1  v 1.0] Starts 2019-5-25 and ends 2019-6-15
-[Feature 2  v 1.0] Starts 2019-5-25 and ends 2019-7-1
-[Feature 3  v 1.1] Starts 2019-6-15 and ends 2019-7-15
-[Feature 4  v 1.1] Starts 2019-6-25 and ends 2019-7-20
-[Feature 5  v 2.3] Starts 2019-6-1 and ends 2019-7-21
-[Accceptance Testing ] Starts 2019-7-21 and ends 2019-7-23
+Project starts the 2019-11-4
+[Project time] Starts 2019-11-4 and ends 2020-2-28
 ```
 
 ## Julkaistavat tuotekokonaisuudet (Konfiguraatio)
