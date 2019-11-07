@@ -543,7 +543,6 @@ class products << (P, Silver) >> {
 }
 
 class users << (U, Silver) >> {
-
   +int id
 --
   +string name
