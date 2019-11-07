@@ -8,7 +8,6 @@ Vaatimusmäärittely pohjan versio 1.1 - 24.4.2019
 * Mikko Martikainen - K8936
 * Elias Kautto - L4177
 * Markus Nylund - L5392
-
 * 2019
 * Versionumero 0.1
 
@@ -38,8 +37,8 @@ Vaatimusmäärittely pohjan versio 1.1 - 24.4.2019
 
 ## Johdatus
 
->Kerro millaisesta projektista on kyse, hieman taustaa ja aiheeseen olennaisesti liittyviä asioita? Älä käytä harjoitustehtävässä tilaajien oikeita nimiä vaan muuta henkilötiedot ja toimeksiantajan viralliset tiedot
-
+Kyseessä on kolmannen vuoden ohjelmistoprojekti, kurssitunnus TTOS1000 + TTOS1200.
+Projektin tarkoituksena on käydä läpi ohjelmiston elinkaari suunnittelemalla, toteuttamalla ja testaamalla ohjelmisto.
 
 ## Vaatimusmäärittelyn toimittaja
 
@@ -50,11 +49,7 @@ Tavoitteemme on tehdä jokin toimiva ratkaisu toimeksiantoon.
 
 ## Palvelukuvaus
 
->Mitä palvelun avulla voidaan tehdä? Mikä sen tehtävä on sidosryhmän kannalta? Kannattaa keskittyä loppukäyttäjiin tai oleellisiin palvelusta hyötyviin sidosryhmiin
-
-Palvelu on tuoterekisteri tuotettujen ohjelmistojen seurantaan.
-Palveluun voi lisätä uusia ohjelmistoja, muokata sekä poistaa niitä.
-
+Palvelu on tuoterekisteri yrityksille heidän tuottamiensa ohjelmistojen seurantaan sekä hallintaan.
 
 ## Yleinen sidosryhmäkuva (Stakeholder -Map)
 
@@ -211,35 +206,7 @@ B1-->|Näkee vain julkiset tuotteet|D1["Selaa tuotteita"]
 
 ```
 
-
->Tarkennetaan tarinaa ja nostetaan oleelliset profiilit tarkasteluun palvelupolun näkökulmasta. 
-Tämän "polun" tarkoituksena on kuvata sitä tapahtumien sarjaa joka käydään läpi palvelua käytettäessä. 
-Palvelupolkuja voi olla useita, mutta tärkeintä on kuvata oleellisimmat aluksi. Palvelu polku kuvauksessa voidaan hyödyntää Swimlane/BluePrint/tilakone-kuvausta tai muuta sopivaksi katsottua visualisointi tapaa.
-Tärkeää on kuvata polku ja käydä sen avulla eri vaiheet läpi
-
-
->Asiakaspolkukua on hyvä lähteä luonnostelemaan esim. asiakastarinan pohjalta. Polkuja kannattaa määritellä tarvittaessa useampia eri tilanteiden näkökulmasta. 
-Yhteen kuvaukseen ei kannata upottaa liikaa tapahtumia
-
-
->Palvelupolkujen kuvaukseen voidaan hyödyntää myös erillisiä työkaluja. Mieti onko mahdollista hyödynnetään jotain ulkopuolista palvelua kuvauksen apuna?
-
-**Työkalu esimerkkejä**
-
-* [Canvanizer](https://canvanizer.com)
-
 ## Tärkeimmät käyttötapaukset (General Use Cases)
-
->**Käyttötapaukset** (Use Case) on hyvä erottaa **käyttötarkoituksesta** (Use Case)! Yleensä palvelusta ensi kertaa keskusteltaessa puhutaan sen eri käyttötarkoituksista, eli sitä
-mihin ohjelmistoa/palvelua voidaan hyödyntää. Kun puhutaan palvelun määrittelystä käyttötapauksien kannalta on kyseessä eri asia. Käyttötapauksessa keskitytään 
-tarkastelmaan palvelun käyttöä varsin rajatussa tilanteessa. On oleellista kirjata alkuvaiheessa tärkeimmät käyttötapaukset yhteen kuvaukseen. Tähän hyödynnetään UML- Use Case-diagrammia.
-
-**Millaisia ovat tärkeimmät käyttötapaukset (Use Caset) tuotteeseen/palveluun liittyen? Muista, ettei käyttötapauksella ei tarkoiteta käyttökohdetta/soveltamiskohdetta**
-
-
->On hyvä kerätä tärkeimmät käyttötapaukset yhteen Use Case-kuvaukseen, josta on helpompi tarkastella järjestelmää. Laajemmassa järjestelmässä saattaa
-olla useita satoja käyttötilanteita. 
-
 
 ```plantuml
 left to right direction
@@ -284,8 +251,6 @@ skinparam usecase {
 
 ```
 
-* [Käyttötapaus 1 - Tilauksen muokkaus](../pohjat/pohja-kayttotapaus.md)
-* [Käyttötapaus 2 - Tilauksen hyväksyntä](../pohjat/pohja-kayttotapaus.md)
 
 ## Alustavat Käyttäjätarinat - User Story
 
@@ -395,7 +360,7 @@ Miten hyvin palvelu/komponentti tai muu osa-alue palvelusta suoriutuu kuormituks
 | VaatimusID | Tyyppi | Kuvaus | Ominaisuus johon vaikuttaa |								
 |:-:|:-:|:-:|:-:|
 | TESTABILITY-REQ-0000 | Non-Functional Testability | Jokaisella napilla on oltava uniikki id ||	
-| TESTABILITY-REQ-0001 | Non-Functional Testability |||	
+| TESTABILITY-REQ-0001 | Non-Functional Testability | Koodin tulee olla hyvin dokumentoitu ||	
 | TESTABILITY-REQ-0002 | Non-Functional Testability |||	
 | TESTABILITY-REQ-0003 | Non-Functional Testability |||	
 | TESTABILITY-REQ-0004 | Non-Functional Testability |||	
@@ -511,7 +476,6 @@ Seuraavassa julkaisussa on mukana muutamia parannettuja ominaisuuksia, jotka ova
 | [Feature 7]() | 1.1 | x.y.201z | x+2,y+3.201z |
 
 
-
 # Palvelun/ohjelmiston arkkitehtuuri 
 
 >Millainen on tekninen toteutus ja miten eri teknologioita tullaan hyödyntämään. 
@@ -525,24 +489,6 @@ Seuraavassa julkaisussa on mukana muutamia parannettuja ominaisuuksia, jotka ova
 
 >Tähän esim alustava ER-kaavio
 
-# Testauksen vaatimukset (Testing requirements)
-
-### Testattavuus
-
->Millaisia asioita on otettava huomioon tuotteen laadunvarmistamisen kannalta?. Kehityksen aikana ohjelmistotuotteeseen on luotava tarvittavat rajapinnat tai työkalu-ohjelmistoja, 
-joiden avulla voidaan hallita testikohteena olevaa tuoteversiota. Nämä vaatimukset on kirjattava ajoissa, koska ne vaikuttavat ratkaisevasti tuotteen testausmahdollisuuksiin.
-Esimerkkinä voidaan miettiä logien hallintaa, niiden keräämistä, alkutilanteeseen saattamista. 
-
-
-| Id | Vaatimuksen kuvaus | kategoria | Vastuullinen |
-|:-:|:-:|:-:|:-:|
-| REQ00x | Vaatimus? | Testattavuus | Kuka vastaa | 
-| REQ00x | Vaatimus? | Testattavuus | Kuka vastaa | 
-| REQ00x | Vaatimus? | Testattavuus | Kuka vastaa | 
-| REQ00x | Vaatimus? | Testattavuus | Kuka vastaa | 
-| REQ00x | Vaatimus? | Testattavuus | Kuka vastaa | 
-
-
 # Tunnistetut riskit ja testikohteet
 
 * Salaisia tietoja näkyy henkilöille, joilla ei ole valtuuksia niiden näkemiseen.
@@ -551,13 +497,6 @@ Esimerkkinä voidaan miettiä logien hallintaa, niiden keräämistä, alkutilant
 **Työkalu esimerkki**
 
 * SWOT -analyysi?
-
-
-### Vaatimukset yhtenä listana
-
->Tähän osaan voidaan linkittää vaatimuslista, josta kaikki tunnistetut vaatimukset löytyvät
-
-* [Linkki vaatimuslistaan](pohjat/vaatimuslista.md)
 
 
 ### Dokumentit, standardit ja lähteet
