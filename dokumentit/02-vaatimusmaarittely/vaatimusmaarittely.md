@@ -506,8 +506,8 @@ skinparam class {
 	ActorFontName Courier
 }
 
-MongoDB --|> product
-MongoDB --|> user
+MongoDB *-- product
+MongoDB *-- user
 
 class product {
  +int id
@@ -520,19 +520,21 @@ class product {
 --
  +string logo
 --
- +array(string) technologies
+ +array[string] technologies
 --
- +array(string) components
+ +array[string] components
 --
- +array(string) environmentRequirements
+ +array[string] environmentRequirements
 --
- +array(string) customer
+ +array[string] customer
 --
  +int lifecycleStatus
 --
  +int businessType
 --
  +int pricing
+--
+ +bool classified
 }
 
 class user {
@@ -544,7 +546,7 @@ class user {
 --
   +int userGroup
 
-__ Hashed __
+__ Encrypted __
   -string password
 }
 
