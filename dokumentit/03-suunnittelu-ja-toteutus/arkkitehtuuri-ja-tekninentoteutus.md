@@ -6,22 +6,14 @@ tv:NarsuMan
 
 ## Otsikko
 
-Versionumero
+0.1
 
-Luokittelu (Salainen/Julkinen etc..)
-
-Vastuuhenkilö
-
-
-
+Julkinen
 
 
 ## Johdatus
 
-* Johdatus dokumenttiin..
-
-
-
+* Projektin Tuhlari tekninen dokumentaatio
 
 ## Yleiskuvaus
 
@@ -32,9 +24,9 @@ Vastuuhenkilö
 
 ## Käytetyt teknologiat
 
-  * JAVA / Java Script ?
-  * HABA kieli
-  * Perustelut miksi! 
+  * Back-end: NodeJS - Helppokäyttöinen ja ominaisuuksiltaan riittävä
+  * Front-end: React - Monipuolinen ja hyväksi todettu
+  * Tietokanta: MongoDB - Helppo datan hallinta
 
   
 ## Tuotekehitysympäristöjen kuvaukset
@@ -50,12 +42,8 @@ Eli miten nuo eri ympäristöt on toteutettu ko. projektissa
 
 ## Käytetyt työvälineet ja niiden versionumerot
 
-* Kääntäjä xyz v1.0.1
-* debuggeri zky v2.05
-* Firefox 123
-* Perustelut miksi! 
-
-
+* Visual Studio Code
+* 
 
 ## Tärkeimmät tekniset ratkaisut joihin tuote nojaa
 
@@ -67,9 +55,7 @@ Eli miten nuo eri ympäristöt on toteutettu ko. projektissa
 
 ## Yleinen ohjelmsto arkkitehtuuri
 
-  * 
-  * Palvelut
-  
+  * Back-end pyörii CSC:n cPouta palvelun virtuaalikoneella
 
 ## Palvelujen/n rajapinnat (Interfaces)
 
@@ -77,21 +63,11 @@ Eli miten nuo eri ympäristöt on toteutettu ko. projektissa
 
 ## Suoritysympäristön (tuotanto) kuvaus
 
-  * Miten tuote ajetaan tuotannossa 
+  * GitLabiin työnnetään koodi, josta GitLabin runneri rakentaa docker kontin ja työntää sen cPoudan virtuaalikoneeseen
   * Sijoittelunäkymä (Depoyment diagram)
-
 
 ## Tietokantakuvaukset
 
-
-ER-kaavio
-
-
-## 
+![](http://plantuml.labranet.jamk.fi/png/U9nrKarl4p4GFSU_maSeh4Gvb4jLAMbfBmGX0WU4KEHufzjHRO-PiHi2uh_ZtSt7RaXlrdlFCs_UZ3nYY8QDrqmvr9Ou0EktRvJi2O6V6O85_KTDfioqlYP7hEyO87m3vsXTS9k8PyGryBEiiOzDrwHNB29ZQ3hTLd5B8VNSp1Nn05tWRz3dxmR8H-D1Jqs4N-gl6fYrpeYqJe_RpQ76x4TDXtwtLaSJVa0F9qPR7Pdhh5nJPWHMaxtTak5acXBZAYSu377H-frJQEXcfi-gIaUcEjia8p0Bi2ZLJxCZBY_rY_bhlK3t1FnINrtj1BiIdUBJK56IqAym98srgghobjG6e4FnF0BaWJZTWDWHwahd4s13FM2OpUPx3__G2Un3A0ar27AAj-GZ1GZf90lX2Pc2B_pdSd38u9-JsYo9V0cxuzhf7Dw3tLW7YsHIbWEnoe81HBvi8XpGSWIsLEg15P7hpmRl4UfsFNsgtGwwIByUHphAzFzGzmXuWsuBjJ_QadVbAADIowL-7onlOe9QBvT5KMq_nT9yNUwjTV8FzAKq3m00)
 
 
-
-
-
-
-TBD
