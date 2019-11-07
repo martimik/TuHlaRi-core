@@ -16,8 +16,7 @@ Vaatimusmäärittely pohjan versio 1.1 - 24.4.2019
 **Pidä sisällysluettelo kunnossa, eli päivitä sitä tarpeen mukaan! Huomaa MarkDown-ankkurilinkitys**
 
 * [Johdatus](#Johdatus)
-* [Tilaaja](#Vaatimusmäärittelytyön toimeksiantaja/tilaaja)
-* [Toimittaja](#Vaatimusmäärittelyn toimittaja)
+* [Toimittaja](#Vaatimusmäärittelyn-toimittaja)
 * [Palvelukuvaus](#Palvelukuvaus)
 * [Yleinen sidosryhmäkuvaus]()
 * [Asiakastarina](#Johdatus)
