@@ -507,39 +507,45 @@ skinparam class {
 }
 
 MongoDB --|> product
+MongoDB --|> user
 
 class product {
- +id 
+ +int id
 --
- + name
+ +string name
 --
- + shortDesc
+ +string shortDesc
 --
- + longDesc
+ +string longDesc
 --
- + logo
+ +string logo
 --
- + technologies
+ +array(string) technologies
 --
- + components
+ +array(string) components
 --
- + environmentRequirements
+ +array(string) environmentRequirements
 --
- + customer
+ +array(string) customer
 --
- + lifecycleStatus
+ +int lifecycleStatus
 --
- + businessType
+ +int businessType
 --
- + pricing
+ +int pricing
 }
 
-class Dummy {
-  {field} A field (despite parentheses)
-  --
-  {field} Some method
-  --
-  {field} Some masdod
+class user {
+  +int id
+--
+  +string name
+--
+  +string email
+--
+  +int userGroup
+
+__ Hashed __
+  -string password
 }
 
 ```
