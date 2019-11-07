@@ -9,7 +9,9 @@ Tässä dokumentissa käsitellään projektin arkkitehtuuria sekä teknisiä rat
 
 ## Yleiskuvaus
 
-Projektin tavoitteena on tuottaa palvelu, jonka avulla voidaan ylläpitää tuotetietorekisteriä tietokannassa. Palvelun käyttöliittymänä toimii verkkoselainsovellus, josta tieto kulkee palvelinohjelmiston kautta tietokantaan. 
+* Esittele lyhyesti tuote tai kohde
+* Dokumentin tehtävä on avata esim. jatkokehittäjälle käsitys siitä miten tuote on toteutettu (Pelkkä lähdekoodi ei riitä)
+* Millaisia välineitä/työkaluja ja ympäristöjä tarvitaan, jos aioitaa kehitää tuotetta eteenpäin
 
 ## Käytetyt teknologiat
 
@@ -21,7 +23,6 @@ NodeJS ja React ovat molemmat ohjelmoitavissa korkean luokan JavaScript kielell�
 * Front-end: React - Monipuolinen ja hyväksi todettu
 * Tietokanta: MongoDB - Helppo datan hallinta
 
-  
 ## Tuotekehitysympäristöjen kuvaukset
 
 Kuvaa ainakin seuraavat:
@@ -36,19 +37,20 @@ Eli miten nuo eri ympäristöt on toteutettu ko. projektissa
 ## Käytetyt työvälineet ja niiden versionumerot
 
 * Visual Studio Code
-* 
+* NodeJS
 
 ## Tärkeimmät tekniset ratkaisut joihin tuote nojaa
 
-
-* Käytetyt kirjastot(library)/kehikot(Framework) (JQuery v 23456, JAVA EE 8 + Spring ZZZ, React IO)   
+* React
+* NodeJS
+* MongoDB
 * Muut jipot ja kikat
 * Perustelut miksi! 
   
-
 ## Yleinen ohjelmsto arkkitehtuuri
 
-* Back-end pyörii CSC:n cPouta palvelun virtuaalikoneella
+* Back-end pyörii CSC:n Rahti palvelun virtuaalikoneella
+* Runneri, joka rakentaa ja puskee uuden imagen, pyörii CSC:n cPouta palvelun virtuaalikoneella
 
 ## Palvelujen/n rajapinnat (Interfaces)
 
@@ -56,8 +58,9 @@ Eli miten nuo eri ympäristöt on toteutettu ko. projektissa
 
 ## Suoritysympäristön (tuotanto) kuvaus
 
-* GitLabiin työnnetään koodi, josta GitLabin runneri rakentaa docker kontin ja työntää sen cPoudan virtuaalikoneeseen
-* Sijoittelunäkymä (Depoyment diagram)
+* Back-end pyörii CSC:n Rahti palvelun virtuaalikoneella
+* Runneri, joka rakentaa ja puskee uuden imagen, pyörii CSC:n cPouta palvelun virtuaalikoneella
+* Front-end mahdollisesti GitLab pages?
 
 ## Tietokantakuvaukset
 
