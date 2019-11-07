@@ -1,19 +1,15 @@
 # Arkkitehtuuri ja tekniset ratkaisut
 
-0.1
-Julkinen
-
+Versio: 0.1
+Näkyvyys: Julkinen
 
 ## Johdatus
 
-* Projektin Tuhlari tekninen dokumentaatio
+* Tässä dokumentissa käsitellään projektin arkkitehtuuria sekä teknisiä ratkaisuja. Dokumentti päivittyy projektin edetessä.
 
 ## Yleiskuvaus
 
-* Esittele lyhyesti tuote tai kohde
-* Dokumentin tehtävä on avata esim. jatkokehittäjälle käsitys siitä miten tuote on toteutettu (Pelkkä lähdekoodi ei riitä)
-* Millaisia välineitä/työkaluja ja ympäristöjä tarvitaan, jos aioitaa kehitää tuotetta eteenpäin
-
+Projektin tavoitteena on tuottaa palvelu, jonka avulla voidaan ylläpitää tuotetietorekisteriä tietokannassa. Palvelun käyttöliittymänä toimii verkkoselainsovellus, josta tieto kulkee palvelinohjelmiston kautta tietokantaan. 
 
 ## Käytetyt teknologiat
 
