@@ -253,11 +253,8 @@ skinparam usecase {
 
 ## Alustavat Käyttäjätarinat - User Story
 
->**NYT HUOMIO!** Tähän kohtaan kannattaa keskittyä vasta kun kaikki muut osiot on käyty läpi! 
-Kyseessä ei ole käyttäjätarina vaan ketterään kehittämiseen liittyvä Käyttötarina - User Story. 
-Sen avulla kuvataan palveluun liittyvää toiminnallisuutta, joka halutaa siinä olevan.  
-
-Esimerkki User Story issuesta #1 
+Ohjelmistolla pitää pystyä lisäämään, muokkaamaan ja poistamaan tuotteita / tuoteideoita.
+Tuotteita pitää pystyä selaamaan ja hakemaan käyttäjien oikeuksien mukaisesti.
 
 ## Ohjelmiston/palvelun tekniset vaatimukset 
 
