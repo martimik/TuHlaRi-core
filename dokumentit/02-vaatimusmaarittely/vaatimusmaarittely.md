@@ -48,7 +48,7 @@ Tavoitteemme on tehdä jokin toimiva ratkaisu toimeksiantoon.
 
 ## Palvelukuvaus
 
-Palvelu on tuoterekisteri yrityksille heidän tuottamiensa ohjelmistojen seurantaan sekä hallintaan.
+Palvelun pääasiallisena tehtävänä on toimia rekisterinä yrityksen tuotteille sekä tuoteideoille. Järjestelmään voidaan kirjata käyttäjiä erilaisissa rooleissa, jotka määrittelevät käyttäjän suhteen tuotteeseen. Järjestelmään voidaan lisätä, päivittää sekä hakea jo olemassaolevia tuotteita web-käyttöliittymän kautta. Myös muut käyttäjät voivat käyttää palvelun raportointiominaisuutta.
 
 ## Yleinen sidosryhmäkuva (Stakeholder -Map)
 
