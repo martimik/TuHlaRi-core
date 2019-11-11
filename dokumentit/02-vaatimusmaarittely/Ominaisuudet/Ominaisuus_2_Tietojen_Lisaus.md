@@ -1,32 +1,26 @@
-# Ominaisuus 02 - Tietojen lisäys
+# Ominaisuus 02 - Tuotteen luonti
 
 | | |
 |:-:|:-:|
 | Ominaisuus ID | FT02 |
-| Osajärjestelmä, mihin ominaisuus liittyy | xxx |
-| Ominaisuuden vastuuhenkilö | xxx |
 | Status | Hyväksytty |
 
 ### Kuvaus
 
-Käyttäjä pystyy lisäämään tietoja erinäisiin kohteisiin, kuten käyttäjätietoihin sekä tuotteen tietoihin.
+Käyttäjä pystyy luomaan uusia tuotteita.
 
 ### Ominaisuuteen liittyvät rajaukset, vaatimukset käyttötapaukset
 
-* Käyttäjällä tulee olla oikeus muutosten tekemiseen. 
+* Käyttäjän tulee olla kirjautunut
+* Käyttäjällä tulee olla oikeus uuden tuotteen luontiin. 
 
-| | |
-|:-:|:-:|
-| [Use Case 1](Use_Case_4_Paivittaminen(elinkaari).md) | Päivittäminen. |
-| [Vaatimus ReqID]() |  | 
-| [Vaatimus ReqID]() |  | 
-| [Vaatimus ReqID]() |  | 
+[Use Case - tuotteen luonti](Use_Case_4_Paivittaminen(elinkaari).md)
+
 
 ### Alustavat käyttäjätarinat (User Storys)
 
-* Ylläpitäjänä haluan päivittää käyttäjän tietoja.
-* Myyjänä haluan lisätä tuoteidealle Product Ownerin
-* Product Ownerina haluan muokata tuotteeseen liityviä tietoja
+* Myyjänä haluan luoda uuden tuoteidean, koska se on työtäni
+* Product ownerina haluan luoda uuden tuotteen, koska se on työtäni
 
 #28 #32
 
@@ -49,8 +43,3 @@ Käyttäjä pystyy lisäämään tietoja erinäisiin kohteisiin, kuten käyttäj
 | [Testitapaus 3]()  | vaatimus id?   |   |
 | [Testitapaus 4]()  | vaatimus id?   |   |
 | | |
-
-
-
-
-
