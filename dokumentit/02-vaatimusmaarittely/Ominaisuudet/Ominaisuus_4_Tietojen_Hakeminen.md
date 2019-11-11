@@ -1,34 +1,28 @@
 # Ominaisuus 04 -Tietojen hakeminen
 
-
 | | |
 |:-:|:-:|
 | Ominaisuus ID |esim. FT04 |
-| Osajärjestelmä, mihin ominaisuus liittyy | xxx |
-| Ominaisuuden vastuuhenkilö | xxx |
 | Status | Hyväksytty |
 
 ### Kuvaus
 
 Käyttäjä pystyy hakemaan tuotetietoja järjestelmästä erilaisilla kriteereillä sekä selailemaan tuotteita.
 
-
 ### Ominaisuuteen liittyvät rajaukset, vaatimukset käyttötapaukset
 
-* Käyttäjällä tulee olla oikeus hakea ja nähdä tuotetietoja. 
+* Eri käyttäjäryhmillä on erilaiset oikeudet tietojen näkemiseen. Jotkut tiedoista ovat salaisia tietyille käyttäjäryhmille.
 
 | | |
 |:-:|:-:|
-| [Use Case 1](Use_Case_2_Hakeminen.md) | Hakeminen |
-| [Use Case 2](se_Case_5_Raportointi.md) | Raportointi |
-| [Vaatimus ReqID]() |  | 
-| [Vaatimus ReqID]() |  | 
-| [Vaatimus ReqID]() |  | 
+| [Use Case - hakeminen](Use_Case_2_Hakeminen.md) | Hakeminen |
+| [Use Case - raportointi](se_Case_5_Raportointi.md) | Raportointi |
 
 ### Alustavat käyttäjätarinat (User Storys)
 
-* Käyttäjänä haluan hakea järjestelmä löytyviä tuotteita
-* käyttäjänä haluan hakea järjestelmästä tuoteideoita tietyillä kriteereillä.
+* Käyttäjänä haluan hakea järjestelmästä löytyviä tuotteita hakusanalla, koska se nopeuttaa tuotteiden etsimistä.
+* Käyttäjänä haluan hakea järjestelmästä löytyviä tuotteita asettamalla eri kriteereitä, koska se nopeuttaa tuotteiden etsimistä.
+
 
 #30
 
@@ -38,7 +32,6 @@ Käyttäjä pystyy hakemaan tuotetietoja järjestelmästä erilaisilla kriteerei
 *Tähän kuva/mockup -linkki, joka liittyy oleellisesti ominaisuuteen/toiminnallisuuteen*
 
 ![](https://openclipart.org/image/300px/svg_to_png/247488/1461589195.png)
-
 
 ### Testaus / mahdolliset hyväksyntä kriteerit 
 
@@ -51,8 +44,3 @@ Käyttäjä pystyy hakemaan tuotetietoja järjestelmästä erilaisilla kriteerei
 | [Testitapaus 3]()  | vaatimus id?   |   |
 | [Testitapaus 4]()  | vaatimus id?   |   |
 | | |
-
-
-
-
-
