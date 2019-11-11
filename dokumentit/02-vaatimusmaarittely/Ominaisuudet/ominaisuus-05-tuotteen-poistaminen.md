@@ -2,7 +2,7 @@
 
 | | |
 |:-:|:-:|
-| Ominaisuus ID | FT03 |
+| Ominaisuus ID | FT05 |
 | Status | Hyväksytty |
 
 ### Kuvaus
@@ -13,18 +13,19 @@ Käyttäjä pystyy muokkaamaan järjestelmästä löytyviä tietoja, esimerkiksi
 ### Ominaisuuteen liittyvät rajaukset, vaatimukset käyttötapaukset
 
 * Käyttäjän tulee olla kirjautunut sisään
-* Käyttäjällä tulee olla oikeus tietojen muokkaamiseen.
+* Käyttäjällä tulee olla oikeus tietojen poistamiseen.
+* Product owner ja myyjä eivät oikeasti poista tuotetta, vaan se piilotetaan.
+* Vain ylläpitäjä voi oikeasti poistaa tuotteen
 
-[Use Case - muokkaaminen](Use_Case_4_Paivittaminen(elinkaari).md) 
+[Use Case - tuotteen poistaminen](Use_Case_4_Paivittaminen(elinkaari).md) 
 
 ### Alustavat käyttäjätarinat (User Storys)
 
-* Ylläpitäjänä haluan palauttaa käyttäjän salasanan, koska hän on sen unohtanut.
-* Product Ownerina haluan päivittää tuotteeni tietoja, koska ne ovat vanhentuneet.
-* Myyjänä haluan muokata tuoteidean tietoja, koska ideani on kehittynyt entistä paremmaksi.
+* Ylläpitäjänä haluan poistaa tuotteen pysyvästi, koska minua on pyydetty / käsketty niin tekemään.
+* Product ownerina haluan poistaa tuotteen, koska tuote on peruttu
+* Myyjänä haluan poistaa tuoteideani, koska kukaan ei tykännyt siitä
 
-#23 #25 #29
-
+#28
 
 ### Käyttöliittymänäkymä/mock 
 
