@@ -22,7 +22,7 @@ Käyttäjä pystyy muokkaamaan järjestelmästä löytyviä tuotetietoja.
 * Myyjänä haluan muokata tuoteidean tietoja, koska ideani on kehittynyt entistä paremmaksi.
 * Ylläpitäjänä haluan palauttaa poistetun (piilotetun) tuotteen takaisin näkyväksi, koska tuotteen poistaminen oli virhe
 
-#29 #32
+#26 #29 #32
 
 
 ### Käyttöliittymänäkymä/mock 
