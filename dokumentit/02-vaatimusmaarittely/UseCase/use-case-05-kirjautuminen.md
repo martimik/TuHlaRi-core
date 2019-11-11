@@ -2,6 +2,13 @@
 
 ## Use Case 
 
+```plantuml
+
+:Käyttäjä: --> (Kirjautuminen) : Kirjautuu sisään
+
+
+```
+
 * Laatija: Reko Meriö   
 * Päiväys: 11.11.2019
 * Prosessiosa-alue: ?
