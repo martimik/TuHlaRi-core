@@ -2,6 +2,13 @@
 
 ## Use Case 
 
+```plantuml
+
+:Product owner: --> (Tuotteen luominen) : Luo tuotteen
+:Myyjä: --> (Tuotteen luominen) : Luo tuoteidean
+
+```
+
 Uuden tuotteen syöttäminen järjestelmään
 
 * Laatija: Markus Nylund
@@ -11,7 +18,7 @@ Uuden tuotteen syöttäminen järjestelmään
 **Käyttäjäroolit**	
 
 1. Product Owner
-2. Myyjä/Bussiness Manager
+2. Myyjä/Business Manager
 
 **Esitiedot/ehdot**	
 
