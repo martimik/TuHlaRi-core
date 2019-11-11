@@ -66,16 +66,17 @@ Projektin tuotosta ei tulla kaupallistamaan, vaan tuotos on oppimistarkoitukseen
 
 Yritys on pyytänyt että emme lähde toistaiseksi yrittämään luoda integraatiota muihin yrityksin järjestelmiin joita olisi jatkossa mahdollista tehdä yrityksen omasta toimesta.
 
-Tässä myös täsmennetään ne tehtäväkokonaisuudet, jotka nyt tehtävään osioon tulevat vielä todennäköisesti jossain vaiheessa liittymään, mutta joita ei tämän projektin puitteissa kuitenkaan tulla toteuttamaan. Tyypillisiä tällaisia tehtäviä voisivat olla mm. käyttöympäristön rakentaminen ja koulutus. Muina rajauksina voisi olla esim. ohjelmiston käyttöliittymässä käytettävä kieli.
-
-
 ## 1.4 Oikeudet
 
-”Eri osapuolten oikeudet on määritelty projektisopimuksessa.” Ellei erillisessä sopimuksessa ole kerrottu oikeuksista työn tuloksiin, tulee ne ilmaista esim. tässä projektisuunnitelmassa. 
+Ei poikkeavia oikeuksia.
 
 ## 1.5 Termit ja määritelmät
 
-[CSC = TIETEEN TIETOTEKNIIKAN KESKUS OY](https://www.csc.fi/etusivu)
+* Käytety lyhenteet
+    * [CSC = TIETEEN TIETOTEKNIIKAN KESKUS OY](https://www.csc.fi/etusivu)
+
+* Käytetyt termit
+    * Toistaiseski ei tuntemattomia termejä
 
 # 2. Projektiorganisaatio
 
@@ -83,15 +84,15 @@ Tässä myös täsmennetään ne tehtäväkokonaisuudet, jotka nyt tehtävään 
 
 Projektin organisaation kuuluu yrityksen työntekijöitä ja toimeksiantajan edustajat. 
 
-* Projektiryhmä edustajat
-    * Markus Nylund
-    * Reko Meriö
-    * Mikko Martikainen
-    * Kautto Elias
+* Projektiryhmä jäsenet
+    * Markus Nylund - 0400 395 715 - L5392@student.jamk.fi
+    * Reko Meriö - (puhnro) - K9260@student.jamk.fi
+    * Mikko Martikainen  - (puhnro) - K8936@student.jamk.fi
+    * Kautto Elias - (puhnro) - L4177@student.jamk.fi
 
 * Yrityksen edustajat
-    * Annsi Ylönen
-    * Markus Asikkainen
+    * Annsi Ylönen - (050 3843771) - anssi.ylonen@digia.com
+    * Markus Asikkainen - (puhnro) - (sähköposti)
 
 **Projektiryhmä**
 
@@ -114,6 +115,8 @@ Projektin sisällä ei ole vastuita, toimimme luottamusperiaatteella.
 
 # 3. Projektin ajalliset tavoitteet	
 
+Vaiheiden pituus vaihtelee aiheesta riippuen sekä myös mahdollisten ongelmien esiintyessä (kuten sairastuminen). Projektiryhmä pyrkii työskentelemään ryhämänä jokaisen aihealueen parissa toimeksiantajan toiveesta johtuen. Tällöin pyrimme myös maksimoimaan oppimisen.
+
 ## 3.1 Osittaminen ja vaiheistus
 
 * Askel 1. - Projektin aloitus
@@ -126,7 +129,7 @@ Projektin sisällä ei ole vastuita, toimimme luottamusperiaatteella.
 
 ## Askel 1. - Projektin aloitus
 
-Projektin aloituksessa käymme läpi toimeksiantajan ongelmaa ja ratkaisupyyntöä.
+Projektin aloituksessa käymme läpi toimeksiantajan ongelmaa ja ratkaisupyyntöä sekä luomme itsellemme verkkosivut ja tutustumme ryhmänä.
 
 ## Askel 2. - Projektin dokumentointi
 
@@ -146,100 +149,60 @@ Korjaamme mahdollisia löytyneitä bugeja jotka ilmenneet testaus vaiheessa joit
 
 ## Askel 6. - Projektin lopetus
 
-Projekti ryhmä laattii loppuraportin. Projektiryhmä esittää tuotteen asiakkalle sekä projektin tuotos luovutetaan asiakkaalle. Projektiryhmä pitää myös viimeisen kokousen toimeksiantajan ja vastaavien tahojen kanssa.
+Projekti ryhmä laattii loppuraportin. Projektiryhmä esittää tuotteen asiakkalle sekä projektin tuotos luovutetaan asiakkaalle. Projektiryhmä pitää myös viimeisen kokousen toimeksiantajan ja vastaavien tahojen kanssa. **Projektin viimeinen mahdollinen työstöpäivä on 28.2.2020**
 
-
-> Projektin elinkaari voidaan jakaa erityyppisiin vaiheisiin. Kussakin vaiheessa tuotetaan määrätyt tuotteet, kuten selvitys, suunnitelmat, prototyyppi, laite jne. Kunkin vaiheen loppuun sovitaan arviointi, hyväksyntä tai katselmointi.
-
->sein edetään inkrementaalisesti eli ensin suunnitellaan ja toteutetaan yksi asia kokonaisuudessaan ennen kuin edetään seuraavaan asiakokonaisuuteen. Ei ole yhtä ainutta ”oikeaa” vaihejakoa, mutta jos toimeksiantajalla on oma menetelmänsä ja siihen liittyvät mallipohjat, niin opiskelijaprojekteissa käytetään ensisijaisesti niitä. Yhä useammin käytetään ketterää sovelluskehitystä eli ohjelmisto tehdään 1-4 viikon sprinteissä.
-
->Seuraavassa käydään jokainen vaihe, niiden vaatimat aikaresurssit ja tulokset läpi lyhyesti. Vaiheet ja niiden tehtävät kuvataan tarkemmin vaihesuunnitelmissa. Parhaillaan meneillään olevasta vaiheesta tulee olla tiedossa tarkasti kuka tekee ja kuinka paljon työtä tämän vaiheen tehtävien suorittamiseksi. Myöhempien vaiheiden työmääräarviot voidaan esittää alkuvaiheessa karkealla tasolla, jota sitten projektin edetessä tarkennetaan yksityiskohtaiselle tasolle. Tämä tapahtuu jokaisen vaiheen lopussa, jolloin suunnitellaan tarkemmin seuraava vaihe.
-
->Huom.: Seuraavassa on esitetty käynnistys- ja lopetusvaiheet. Kaikista projektin vaiheista, niiden kestoista ja työmääristä laaditaan myös nk. Gantt-kaavio (liitteenä), jossa näkyy myös vaiheiden väliset riippuvuudet ja tärkeimmät etapit (esim. johtoryhmän kokouspäivämäärät).
-
->Käynnistys p.k.vvvv – p.k.vvvv (X h)
-
->Projektin käynnistämiseen kuuluu olennaisesti projektisuunnittelu ja suunnitteludokumenttien laatiminen sekä yhteydenpitokäytänteiden luominen toimeksiantajayrityksen kanssa. Vaiheen aikana tehdään esim. ryhmän webbisivut, tutustutaan tarkemmin toimeksiantoon, aloitetaan kohdealueeseen perehtyminen ja laaditaan projektisuunnitelma yhteistyössä toimeksiantajan edustajien kanssa. Vaiheen aikana muodostetaan johtoryhmä, pidetään 1. johtoryhmän kokous sekä allekirjoitetaan projektisopimus.
-”Vaiheen tuloksia ovat ryhmän imagon (nimi, logo ym.) luominen, webbisivut tms. sekä projektisopimus liitteineen.”
-
-<Tähän oman projektinne vaiheet ja tehtävät>
-
-Lopetus p.k.vvvv – p.k.vvvv (X h)
-
-
-
-```mermaid
-gantt
-    title Projektin vaiheet
-    dateFormat  DD-MM-YYYY
-    section GANTT
-    Askel 1      :active,k1,15-01-2019, 20-01-2019
-    Askel 2      :active,k2,after k1, 20-02-2019
-    Askel 3      :active,k3,after k2, 20-03-2019
-    Askel 4      :active,k4,after k3, 20-04-2019
-
-```
-
-
+**Projektin seminaari JAMKin tiloissa on 3.3.2020**
 
 # 4. Laadunvarmistus
 
-Projektissa sovellettavat työmenetelmät, välineet, ohjeet ja standardit
+Projektiryhmän jäsenet kirjaavat työtuntinsa excel taulukkoon pienen kuvauksen kanssa siitä mitä he ovat tehneet näiden työtuntien aikana.
 
-Tässä kappaleessa luetellaan kaikki käytettävät menetelmät, työkalut ja standardit versionumeroineen. Usein toimeksiantajalla on jokin menetelmä, jota projektiryhmän olisi syytä noudattaa. Toimeksiantaja voi määrittää myös noudatettavat dokumenttien ulkoasustandardit. Muussa tapauksessa projektiryhmä räätälöi IT-instituutin tarjoamista mallipohjista itselleen soveltuvan ja toimeksiantajan hyväksymän mallin.
+Projekti ryhmä käyttää vaatimusmäärrittelyä tehdessä Rintamäki Markon tekemää Open project Framework(OPF) pohjaa.
 
-Opintojakso asettaa siis tietyt vaatimukset projektin seurantatyökaluille ja raportoinnille, jotka tulee ottaa huomioon. Opintojaksolla ei kuitenkaan pakoteta tiettyä tapaa käyttää työkaluja, joten niiden käytöstä on syytä tehdä suunnitelma tähän kohtaan.
-
-Projektin tiedon- ja versionhallinnan perusteet tulee selvittää, jotta kaikki projektin sidosryhmät tietävät dokumenttien uusimpien versioiden sijainnin. Projektisuunnitelmasta ja kaikista muistakin projektin keskeisistä dokumenteista tulee useita versioita, joihin pitää lisätä versiohistoria, jotta projektin kehityksen seuraaminen jälkikäteen on mahdollista. Mikäli jokin yksittäinen laite tai ohjelmisto nousee projektin toteutuksen kannalta kriittiseen asemaan, on tälle hyvä nimetä vastuuhenkilö, joka tuntee ko. laitteen tai ohjelmiston ryhmästä parhaiten. Ohessa on lista asioista, jotka kannattaa suunnitella ja dokumentoida: 
+Versionhallintatyökaluna projektiryhmä käyttää Gitlab ympäristöä.
 
 ## 4.1 Väli- ja lopputulosten hyväksymismenettely
 
-Tähän kirjataan se hyväksymismenettely, mikä projektissa on sovittu.
+Projektiryhmä katselmoi yhdessä väli-ja lopputuloksia ja arvioi onko lopputulos tarpeeksi hyvä jatkaaksemme seuraavaan osioon.
 
 ## 4.2 Muutosten hallinta
 
-Kuvataan muutosten hallintaproseduuri projektinkäytäntöihin tai projektin tuloksiin liittyvien muutosten osalta. 
+Mikäli projektin kulkuun tulee muutoksia minkään tahon toimesta tulee projektiryhmän ja kyseisen tahon kokoustaa jatkotoimenpiteistä. 
 
 ## 4.3 Dokumentointi
 
-Kirjataan minne dokumentit tallennetaan/arkistoidaan, miten ne jaetaan ja kuka on vastuussa eri dokumenteista.
+Dokumentointi tapahtuu Jyväskylän Ammattikorkeakoulun(JAMK) Gitlab palvelimelle. Dokumentointia suorittaa jokainen projektin ryhmän jäsen. 
 
 ## 4.4 Riskien hallinta
 
-Listataan riskit, arvioidaan niiden vakavuus ja todennäköisyys ja koetetaan miettiä toimenpiteet kuinka vakavimmat/todennäköisimmät riskit voitaisiin ehkäistä jo ennalta. Lisäksi olisi hyvä olla suunnitelma kuinka toimitaan, jos riski toteutuu.
+>Listataan riskit, arvioidaan niiden vakavuus ja todennäköisyys ja koetetaan miettiä toimenpiteet kuinka vakavimmat/todennäköisimmät riskit voitaisiin ehkäistä jo ennalta. Lisäksi olisi hyvä olla suunnitelma kuinka toimitaan, jos riski toteutuu.
 
-Liitä seuraava osio tähän mukaan: [Riskienhallintataulukko]()
+>Liitä seuraava osio tähän mukaan: [Riskienhallintataulukko]()
 
 
 ## 4.5 Katselmointikäytäntö
 
-Luetellaan ja alustavasti aikataulutetaan projektin tuloskatselmukset laaditun toteutussuunnitelman pohjalta. Esitetään luettelomaisesti, mitä katselmuksia pidetään, alustava ajankohta, käsiteltävät asiat, osallistujat sekä käytännöt katselmointimateriaalin toimittamisesta (mitä, milloin, miten).
-
-Linkit katselmointipöytäkirja pohjiin
+Projektiryhmä toteuttaa katselmointeja asiakkaan pyynnöstä.
+Katselmoinnit käydään läpi suullisesti.
 
 ## 4.6 Projektisuunnitelmaa täydentävät suunnitelmat
 
-Tässä kohdassa mainitaan, mitä täydentäviä suunnitelmia on käytettävissä tai aiotaan projektin kuluessa laatia (esim. viestintä-, riskienhallinta-, testaus- ja käyttöönottosuunnitelma).
-
-* Vaatimusmäärittely?
-* Riskienhallintasuunnitelma
-* Asiakkaan antama dokumentaatio?
-* Viranoimaislähteet?
-* 
+* Vaatimusmäärittely
+* Projekti sopimus
 
 
 ## 4.7 Suunnitelmien tarkistus- ja päivitysajankohdat 
 
-Projektisuunnitelman avulla reagoidaan poikkeamiin ja ympäristömuutoksiin, joten sitä päivitetään projektin aikana. Tähän kohtaan kirjataan ne ajankohdat, jolloin suunnitelman ajantasaisuus ainakin on tarkistettava.
-
-
-
+Projektisuunnitelma tarkastetaan joka toisen viikon ensimmäisenä työpäivänä ja päivitetään tarpeen mukaan alkaen 11.11.2019. (Seuraava tarkastus 25.11.2019)
 
 ## 4.8 Projektin keskeyttämiskriteerit
 
-Oikeaoppiseen projektisuunnitelmaan kuuluu myös projektin keskeyttämiskriteerit. Näitä ei kuitenkaan opiskelijaprojekteissa käytetä, koska projekteissa käytetään tietty tuntimäärä tuloksen tekoon ja tulos luovutetaan sellaisena, kun se opintojakson päättyessä on. Projektiryhmä tekee kuitenkin jatkokehityssuunnitelman, josta mahdollinen uusi projekti jatkaa.
+Projektin työstäminen keskeytetään jos jokainen projektiryhmän jäsen jättää kurssin kesken jolloin projekti luovutetaan asiakkaalle sellaisessa tilassa jossa projekti sinä hetkenä on.
 
 # 5. Tiedonvälitys ja projektin etenemisen seuranta (viestintäsuunnitelma)
+
+Projektiryhmä sekä tukihenkilöt kommunikoivat Microsoft Teams sovelluksen kautta.
+Toimeksiantajalle ja vastaavalle taholla on tähän mennessä käytetty sähköpostia.
 
 Listaa projektissa sovitut työtilat ja viestintävälineet, palaverikäytäntö ja yhteydenpito, raportointi ja tiedotus.
 
@@ -247,25 +210,27 @@ Listaa projektissa sovitut työtilat ja viestintävälineet, palaverikäytäntö
 
 ## 6.1 Lopputuotteen luovutus, käyttöönotto
 
-Projektin lopputuote tulee myös dokumentoida järkevällä tasolla. Osana lopputuotetta saattaa olla asiakkaalle tarjottavaa käyttöönottokoulutusta ja mahdollisesti asennus- tai käyttöönotto­palvelua. Mikäli koulutuksen rooli projektin kannalta on huomattava (esimerkiksi ohjelmiston käyttäjät eivät ole olleet mukana projektissa ja eivät tiedä miten järjestelmä toimii) tulee projektisuunnitelmaan liittää suunnitelma asiakkaalle tarjottavasta koulutuksesta. Lisäksi jos on tarpeen, tulee projektisuunnitelmaan liittää myös asennussuunnitelma ja käyttöönottosuunnitelma.
+Projektin tuotos pyritään luomaan sellaisella käyttöliittymällä ettei tuotteen käyttöönottoon tarvita opetusta. Projektin koko tuotos luovutetaan yrityksen haltuun mutta projektiryhmän jäsenille jää silti omat tuotokset omaan mahdolliseen käyttöön esimerkiski portfolio tapauksissa.
 
 ## 6.2 Projektin tuottaman aineiston taltiointi, arkistointi ja säilytysaika
 
-”Projektiryhmien dokumentaatiosta IT-instituutille jäävä osa tallennetaan GitHubiin.” Toimeksiantajan tulee selkeästi määritellä, mitkä dokumentit voidaan jättää opiksi seuraaville projekteille. Tyypillisesti eri suunnitelmat ja loppuraportti ovat tällaisia dokumentteja. 
+Kaikki projektiin tuotettu koodi ja dokumentointi taltioidaan gitlab ympäristöön kunnes projektiryhmä tai joku muu taho sen sieltä poistaa syystä tai toisesta.
 
 ## 6.3 Projektin virallinen päättäminen
 
-On tärkeää määritellä milloin, mihin tai miten projekti päättyy. Projektin päätös voi olla tietty päivämäärä, tietty tuotteen valmiusaste, tietty työtuntimäärä, tietty kulutettu rahasumma, kun asiakas ottaa tuotteen käyttöön, takuuaika on umpeutunut tai kun asiakas hyväksyy tuotteen.
+Projektin viimeinen mahdollinen työstöpäivä on 28.2.2020, jolloin projektisopimuksen voimassaoloaika päättyy mikälie projekti ei ole vielä valmis.
 
-”Projekti päättyy p.k.vvvv, jolloin projektisopimuksen voimassaoloaika päättyy.”
+Jos projekti valmistuu etuajassa tulee toimeksiantajan hyväksyä projekti jolloin projekti on valmis.
 
 ## 6.4 Lopetustilaisuus
 
-Yleensä projektit päätetään yhteiseen päätösseminaariin. Tähän kirjataan osallistujat ja ajankohta. 
+Projekti päätetään tuotteen luovutuksella asiakkaalle johon osallistuu projektiryhmän jäsenet ja Anssi Ylönen ja/tai Markus Asikkainen.
+
+Projektiin liittyen pidetään loppuseminaari JAMKin tiloissa 3.3.2020 johon osallistuu projektiryhmän jäsenet.
 
 ## 6.5 Projektin loppuraportti
 
-Projektin loppuraportti laaditaan viimeiseen johtoryhmän kokoukseen mennessä.
+Projektin loppuraportti laaditaan lopetustilaisuuteen mennessä.
 
 ## Liitteet
 
