@@ -1,13 +1,8 @@
-# Use Case 2 - Tuotteen tai tuotteiden hakeminen
+# Use Case 3 - Kirjautuminen
 
 ## Use Case 
 
-```plantuml
-:Käyttäjä:--(Tuotteiden hakeminen)
-```
-
-
-* Laatija: Reko Meriö
+* Laatija: Reko Meriö   
 * Päiväys: 11.11.2019
 * Prosessiosa-alue: ?
 	
@@ -15,32 +10,33 @@
 
 1. Product owner
 2. Myyjä
-3. Joku muu
+3. Pääkäyttäjä
 
 **Esitiedot/ehdot**	
 
--
-
+*
 
 **Käyttötapauksen kuvaus**
 
-1. Mene palveluun
-2. Syötä hakukenttään hakusana
-3. Hae tuotteita
-4. Selaa haettuja tuotteita
+ 1. Käyttäjä syöttää käyttäjänimensä
+ 2. Käyttäjä syöttää salasanansa
+ 3. Käyttäjä kirjautuu sisään 
 
 **Poikkeukset**
  
-* Tuote ei vastaa hakukriteerejä
+* Kirjautuminen epäonnistuu
 	
 **Lopputulos**	
 
-* Käyttäjä näkee tuotteet jotka vastaavat hakukriteerejä
+* Käyttäjän tila on muuttunut kirjautumattomasta kirjautuneeksi
 
 **Käyttötiheys** 
 
 * Useita kertoja päivässä
 
+**Muuta**	
+
+* 
 
 **Lähteet**
 
