@@ -3,8 +3,6 @@
 | | |
 |:-:|:-:|
 | Ominaisuus ID | FT03 |
-| Osajärjestelmä, mihin ominaisuus liittyy | xxx |
-| Ominaisuuden vastuuhenkilö | xxx |
 | Status | Hyväksytty |
 
 ### Kuvaus
@@ -14,19 +12,16 @@ Käyttäjä pystyy muokkaamaan järjestelmästä löytyviä tietoja, esimerkiksi
 
 ### Ominaisuuteen liittyvät rajaukset, vaatimukset käyttötapaukset
 
+* Käyttäjän tulee olla kirjautunut sisään
 * Käyttäjällä tulee olla oikeus tietojen muokkaamiseen.
 
-| | |
-|:-:|:-:|
-| [Use Case 1](Use_Case_4_Paivittaminen(elinkaari).md) | Päivittäminen |
-| [Vaatimus ReqID]() |  | 
-| [Vaatimus ReqID]() |  | 
-| [Vaatimus ReqID]() |  | 
+[Use Case - muokkaaminen](Use_Case_4_Paivittaminen(elinkaari).md) 
 
 ### Alustavat käyttäjätarinat (User Storys)
 
-* Ylläpitäjänä haluan palauttaa käyttäjän salasanan.
-* Product Ownerina haluan päivittää tuotteensa tietoja
+* Ylläpitäjänä haluan palauttaa käyttäjän salasanan, koska hän on sen unohtanut.
+* Product Ownerina haluan päivittää tuotteeni tietoja, koska ne ovat vanhentuneet.
+* Myyjänä haluan muokata tuoteidean tietoja, koska ideani on kehittynyt entistä paremmaksi.
 
 #23 #25 #29
 
@@ -49,8 +44,3 @@ Käyttäjä pystyy muokkaamaan järjestelmästä löytyviä tietoja, esimerkiksi
 | [Testitapaus 3]()  | vaatimus id?   |   |
 | [Testitapaus 4]()  | vaatimus id?   |   |
 | | |
-
-
-
-
-
