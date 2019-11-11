@@ -1,26 +1,48 @@
 [![](http://img.youtube.com/vi/x3MH8_7oOcE/0.jpg)](http://www.youtube.com/watch?v=x3MH8_7oOcE "")
 
-# Projektisuunnitelma pohja / sisältö
+# Projektisuunnitelma
 
+* [1. Toimeksianto](#1-Projektin-ja-lopputuotteen-kuvaus)
+    *  tausta ja lähtökohdat
+    *  tavoitteet ja tehtävät
+    *  rajaus ja liittymät sekä tulos
 
+* [2. Projektiorganisaatio](#2.Projektiorganisaatio)
+    * organisaation esittely
+    * vastuut ja päätöksentekoprosessi
 
-1. Toimeksianto
-tausta ja lähtökohdat, tavoitteet ja tehtävät, rajaus ja liittymät, tulos
+* [3. Projektin vaiheet ja taloudelliset tavoitteet](#3.Projektin-ajalliset-tavoitteet)
+    * tehtäväkokonaisuudet 
+    * osittelu ja vaiheistus
+    * välitulokset
+    * aikataulut ja resurssissuunnitelmat 
+    * budjetti
 
-2. Projektiorganisaatio
-organisaation esittely, vastuut ja päätöksentekoprosessi
+* [4. Laadun varmistus](#4.Laadunvarmistus)
+    * menetelmät 
+    * standardit 
+    * hyväksymismenettely
+    * muutosten hallinta
+    * dokumentointi 
+    * katselmoinnit 
+    * riskien hallinta 
+    * muut täydentävät suunnitelmat
 
-3. Projektin vaiheet ja taloudelliset tavoitteet
-tehtäväkokonaisuudet, osittelu ja vaiheistus, välitulokset, aikataulut ja resurssissuunnitelmat, budjetti
+* [5. Tiedonvälitys ja projektin etenemisen seuranta](#5.Tiedonvälitys-ja-projektin-etenemisen-seuranta-(viestintäsuunnitelma))
+    * projektin aloitus
+    * työtilat ja viestintävälineet
+    * palaverikäytäntö ja yhteydenpito
+    * raportointi ja tiedotus
+    * projektikansio
 
-4. Laadun varmistus
-menetelmät, standardit, hyväksymismenettely, muutosten hallinta, dokumentointi, katselmoinnit, riskien hallinta, muut täydentävät suunnitelmat
-
-5. Tiedonvälitys ja projektin etenemisen seuranta
-projektin aloitus, työtilat ja viestintävälineet, palaverikäytäntö ja yhteydenpito, raportointi ja tiedotus, projektikansio
-
-6. Projektin päättyminen
-luovutus, käyttöönotto, ylläpito, projektin aineiston taltiointi, arkistointi, loppuraportti, projektin virallinen päättäminen
+* [6. Projektin päättyminen](#6.Projektin-päättyminen)
+    * luovutus
+    * käyttöönotto
+    * ylläpito
+    * projektin aineiston taltiointi
+    * arkistointi
+    * loppuraportti
+    * projektin virallinen päättäminen
 
 ## 1 Projektin ja lopputuotteen kuvaus
 
@@ -28,32 +50,24 @@ luovutus, käyttöönotto, ylläpito, projektin aineiston taltiointi, arkistoint
 
 ## 1.1 Tausta ja lähtökohdat
 
-
-Wimma Lab 2018-toiminnan tavoitteena on pyrkiä yhdistämään .... on Yritys Oy:n tarve kehittää” < kohdetta>… ”Projekti toteutetaan Jyväskylän ammattikorkeakoulun informaatioteknologian instituutin järjestämän <ZZPP0100 Työelämäosaajaksi kasvu> ‑opintojakson puitteissa. ”
-
-Kohde on usein laajempi käsite kuin varsinainen projektille määriteltävä tehtävä. Kohde kuvaa selkeällä tavalla, usein graafiseen esitykseen tukeutuen, millaisesta järjestelmäkokonaisuudesta tai toiminnasta on kyse, johon ollaan tekemässä nyt projektissa jotain osakokonaisuutta/täydennystä. Tässä siis kuvataan nykyjärjestelmää ja asiakkaan nykyistä toimintatapaa.
+Projektin tavoitteena on tutustua yritysten tapoihin tuottaa projekteja ja tustuttaa opiskelijoita yritysten toimintamalleihin.
+Projekti toteutetaan Jyväskylän ammattikorkeakoulun informaatioteknologian instituutin järjestämän <TTOS1000 Ohjelmistotuotanto> ‑opintojakson puitteissa.
+Asiakkallaa ei tällä hetkellä ole toimivaa ratkaisua pyydetylle tuotteelle.
 
 ## 1.2 Tavoitteet ja tehtävät
 
-* Tuottaa ratkaisu
-* Tuottaa toimiva demo (Proof Of Concept)
-
-Määritellään työn keskeisin sisältö tässä projektissa; projektin tehtävä liittyy projektin kohteessa kuvattuun kokonaisuuteen. 
-< Mitä aiotaan tehdä?> / < Mitä toimintaa aiotaan kehittää ja miten?>
-< Visio tulevasta tilasta> / < Mikä on tuotettava lopputulos (konkreettinen)?> / < Mitkä ovat osa- tai välitulokset?>
-< Kenelle tulos tuotetaan?>
-”Projektiryhmän tehtävänä on pitää eri tahot tietoisina projektin tilanteesta. Kunkin vaiheen päätyttyä laaditaan vaiheraportti, jonka avulla johtoryhmälle tiedotetaan projektin edistymisestä.”
+Tavoitteena on tuottaa toimiva POC ratkaisu Tuhlari nimiselle palvelulle joka toimii tuotehallintarekisterinä.
+Tuote tuotetaan yritykselle X.
+”Projektiryhmä sopii eri tahojen kanssa suullisesti miten projektin etenemisestä ilmoitetaan.”
 
 ## 1.3 Rajaus ja liittymät
 
-* Wimma Lab-tuotoksia ei tulla kaupallistamaan, vaan tuotokset ovat avoimia innovaatioita tulevien opiskelijoiden ja yritysten hyödyksi
+Projektin tuotosta ei tulla kaupallistamaan, vaan tuotos on oppimistarkoitukseen tarkoitettu jota nimeämätön yritys voi käyttää jatkojalostukseen halutessaan.
 
-
-Täsmennetään projektin tehtävää rajaamalla ulkopuolelle jäävät osat kohteena olevasta järjestelmästä tai kokonaishankkeesta. Erikseen on syytä kuvata myös tehtävän suorittamista merkittävästi rajoittavat ulkoiset tekijät.
+Yritys on pyytänyt että emme lähde toistaiseksi yrittämään luoda integraatiota muihin yrityksin järjestelmiin joita olisi jatkossa mahdollista tehdä yrityksen omasta toimesta.
 
 Tässä myös täsmennetään ne tehtäväkokonaisuudet, jotka nyt tehtävään osioon tulevat vielä todennäköisesti jossain vaiheessa liittymään, mutta joita ei tämän projektin puitteissa kuitenkaan tulla toteuttamaan. Tyypillisiä tällaisia tehtäviä voisivat olla mm. käyttöympäristön rakentaminen ja koulutus. Muina rajauksina voisi olla esim. ohjelmiston käyttöliittymässä käytettävä kieli.
 
-Huom.: Projektiopintojakson aikana toteutettavalla projektilla ei saisi olla tiukkoja aikataulullisia liittymiä muihin toimeksiantajan projekteihin
 
 ## 1.4 Oikeudet
 
@@ -61,27 +75,29 @@ Huom.: Projektiopintojakson aikana toteutettavalla projektilla ei saisi olla tiu
 
 ## 1.5 Termit ja määritelmät
 
-Tässä kappaleessa esitellään projektisuunnitelmassa esiintyvät määritelmät, termit ja lyhenteet. Esimerkiksi eri projekteissa saattaa sanoilla "tarkastus" ja "katselmointi" olla eri merkitys ja tämä voi aiheuttaa väärinkäsityksiä. Joskus saattaa olla paikallaan sopia eri nimityksiä ryhmän tarkastuksille (oma sisäinen, asiakkaan kanssa, opintojakson suuntaan). Lyhenteet kannattaa avata alkuperäiskielelle ja lisätä lyhyt kuvaus suomeksi. Esimerkiksi CASE = Computer aided software engineering, tietokoneavusteinen systeemityö.
+[CSC = TIETEEN TIETOTEKNIIKAN KESKUS OY](https://www.csc.fi/etusivu)
 
 # 2. Projektiorganisaatio
 
 ## 2.1 Organisaation esittely
 
-Projektin organisaation kuuluu Jyväskylän ammattikorkeakoulun  opettajia, projektihenkilökuntaa opiskelijaa, projektiryhmän ohjaajat sekä toimeksiantajan edustajat. Organisaatiokaavio on esitetty liitteessä <X>.”
+Projektin organisaation kuuluu yrityksen työntekijöitä ja toimeksiantajan edustajat. 
 
 **Projektiryhmä**
 
+”Projektiryhmä suorittaa johtoryhmän projektille asettamat tehtävät käytettävissä olevien resurssien puitteissa.”
+
+**Johtoryhmä**
+
+Johtoryhmän muodostavat siihen valitut projektiryhmän jäsenet sekä toimeksiantajan edustajat. 
+
+**Tukiryhmä**
 
 
-”Projektiryhmä suorittaa johtoryhmän projektille asettamat tehtävät käytettävissä olevien resurssien puitteissa. Projektin aikana ryhmän päällikön ja sihteerin roolit kiertävät ryhmän sisällä siten, että jokainen ryhmän jäsen toimii kerran kummassakin roolissa.”
+* Kuuva Pekka - (puhnro) - (sähköposti)
+* Lindgren Sami - (puhnro) - (sähköposti)
 
-Johtoryhmä
-
-”Johtoryhmän muodostavat siihen valitut projektiryhmän, ohjaajien ja toimeksiantajan edustajat. Johtoryhmän kokouksiin voidaan tarvittaessa kutsua myös muita henkilöitä, esim. asiantuntijoita. Johtoryhmän kokoonpano on esitelty projektisopimuksen liitteessä <X>.” 
-
-Tukiryhmä
-
-Tukiryhmän tehtävänä on antaa projektiryhmälle sisällöllistä opastusta tehtävän suorittamiseksi. Kappaleessa tulee esitellä projektin muut sidosryhmät (asiakas, ulkopuoliset konsultit, jne.) henkilötasolla. Asiakkaan mukana olevista henkilöistä tulee mainita ainakin nimi, yhteystiedot, toimenkuva sekä rooli projektissa.
+Tukiryhmän jäsenet työstävät lähinnä CI/CD Pipelineä gitlab ympäristöön.
 
 ## 2.2 Vastuut ja päätöksentekoprosessi
 
