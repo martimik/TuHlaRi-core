@@ -66,4 +66,47 @@ Eli miten nuo eri ympäristöt on toteutettu ko. projektissa
 
 ![](http://plantuml.labranet.jamk.fi/png/U9nrKarl4p4GFSU_maSeh4Gvb4jLAMbfBmGX0WU4KEHufzjHRO-PiHi2uh_ZtSt7RaXlrdlFCs_UZ3nYY8QDrqmvr9Ou0EktRvJi2O6V6O85_KTDfioqlYP7hEyO87m3vsXTS9k8PyGryBEiiOzDrwHNB29ZQ3hTLd5B8VNSp1Nn05tWRz3dxmR8H-D1Jqs4N-gl6fYrpeYqJe_RpQ76x4TDXtwtLaSJVa0F9qPR7Pdhh5nJPWHMaxtTak5acXBZAYSu377H-frJQEXcfi-gIaUcEjia8p0Bi2ZLJxCZBY_rY_bhlK3t1FnINrtj1BiIdUBJK56IqAym98srgghobjG6e4FnF0BaWJZTWDWHwahd4s13FM2OpUPx3__G2Un3A0ar27AAj-GZ1GZf90lX2Pc2B_pdSd38u9-JsYo9V0cxuzhf7Dw3tLW7YsHIbWEnoe81HBvi8XpGSWIsLEg15P7hpmRl4UfsFNsgtGwwIByUHphAzFzGzmXuWsuBjJ_QadVbAADIowL-7onlOe9QBvT5KMq_nT9yNUwjTV8FzAKq3m00)
 
+## Arkkitehtuuri
 
+```plantuml
+
+
+
+  interface dbAccess as "Database access"
+  interface apiAccess as "HTTPS"
+
+    
+
+  NodeJS <-- dbAccess
+  MongoDB <-- dbAccess
+  
+
+   node "App" {
+     [Axios]   
+   }
+  
+   node "NodeJS" {
+     package "API" {
+        [/products]
+        [/users]
+        [/createProduct]
+        [/editProduct]
+        [/editUser] 
+     }
+   } 
+ 
+  database "MongoDB" {
+  
+    frame "Users" {
+
+    }
+    
+    frame "Products" {
+
+    }
+  }
+  
+    Axios <-- apiAccess
+  API <-- apiAccess
+  
+```
