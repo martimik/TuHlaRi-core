@@ -1,4 +1,4 @@
-# Ominaisuus 01 -Kirjautuminen
+# Ominaisuus 01 - Kirjautuminen
 
 | | |
 |:-:|:-:|
@@ -14,7 +14,7 @@ Käyttäjä pystyy kirjatutumaan järjestelmään omilla tunnuksillaan.
 
 * Käyttäjällä on oltava voimassaolevat tunnukset palveluun.
 
-[Use-case kirjautuminen](FT1-kayttotapaus.md) 
+[Use Case - kirjautuminen](FT1-kayttotapaus.md) 
 
 ### Alustavat käyttäjätarinat (User Storys)
 
