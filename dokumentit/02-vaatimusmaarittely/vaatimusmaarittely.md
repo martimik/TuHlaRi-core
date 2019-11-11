@@ -481,6 +481,8 @@ class products << (P, Silver) >> {
  +int pricing
 --
  +bool classified
+--
+ +bool idea
 }
 
 class users << (U, Silver) >> {
