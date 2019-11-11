@@ -15,7 +15,6 @@ Käyttäjä pystyy muokkaamaan järjestelmästä löytyviä tietoja, esimerkiksi
 * Käyttäjän tulee olla kirjautunut sisään
 * Käyttäjällä tulee olla oikeus tietojen poistamiseen.
 * Product owner ja myyjä eivät oikeasti poista tuotetta, vaan se piilotetaan.
-* Vain ylläpitäjä voi oikeasti poistaa tuotteen
 
 [Use Case - tuotteen poistaminen](Use_Case_4_Paivittaminen(elinkaari).md) 
 
