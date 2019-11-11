@@ -6,7 +6,6 @@
 
 :Pääkäyttäjä: --> (Käyttäjän luominen) : Luo käyttäjän
 
-
 ```
 
 * Laatija: Reko Meriö   
@@ -15,31 +14,32 @@
 	
 **Käyttäjäroolit**	
 
-1. Product owner
-2. Myyjä
-3. Pääkäyttäjä
+1. Pääkäyttäjä
 
 **Esitiedot/ehdot**	
 
-*
+* Vain pääkäyttäjä voi luoda uusia käyttäjiä
 
 **Käyttötapauksen kuvaus**
 
- 1. Käyttäjä syöttää käyttäjänimensä
- 2. Käyttäjä syöttää salasanansa
- 3. Käyttäjä kirjautuu sisään 
+ 1. Pääkäyttäjä menee hallintapaneeliin
+ 2. Klikkaa "Luo uusi käyttäjä" nappia
+ 3. Antaa käyttäjän nimen ja sähköpostin
+ 4. Luo uuden käyttäjän
+ 5. Käyttäjän sähköpostiin lähetetään 
 
 **Poikkeukset**
  
-* Kirjautuminen epäonnistuu
+* Uuden käyttäjän sähköpostiin ei lähde ilmoitusta luoduista tunnuksista
+* Tunnusten luonti epäonnistuu
 	
 **Lopputulos**	
 
-* Käyttäjän tila on muuttunut kirjautumattomasta kirjautuneeksi
+* Uusi käyttäjätunnus luodaan ja käyttäjää on infottu tunnuksista sähköpostilla
 
 **Käyttötiheys** 
 
-* Useita kertoja päivässä
+* Joitain kertoja kuukaudessa
 
 **Muuta**	
 
