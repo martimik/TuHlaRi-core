@@ -1,4 +1,4 @@
-# Ominaisuus 04 -Tietojen hakeminen
+# Ominaisuus 04 -Tuotteiden hakeminen
 
 | | |
 |:-:|:-:|
