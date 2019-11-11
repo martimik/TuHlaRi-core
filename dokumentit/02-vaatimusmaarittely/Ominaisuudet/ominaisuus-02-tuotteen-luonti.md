@@ -22,8 +22,6 @@ Käyttäjä pystyy luomaan uusia tuotteita.
 * Myyjänä haluan luoda uuden tuoteidean, koska se on työtäni
 * Product ownerina haluan luoda uuden tuotteen, koska se on työtäni
 
-#28 #32
-
 
 ### Käyttöliittymänäkymä/mock 
 
