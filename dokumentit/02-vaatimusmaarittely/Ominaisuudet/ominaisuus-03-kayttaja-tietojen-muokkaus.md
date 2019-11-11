@@ -1,4 +1,4 @@
-# Ominaisuus 03 - Tietojen muokkaus
+# Ominaisuus 03 - Käyttäjätietojen muokkaus
 
 | | |
 |:-:|:-:|
