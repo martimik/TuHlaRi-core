@@ -23,7 +23,7 @@ Käyttäjä pystyy muokkaamaan järjestelmästä löytyviä tietoja, esimerkiksi
 * Product Ownerina haluan päivittää tuotteeni tietoja, koska ne ovat vanhentuneet.
 * Myyjänä haluan muokata tuoteidean tietoja, koska ideani on kehittynyt entistä paremmaksi.
 
-#23 #25 #29
+#23 #25 
 
 
 ### Käyttöliittymänäkymä/mock 
