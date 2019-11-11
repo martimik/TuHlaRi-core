@@ -1,4 +1,4 @@
-# Use Case 2 Tuotteen tai tuotteiden hakeminen
+# Use Case 2 - Tuotteen tai tuotteiden hakeminen
 
 
 [![](http://img.youtube.com/vi/cCP8WcQ9dqE/0.jpg)](http://www.youtube.com/watch?v=cCP8WcQ9dqE "")
