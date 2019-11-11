@@ -1,4 +1,4 @@
-# Use Case 1 Tuotteen Syöttäminen
+# Use Case 1 - Uuden tuotteen luominen
 
 ## Use Case 
 
