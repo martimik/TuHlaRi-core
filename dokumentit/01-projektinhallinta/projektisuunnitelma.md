@@ -83,7 +83,7 @@ Projektin organisaation kuuluu yrityksen työntekijöitä ja toimeksiantajan edu
     * Kautto Elias - (puhnro) - L4177@student.jamk.fi
 * Yrityksen edustajat
     * Anssi Ylönen - (050 3843771) - anssi.ylonen@digia.com
-    * Markus Asikkainen - (puhnro) - (sähköposti)
+    * Markus Asikainen - (puhnro) - (sähköposti)
 
 **Projektiryhmä**
 
@@ -130,13 +130,15 @@ Projektin dokumentoinnissa teemme projektille vaatimusmäärittelyn sekä käymm
 
 Projektin edetessä koodaus vaiheeseen aloitamme back- ja frontend devauksen sekä käymme läpi kirjoittamiamme määrittelyjä jatkojalostaen niitä.
 
-## Askel 4. - Prototyyppi
+## Askel 4. - Prototyyppi - Demo 1
 
 Prototyyppi vaiheessa projektin ryhmällä on toimiva tuote joka voi peilata jo valmiin tuotteen toiminallisuutta antaen kuvaa sekä projektin jäsenille sekä asiakkaalle ja vastaaville tahoille tuotteen toimivuudesta.
+Esittelemme asiakkaalle/toimeksiantajalle karkeata demoa.
 
-## Askel 5. - Viimeistely
+## Askel 5. - Viimeistely - Demo 2
 
 Korjaamme mahdollisia löytyneitä bugeja jotka ovat ilmenneet joita ei vielä ole korjattu, hienostelemme myös tuotteen ulkonäköä tarvittaessa.
+Esittelemme asiakkaalle/toimeksiantajalle hiottua demoa.
 
 ## Askel 6. - Projektin lopetus
 
@@ -166,9 +168,11 @@ Dokumentointi tapahtuu Jyväskylän Ammattikorkeakoulun(JAMK) Gitlab palvelimell
 
 ## 4.4 Riskien hallinta
 
->Listataan riskit, arvioidaan niiden vakavuus ja todennäköisyys ja koetetaan miettiä toimenpiteet kuinka vakavimmat/todennäköisimmät riskit voitaisiin ehkäistä jo ennalta. Lisäksi olisi hyvä olla suunnitelma kuinka toimitaan, jos riski toteutuu.
-
->Liitä seuraava osio tähän mukaan: [Riskienhallintataulukko]()
+| Riski | Tyyppi | Kuvaus |	Hallinta |	 						
+|:-:|:-:|:-:|:-:|
+| RISK-001 | Tekninen | CSC ei toimi halutulla tavalla | Vaihdamme alustaa esimerkiksi Googlen-pilveen. |
+| RISK-002 | Henkilö | Ryhmän jäsen työkyvyttömänä sairauden tai muun vastaavan takia | Työstämme hommia vähintään 2 hengen ryhmissä jolloin vältytään tilanteilta ettei projekti etene |
+| RISK-003 | Henkilö | Toimeksiantaja tai vastaava taho on sairaana tai poissa työkuvioista projektinlopetus vaiheessa | Sovimme uuden ajan myöhemmälle ajankohdalle |
 
 
 ## 4.5 Katselmointikäytäntö
@@ -179,7 +183,7 @@ Katselmoinnit käydään läpi suullisesti.
 ## 4.6 Projektisuunnitelmaa täydentävät suunnitelmat
 
 * Vaatimusmäärittely
-* Projekti sopimus
+* Projektisopimus
 
 
 ## 4.7 Suunnitelmien tarkistus- ja päivitysajankohdat 
@@ -215,7 +219,7 @@ Jos projekti valmistuu etuajassa tulee toimeksiantajan hyväksyä projekti jollo
 
 ## 6.4 Lopetustilaisuus
 
-Projekti päätetään tuotteen luovutuksella asiakkaalle johon osallistuu projektiryhmän jäsenet ja Anssi Ylönen ja/tai Markus Asikkainen.
+Projekti päätetään tuotteen luovutuksella asiakkaalle johon osallistuu projektiryhmän jäsenet ja Anssi Ylönen ja/tai Markus Asikainen.
 
 Projektiin liittyen pidetään loppuseminaari JAMKin tiloissa 3.3.2020 johon osallistuu projektiryhmän jäsenet.
 
