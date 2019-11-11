@@ -1,11 +1,8 @@
 # Ominaisuus 01 -Kirjautuminen
 
-
 | | |
 |:-:|:-:|
 | Ominaisuus ID | FT01 |
-| Osajärjestelmä, mihin ominaisuus liittyy | xxx |
-| Ominaisuuden vastuuhenkilö | xxx |
 | Status | hyväksytty |
 
 ### Kuvaus
@@ -17,16 +14,16 @@ Käyttäjä pystyy kirjatutumaan järjestelmään omilla tunnuksillaan.
 
 * Käyttäjällä on oltava voimassaolevat tunnukset palveluun.
 
-| | |
-|:-:|:-:|
-| [Use Case 1](FT1-kayttotapaus.md) | |
-| [Vaatimus ReqID]() |  | 
-| [Vaatimus ReqID]() |  | 
-| [Vaatimus ReqID]() |  | 
+[Use-case kirjautuminen](FT1-kayttotapaus.md) 
 
 ### Alustavat käyttäjätarinat (User Storys)
 
-* Käyttäjänä haluan kirjautua sisään palveluun tunnuksillani.
+* Myyjänä haluan kirjautua sisään, koska en muuten näe kaikkia tuotteita.
+* Myyjänä haluan kirjautua sisään, jotta voin luoda uuden tuoteidean.
+* Myyjänä haluan kirjautua sisään, jotta voin muokata tuoteideaa.
+* Product ownerina haluan kirjautua sisään, jotta voin nähdä kaikki tuotteen tiedot.
+* Ylläpitäjänä haluan kirjautua sisään, jotta saan tarpeeksi oikeuksia tehdä ylläpitöön liittyviä tehtäviä
+* Jonain muuna käyttäjänä haluan kirjautua sisään, jotta voin nähdä salaisia tietoja
 
 #31
 
@@ -34,8 +31,6 @@ Käyttäjä pystyy kirjatutumaan järjestelmään omilla tunnuksillaan.
 ### Käyttöliittymänäkymä/mock 
 
 *Tähän kuva/mockup -linkki, joka liittyy oleellisesti ominaisuuteen/toiminnallisuuteen*
-
-![](https://openclipart.org/image/300px/svg_to_png/247488/1461589195.png)
 
 
 ### Testaus / mahdolliset hyväksyntä kriteerit 
@@ -49,8 +44,3 @@ Käyttäjä pystyy kirjatutumaan järjestelmään omilla tunnuksillaan.
 | [Testitapaus 3]()  | vaatimus id?   |   |
 | [Testitapaus 4]()  | vaatimus id?   |   |
 | | |
-
-
-
-
-
