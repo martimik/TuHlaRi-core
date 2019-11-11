@@ -9,30 +9,26 @@ Vaatimusmäärittely pohjan versio 1.1 - 24.4.2019
 * Elias Kautto - L4177
 * Markus Nylund - L5392
 * 2019
-* Versionumero 0.1
+* Versionumero 0.3
 
 ## Sisällysluettelo 
-
-**Pidä sisällysluettelo kunnossa, eli päivitä sitä tarpeen mukaan! Huomaa MarkDown-ankkurilinkitys**
 
 * [Johdatus](#Johdatus)
 * [Toimittaja](#Vaatimusmäärittelyn-toimittaja)
 * [Palvelukuvaus](#Palvelukuvaus)
 * [Yleinen sidosryhmäkuvaus]()
-* [Asiakastarina](#Johdatus)
-* [Sidosryhmät ja profiilikuvaukset]()
-* [Sidosryhmäkuva]()
-* [Palvelu/asiakaspolku]()
+* [Sidosryhmäkuva](#Yleinen-sidosryhmäkuva-(Stakeholder--Map))
+* [Valitut asikastarinat](#Valitut-asiakastarinat)
 * [Alustavat User Story -kuvaukset]()
 * [Yleinen käyttötapaus]()
 * [Yleiset toiminnalliset vaatimukset]()
 * [Yleiset ei-toiminnalliset vaatimukset]()
-* [Palvelu MockUp]()
-* [Tärkeimmät ominaisuudet]()
-* [Julkaisun suunnitelma]()
-* [Palvelun/ohjelmiston arkkitehtuuri]()
-* [Testaus ja laadunvarmistus]()
-* [Lähteet]()
+* [Palvelu MockUp](#Palvelu-MockUp-prototyyppi)
+* [Tärkeimmät ominaisuudet](#Tärkeimmät-tunnistetut-ominaisuudet/piirteet-(Features))
+* [Julkaisun suunnitelma](#Alustava-julkaisusuunnitelma)
+* [Palvelun/ohjelmiston arkkitehtuuri](#[Palvelun/ohjelmiston-arkkitehtuuri])
+* [Testaus ja laadunvarmistus](#Tunnistetut-riskit-ja-testikohteet)
+* [Lähteet](#Dokumentit,-standardit-ja-lähteet)
 
 ## Johdatus
 
@@ -82,11 +78,6 @@ skinparam usecase {
 
 ## Valitut sidosryhmät ja profiilit (Profiles/Stakeholders) 
 
->Valitaan aiemmin määritellystä sidosryhmäkuvauksesta tarkempaan tarkasteluun tärkeäksi koetut sidosryhmät/profiilit. Jokainen valittu sidosryhmä kuvataa itsenäisenä profiilikuvauksena ja tallennetaan omaksi tiedostokseen  
-
->Jokainen profiili kuvaus tallennetaan itsenäisenä tiedostona, koska tämä helpottaa tulevaisuudessa niihin viittaamista dokumentaatiossa esim. [Loppukäyttäjä - Keijo Korhonen](..pohjat/pohja-profiilikuvaus.md) 
-
-
 * [Pääkäyttäjä](profiilikuvaukset/profiilikuvaus-pääkäyttäjä.md)
 * [Myyjä](profiilikuvaukset/profiilikuvaus-myyja.md)
 * [Product owner](profiilikuvaukset/profiilikuvaus-po.md)
@@ -94,10 +85,6 @@ skinparam usecase {
 
 
 ## Valitut asiakastarinat
-
->Valitaan tarvittava määrä eri sidosryhmiä/profiileja ja kirjoitetaan auki valitulle profiilille/sidosryhmälle "asiakastarina". Tavoitteena on kuvata sitä, miten valittu profiili/sidosryhmä käytännössä hyödyntää palvelua. Tavoite ei ole kehua sitä vaan käydä läpi syitä palvelun käyttöön ja miten se auttaa ko. sidosryhmää/profiilia.
-
->Muista kirjoittaa tarina auki pelkästään valitun sidosryhmän näkökulmasta (toiset sidosryhmät saattavat esiintyä tarinassa)
 
 * [Myyjä tarina 1](digiateam/core#32): Myyjä haluaa nimetä tuotteelleen Product Ownerin
 * [General story 1](digiateam/core#31): Käyttäjä haluaa kirjautua palveluun
