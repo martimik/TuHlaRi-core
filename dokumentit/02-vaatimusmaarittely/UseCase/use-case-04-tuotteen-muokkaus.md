@@ -2,6 +2,13 @@
 
 ## Use Case 
 
+```plantuml
+
+:Product owner: --> (Tuotteen muokkaus) : Muokkaa tuotetta
+:Myyjä: --> (Tuotteen muokkaus) : Muokkaa tuoteideaa
+
+```
+
 * Laatija: Reko Meriö   
 * Päiväys: 11.11.2019
 * Prosessiosa-alue: ?

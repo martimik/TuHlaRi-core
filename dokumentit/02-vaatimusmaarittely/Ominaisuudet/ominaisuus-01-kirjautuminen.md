@@ -14,7 +14,7 @@ Käyttäjä pystyy kirjatutumaan järjestelmään omilla tunnuksillaan.
 
 * Käyttäjällä on oltava voimassaolevat tunnukset palveluun.
 
-[Use Case - kirjautuminen](FT1-kayttotapaus.md) 
+[Use Case - kirjautuminen](https://gitlab.labranet.jamk.fi/digiateam/core/blob/master/dokumentit/02-vaatimusmaarittely/UseCase/use-case-05-kirjautuminen.md) 
 
 ### Alustavat käyttäjätarinat (User Storys)
 

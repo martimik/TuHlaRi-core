@@ -14,7 +14,7 @@ Käyttäjä pystyy muokkaamaan järjestelmästä löytyviä tuotetietoja.
 * Käyttäjän tulee olla kirjautunut sisään
 * Käyttäjällä tulee olla oikeus tietojen muokkaamiseen.
 
-[Use Case - muokkaaminen](Use_Case_4_Paivittaminen(elinkaari).md) 
+[Use Case - muokkaaminen](https://gitlab.labranet.jamk.fi/digiateam/core/blob/master/dokumentit/02-vaatimusmaarittely/UseCase/use-case-04-tuotteen-muokkaus.md) 
 
 ### Alustavat käyttäjätarinat (User Storys)
 

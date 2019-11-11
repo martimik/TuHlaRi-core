@@ -16,7 +16,7 @@ Käyttäjä pystyy muokkaamaan järjestelmästä löytyviä tietoja, esimerkiksi
 * Käyttäjällä tulee olla oikeus tietojen poistamiseen.
 * Product owner ja myyjä eivät oikeasti poista tuotetta, vaan se piilotetaan.
 
-[Use Case - tuotteen poistaminen](Use_Case_4_Paivittaminen(elinkaari).md) 
+[Use Case - tuotteen poistaminen](https://gitlab.labranet.jamk.fi/digiateam/core/blob/master/dokumentit/02-vaatimusmaarittely/UseCase/use-case-03-tuotteen-poisto.md) 
 
 ### Alustavat käyttäjätarinat (User Storys)
 

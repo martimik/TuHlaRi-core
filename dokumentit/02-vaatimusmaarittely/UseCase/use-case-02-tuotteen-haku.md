@@ -3,7 +3,7 @@
 ## Use Case 
 
 ```plantuml
-:Käyttäjä:--(Tuotteiden hakeminen)
+:Käyttäjä:--(Tuotteiden hakeminen) : Hakee tuotteita
 ```
 
 

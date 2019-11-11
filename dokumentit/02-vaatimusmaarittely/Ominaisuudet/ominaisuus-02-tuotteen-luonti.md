@@ -14,7 +14,7 @@ Käyttäjä pystyy luomaan uusia tuotteita.
 * Käyttäjän tulee olla kirjautunut
 * Käyttäjällä tulee olla oikeus uuden tuotteen luontiin. 
 
-[Use Case - tuotteen luonti](Use_Case_4_Paivittaminen(elinkaari).md)
+[Use Case - tuotteen luonti](https://gitlab.labranet.jamk.fi/digiateam/core/blob/master/dokumentit/02-vaatimusmaarittely/UseCase/use-case-01-tuotteen-luonti.md)
 
 
 ### Alustavat käyttäjätarinat (User Storys)

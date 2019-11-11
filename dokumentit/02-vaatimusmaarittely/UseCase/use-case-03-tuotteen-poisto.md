@@ -2,6 +2,13 @@
 
 ## Use Case 
 
+
+```plantuml
+:Product owner: --> (Tuotteen poisto) : Poistaa tuotteen
+:Myyjä: --> (Tuotteen poisto) : Poistaa tuotteen
+
+```
+
 * Laatija: Reko Meriö   
 * Päiväys: 11.11.2019
 * Prosessiosa-alue: ?

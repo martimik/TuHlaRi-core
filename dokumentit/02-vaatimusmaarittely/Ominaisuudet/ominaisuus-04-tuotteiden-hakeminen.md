@@ -13,10 +13,7 @@ Käyttäjä pystyy hakemaan tuotetietoja järjestelmästä erilaisilla kriteerei
 
 * Eri käyttäjäryhmillä on erilaiset oikeudet tietojen näkemiseen. Jotkut tiedoista ovat salaisia tietyille käyttäjäryhmille.
 
-| | |
-|:-:|:-:|
-| [Use Case - hakeminen](Use_Case_2_Hakeminen.md) | Hakeminen |
-| [Use Case - raportointi](se_Case_5_Raportointi.md) | Raportointi |
+[Use Case - Tuotteiden hakeminen](https://gitlab.labranet.jamk.fi/digiateam/core/blob/master/dokumentit/02-vaatimusmaarittely/UseCase/use-case-02-tuotteen-haku.md)
 
 ### Alustavat käyttäjätarinat (User Storys)
 
