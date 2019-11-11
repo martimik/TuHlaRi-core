@@ -3,46 +3,46 @@
 # Projektisuunnitelma
 
 * [1. Toimeksianto](#1-Projektin-ja-lopputuotteen-kuvaus)
-    *  tausta ja lähtökohdat
-    *  tavoitteet ja tehtävät
-    *  rajaus ja liittymät sekä tulos
+    *  1.1 - Tausta ja lähtökohdat
+    *  1.2 - Tavoitteet ja tehtävät
+    *  1.3 - Rajaus ja liittymät sekä tulos
 
 * [2. Projektiorganisaatio](#2.Projektiorganisaatio)
-    * organisaation esittely
-    * vastuut ja päätöksentekoprosessi
+    * 2.1 - organisaation esittely
+    * 2.2 - vastuut ja päätöksentekoprosessi
 
 * [3. Projektin vaiheet ja taloudelliset tavoitteet](#3.Projektin-ajalliset-tavoitteet)
-    * tehtäväkokonaisuudet 
-    * osittelu ja vaiheistus
-    * välitulokset
-    * aikataulut ja resurssissuunnitelmat 
-    * budjetti
+    * 3.1 - tehtäväkokonaisuudet 
+    * 3.2 - osittelu ja vaiheistus
+    * 3.3 - välitulokset
+    * 3.4 - aikataulut ja resurssissuunnitelmat 
+    * 3.5 - budjetti
 
 * [4. Laadun varmistus](#4.Laadunvarmistus)
-    * menetelmät 
-    * standardit 
-    * hyväksymismenettely
-    * muutosten hallinta
-    * dokumentointi 
-    * katselmoinnit 
-    * riskien hallinta 
-    * muut täydentävät suunnitelmat
+    * 4.1 - menetelmät 
+    * 4.2 - standardit 
+    * 4.3 - hyväksymismenettely
+    * 4.4 - muutosten hallinta
+    * 4.5 - dokumentointi 
+    * 4.6 - katselmoinnit 
+    * 4.7 - riskien hallinta 
+    * 4.8 - muut täydentävät suunnitelmat
 
 * [5. Tiedonvälitys ja projektin etenemisen seuranta](#5.Tiedonvälitys-ja-projektin-etenemisen-seuranta-(viestintäsuunnitelma))
-    * projektin aloitus
-    * työtilat ja viestintävälineet
-    * palaverikäytäntö ja yhteydenpito
-    * raportointi ja tiedotus
-    * projektikansio
+    * 5.1 - projektin aloitus
+    * 5.2 - työtilat ja viestintävälineet
+    * 5.3 - palaverikäytäntö ja yhteydenpito
+    * 5.4 - raportointi ja tiedotus
+    * 5.5 - projektikansio
 
 * [6. Projektin päättyminen](#6.Projektin-päättyminen)
-    * luovutus
-    * käyttöönotto
-    * ylläpito
-    * projektin aineiston taltiointi
-    * arkistointi
-    * loppuraportti
-    * projektin virallinen päättäminen
+    * 6.1 - luovutus
+    * 6.2 - käyttöönotto
+    * 6.3 - ylläpito
+    * 6.4 - projektin aineiston taltiointi
+    * 6.5 - arkistointi
+    * 6.6 - loppuraportti
+    * 6.7 - projektin virallinen päättäminen
 
 ## 1 Projektin ja lopputuotteen kuvaus
 
@@ -83,9 +83,19 @@ Tässä myös täsmennetään ne tehtäväkokonaisuudet, jotka nyt tehtävään 
 
 Projektin organisaation kuuluu yrityksen työntekijöitä ja toimeksiantajan edustajat. 
 
+* Projektiryhmä edustajat
+    * Markus Nylund
+    * Reko Meriö
+    * Mikko Martikainen
+    * Kautto Elias
+
+* Yrityksen edustajat
+    * Annsi Ylönen
+    * Markus Asikkainen
+
 **Projektiryhmä**
 
-”Projektiryhmä suorittaa johtoryhmän projektille asettamat tehtävät käytettävissä olevien resurssien puitteissa.”
+Projektiryhmä suorittaa johtoryhmän projektille asettamat tehtävät käytettävissä olevien resurssien puitteissa.
 
 **Johtoryhmä**
 
@@ -93,44 +103,70 @@ Johtoryhmän muodostavat siihen valitut projektiryhmän jäsenet sekä toimeksia
 
 **Tukiryhmä**
 
+* Kuuva Pekka - (puhnro) - (M9015@student.jamk.fi)
+* Lindgren Sami - (puhnro) - (M9016@student.jamk.fi)
 
-* Kuuva Pekka - (puhnro) - (sähköposti)
-* Lindgren Sami - (puhnro) - (sähköposti)
-
-Tukiryhmän jäsenet työstävät lähinnä CI/CD Pipelineä gitlab ympäristöön.
+Tukiryhmän jäsenet työstävät CI/CD Pipelineä gitlab ympäristöön sekä toimivat konsultteina projektina alkuvaiheessa.
 
 ## 2.2 Vastuut ja päätöksentekoprosessi
 
-Tähän kirjataan kaikkien projektiorganisaatioon kuuluvien (esim. johtoryhmä, projektipäällikkö, sihteeri, ryhmä, ohjaajat) vastuut sekä päätöksentekoprosessi (esim. projektipäällikkö valmistelee ja esittää johtoryhmän päätettäväksi…).
+Projektin sisällä ei ole vastuita, toimimme luottamusperiaatteella.
 
 # 3. Projektin ajalliset tavoitteet	
 
 ## 3.1 Osittaminen ja vaiheistus
 
-Projektin osittamisella tarkoitetaan projektin jakamista selkeisiin osakokonaisuuksiin ja niitä vastaaviin toteutuskokonaisuuksiin (osaprojekteihin, vaiheisiin, tehtäväkokonaisuuksiin ja tehtäviin). Tutkimus- ja kehitysprojektien etenemiselle on tyypillistä lopputuloksen muodostuminen ja tavoitteen tarkentuminen vaihe vaiheelta. Projektin osituksen tulee perustua tähän lähtökohtaan (koskee myös IT-instituutin opiskelijaprojekteja). 
+* Askel 1. - Projektin aloitus
+* Askel 2. - Projektin dokumentointi
+* Askel 3. - Koodaus
+* Askel 4. - Prototyyppi
+* Askel 5. - Viimeistely
+* Askel 6. - Projektin lopetus
 
-Projektin elinkaari voidaan jakaa erityyppisiin vaiheisiin. Kussakin vaiheessa tuotetaan määrätyt tuotteet, kuten selvitys, suunnitelmat, prototyyppi, laite jne. Kunkin vaiheen loppuun sovitaan arviointi, hyväksyntä tai katselmointi.
 
-Ohjelmistoprojekti jakautuu tyypillisesti seitsemään vaiheeseen: perustaminen, esitutkimus, analyysi, suunnittelu, toteutus, testaus ja lopettaminen. Joskus esitutkimus on oma projektinsa, joskus analyysi sisällytetään suunnitteluun jne. Testaus ei välttämättä ole oma vaiheensa, vaan se sisältyy kaikkiin vaiheisiin.
+## Askel 1. - Projektin aloitus
 
-sein edetään inkrementaalisesti eli ensin suunnitellaan ja toteutetaan yksi asia kokonaisuudessaan ennen kuin edetään seuraavaan asiakokonaisuuteen. Ei ole yhtä ainutta ”oikeaa” vaihejakoa, mutta jos toimeksiantajalla on oma menetelmänsä ja siihen liittyvät mallipohjat, niin opiskelijaprojekteissa käytetään ensisijaisesti niitä. Yhä useammin käytetään ketterää sovelluskehitystä eli ohjelmisto tehdään 1-4 viikon sprinteissä.
+Projektin aloituksessa käymme läpi toimeksiantajan ongelmaa ja ratkaisupyyntöä.
 
-< Mitä vaiheita projekti sisältää? (Lyhyt kuvaus kustakin)> <Mitä tuloksia kustakin vaiheesta syntyy? >
+## Askel 2. - Projektin dokumentointi
 
-Seuraavassa käydään jokainen vaihe, niiden vaatimat aikaresurssit ja tulokset läpi lyhyesti. Vaiheet ja niiden tehtävät kuvataan tarkemmin vaihesuunnitelmissa. Parhaillaan meneillään olevasta vaiheesta tulee olla tiedossa tarkasti kuka tekee ja kuinka paljon työtä tämän vaiheen tehtävien suorittamiseksi. Myöhempien vaiheiden työmääräarviot voidaan esittää alkuvaiheessa karkealla tasolla, jota sitten projektin edetessä tarkennetaan yksityiskohtaiselle tasolle. Tämä tapahtuu jokaisen vaiheen lopussa, jolloin suunnitellaan tarkemmin seuraava vaihe.
+Projektin dokumentoinnissa teemme projektille vaatimusmäärrittelyn sekä käymme läpi vastaavia tarvittavia dokumentteja projektiin osallistuvien kanssa.
 
-Huom.: Seuraavassa on esitetty käynnistys- ja lopetusvaiheet. Kaikista projektin vaiheista, niiden kestoista ja työmääristä laaditaan myös nk. Gantt-kaavio (liitteenä), jossa näkyy myös vaiheiden väliset riippuvuudet ja tärkeimmät etapit (esim. johtoryhmän kokouspäivämäärät).
+## Askel 3. - Koodaus
 
-Käynnistys p.k.vvvv – p.k.vvvv (X h)
+Projektin edetessä koodaus vaiheeseen aloitamme back- ja frontend devauksen sekä käymme läpi kirjoittamiamme määrittelyjä jatkojalostaen niitä.
 
-Projektin käynnistämiseen kuuluu olennaisesti projektisuunnittelu ja suunnitteludokumenttien laatiminen sekä yhteydenpitokäytänteiden luominen toimeksiantajayrityksen kanssa. Vaiheen aikana tehdään esim. ryhmän webbisivut, tutustutaan tarkemmin toimeksiantoon, aloitetaan kohdealueeseen perehtyminen ja laaditaan projektisuunnitelma yhteistyössä toimeksiantajan edustajien kanssa. Vaiheen aikana muodostetaan johtoryhmä, pidetään 1. johtoryhmän kokous sekä allekirjoitetaan projektisopimus.
+## Askel 4. - Prototyyppi
+
+Prototyyppi vaiheessa projektin ryhmällä on "noin" toimiva tuote joka voi peilata jo valmiin tuotteen toiminallisuutta antaen kuvaa sekä projektin jäsenille sekä asikkaalle ja vastaaville tahoille tuotteen toimivuudesta.
+
+## Askel 5. - Viimeistely
+
+Korjaamme mahdollisia löytyneitä bugeja jotka ilmenneet testaus vaiheessa joita ei vielä ole korjattu, hienostelemme myös tuotteen ulkonäköä tarvittaessa.
+
+## Askel 6. - Projektin lopetus
+
+Projekti ryhmä laattii loppuraportin. Projektiryhmä esittää tuotteen asiakkalle sekä projektin tuotos luovutetaan asiakkaalle. Projektiryhmä pitää myös viimeisen kokousen toimeksiantajan ja vastaavien tahojen kanssa.
+
+
+> Projektin elinkaari voidaan jakaa erityyppisiin vaiheisiin. Kussakin vaiheessa tuotetaan määrätyt tuotteet, kuten selvitys, suunnitelmat, prototyyppi, laite jne. Kunkin vaiheen loppuun sovitaan arviointi, hyväksyntä tai katselmointi.
+
+>sein edetään inkrementaalisesti eli ensin suunnitellaan ja toteutetaan yksi asia kokonaisuudessaan ennen kuin edetään seuraavaan asiakokonaisuuteen. Ei ole yhtä ainutta ”oikeaa” vaihejakoa, mutta jos toimeksiantajalla on oma menetelmänsä ja siihen liittyvät mallipohjat, niin opiskelijaprojekteissa käytetään ensisijaisesti niitä. Yhä useammin käytetään ketterää sovelluskehitystä eli ohjelmisto tehdään 1-4 viikon sprinteissä.
+
+>Seuraavassa käydään jokainen vaihe, niiden vaatimat aikaresurssit ja tulokset läpi lyhyesti. Vaiheet ja niiden tehtävät kuvataan tarkemmin vaihesuunnitelmissa. Parhaillaan meneillään olevasta vaiheesta tulee olla tiedossa tarkasti kuka tekee ja kuinka paljon työtä tämän vaiheen tehtävien suorittamiseksi. Myöhempien vaiheiden työmääräarviot voidaan esittää alkuvaiheessa karkealla tasolla, jota sitten projektin edetessä tarkennetaan yksityiskohtaiselle tasolle. Tämä tapahtuu jokaisen vaiheen lopussa, jolloin suunnitellaan tarkemmin seuraava vaihe.
+
+>Huom.: Seuraavassa on esitetty käynnistys- ja lopetusvaiheet. Kaikista projektin vaiheista, niiden kestoista ja työmääristä laaditaan myös nk. Gantt-kaavio (liitteenä), jossa näkyy myös vaiheiden väliset riippuvuudet ja tärkeimmät etapit (esim. johtoryhmän kokouspäivämäärät).
+
+>Käynnistys p.k.vvvv – p.k.vvvv (X h)
+
+>Projektin käynnistämiseen kuuluu olennaisesti projektisuunnittelu ja suunnitteludokumenttien laatiminen sekä yhteydenpitokäytänteiden luominen toimeksiantajayrityksen kanssa. Vaiheen aikana tehdään esim. ryhmän webbisivut, tutustutaan tarkemmin toimeksiantoon, aloitetaan kohdealueeseen perehtyminen ja laaditaan projektisuunnitelma yhteistyössä toimeksiantajan edustajien kanssa. Vaiheen aikana muodostetaan johtoryhmä, pidetään 1. johtoryhmän kokous sekä allekirjoitetaan projektisopimus.
 ”Vaiheen tuloksia ovat ryhmän imagon (nimi, logo ym.) luominen, webbisivut tms. sekä projektisopimus liitteineen.”
 
 <Tähän oman projektinne vaiheet ja tehtävät>
 
 Lopetus p.k.vvvv – p.k.vvvv (X h)
 
-”Lopettamisvaihe sisältää projektin päättämiseen liittyvät toimenpiteet. Vaiheen aikana projektiryhmä laatii projektin loppuraportin ja esityksen johtoryhmälle. Vaiheen aikana luovutetaan projektin tulos toimeksiantajalle, pidetään viimeinen johtoryhmän kokous viikolla X sekä puretaan projektin organisaatio. Lopettamisvaiheen tuloksena on projektin loppuraportti.”
+
 
 ```mermaid
 gantt
@@ -192,7 +228,7 @@ Tässä kohdassa mainitaan, mitä täydentäviä suunnitelmia on käytettäviss�
 * 
 
 
-##4.7 Suunnitelmien tarkistus- ja päivitysajankohdat 
+## 4.7 Suunnitelmien tarkistus- ja päivitysajankohdat 
 
 Projektisuunnitelman avulla reagoidaan poikkeamiin ja ympäristömuutoksiin, joten sitä päivitetään projektin aikana. Tähän kohtaan kirjataan ne ajankohdat, jolloin suunnitelman ajantasaisuus ainakin on tarkistettava.
 
@@ -231,7 +267,7 @@ Yleensä projektit päätetään yhteiseen päätösseminaariin. Tähän kirjata
 
 Projektin loppuraportti laaditaan viimeiseen johtoryhmän kokoukseen mennessä.
 
-##Liitteet
+## Liitteet
 
 Projektisuunnitelmaa täydentävät suunnitelmat esitetään liitteenä.
 
