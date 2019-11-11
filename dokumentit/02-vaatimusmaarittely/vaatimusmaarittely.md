@@ -460,9 +460,8 @@ Seuraavassa julkaisussa on mukana muutamia parannettuja ominaisuuksia, jotka ova
 | [Feature 7]() | 1.1 | x.y.201z | x+2,y+3.201z |
 
 
-# Palvelun/ohjelmiston arkkitehtuuri 
+# [Palvelun/ohjelmiston arkkitehtuuri](https://gitlab.labranet.jamk.fi/digiateam/core/blob/master/dokumentit/03-suunnittelu-ja-toteutus/arkkitehtuuri-ja-tekninentoteutus.md) 
 
->Millainen on tekninen toteutus ja miten eri teknologioita tullaan hyödyntämään. 
 
 
 ## Yleinen sijoittelunäkymä (Deployment diagram )
