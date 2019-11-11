@@ -86,7 +86,6 @@ skinparam usecase {
 
 >Jokainen profiili kuvaus tallennetaan itsenäisenä tiedostona, koska tämä helpottaa tulevaisuudessa niihin viittaamista dokumentaatiossa esim. [Loppukäyttäjä - Keijo Korhonen](..pohjat/pohja-profiilikuvaus.md) 
 
-**Muista kirjata kuvauksiin erityisesti sidosryhmän motivaatio! Eli miksi sidosryhmä syy käyttää/soveltaa palvelua**
 
 * [Pääkäyttäjä](profiilikuvaukset/profiilikuvaus-pääkäyttäjä.md)
 * [Myyjä](profiilikuvaukset/profiilikuvaus-myyja.md)
@@ -258,9 +257,6 @@ Tuotteita pitää pystyä selaamaan ja hakemaan käyttäjien oikeuksien mukaises
 
 ## Ohjelmiston/palvelun tekniset vaatimukset 
 
-
-**Teknisiä järjestelmävaatimuksia**
-
 | VaatimusID | Tyyppi | Kuvaus | Ominaisuus johon vaikuttaa |								
 |:-:|:-:|:-:|:-:|
 | SYSTEM-HW-REQ-0001 | System Technical Requirement | Back-endin tulee olla Docker kontissa |  |
@@ -276,7 +272,6 @@ Tuotteita pitää pystyä selaamaan ja hakemaan käyttäjien oikeuksien mukaises
 | Id | Vaatimuksen kuvaus | kategoria | Vastuullinen |
 |:-:|:-:|:-:|:-:|
 | CONSTRAINT-REQ-S0001 | Constrain | Palvelun tulee noudattaa GDPR:ää | [Kirjautuminen ft1](ft1-ominaisuus.md) |
-
 
 ## Toiminnalliset vaatimukset (Functional Requirements)
 
@@ -296,8 +291,6 @@ Tuotteita pitää pystyä selaamaan ja hakemaan käyttäjien oikeuksien mukaises
 
 ## Palveluun liittyvät tärkeimmät ei-toiminnalliset vaatimukset (Non Functional Requirements)
 
->[Ei-toiminnalliset vaatimukset](https://en.wikipedia.org/wiki/Non-functional_requirement) sisältää laajan joukko eri näkökulmia ohjelmiostotuotteeseen liittyen. Tärkeimmät kirjoittajan näkökulmasta ovat seuraavat: Suorituskyky, käytettävyys, tietoturva ja ylläpidettävyys 
-
 | VaatimusID | Tyyppi | Kuvaus | Ominaisuus johon vaikuttaa |								
 |:-:|:-:|:-:|:-:|
 | NON-FUNCTIONAL-REQ-C0001 | Non-Functional Requirement | Käyttäjä voi kirjautua palveluun omilla tunnuksillaan. | [Kirjautuminen ft1](ft1-ominaisuus.md) |
@@ -306,10 +299,6 @@ Tuotteita pitää pystyä selaamaan ja hakemaan käyttäjien oikeuksien mukaises
 
 ### Suorituskyky? (Performance)
 
->Voit esittää eri vaatimuksia erillisessä taulukossa tai viitata tässä [yhteen](pohjat/pohja-vaatimuslistalle.md) laajempaan taulukkoon..
-Miten hyvin palvelu/komponentti tai muu osa-alue palvelusta suoriutuu kuormituksen aikana? Mitkä ovat pullonkaulat. Mihin vaatimuksiin palvelun tulee kyetä vastaamaan?
-
-
 | VaatimusID | Tyyppi | Kuvaus | Ominaisuus johon vaikuttaa |								
 |:-:|:-:|:-:|:-:|
 | PERFORMANCE-REQ-0001 | Non-Functional Performance | Kirjautumisen on oltava mahdollista yhtäaikaa 100 käyttäjällä (100 request/s) | [Kirjautuminen ft1](ft1-ominaisuus.md) |
@@ -317,9 +306,6 @@ Miten hyvin palvelu/komponentti tai muu osa-alue palvelusta suoriutuu kuormituks
 
 
 ### Tietoturva?
-
->Voit esittää eri vaatimuksia erillisessä taulukossa tai viitata tässä [yhteen](pohjat/pohja-vaatimuslistalle.md) laajempaan taulukkoon..
-
 
 | VaatimusID | Tyyppi | Kuvaus | Ominaisuus johon vaikuttaa |								
 |:-:|:-:|:-:|:-:|
@@ -335,10 +321,6 @@ Miten hyvin palvelu/komponentti tai muu osa-alue palvelusta suoriutuu kuormituks
 
 ### Käytettävyys
 
->Voit esittää eri vaatimuksia erillisessä taulukossa tai viitata tässä [yhteen](pohjat/pohja-vaatimuslistalle.md) laajempaan taulukkoon..
-[Käytettävyys](https://fi.wikipedia.org/wiki/K%C3%A4ytett%C3%A4vyys)
-
-
 | VaatimusID | Tyyppi | Kuvaus | Ominaisuus johon vaikuttaa |								
 |:-:|:-:|:-:|:-:|
 | USABILITY-REQ-0000 | Non-Functional Usability | Käyttöliittymän tulee olla suoraviivainen |  [Kirjautuminen ft1](ft1-ominaisuus.md) | |	
@@ -350,9 +332,6 @@ Miten hyvin palvelu/komponentti tai muu osa-alue palvelusta suoriutuu kuormituks
 
 ### Testattavuus/Ylläpidettävyys
 
->Voit esittää eri vaatimuksia erillisessä taulukossa tai viitata tässä [yhteen](pohjat/pohja-vaatimuslistalle.md) laajempaan taulukkoon..
-[Lisätietoa](https://fi.wikipedia.org/wiki/Ohjelmiston_laatu)
-
 | VaatimusID | Tyyppi | Kuvaus | Ominaisuus johon vaikuttaa |								
 |:-:|:-:|:-:|:-:|
 | TESTABILITY-REQ-0000 | Non-Functional Testability | Jokaisella napilla on oltava uniikki id ||	
@@ -361,8 +340,6 @@ Miten hyvin palvelu/komponentti tai muu osa-alue palvelusta suoriutuu kuormituks
 | TESTABILITY-REQ-0003 | Non-Functional Testability |||	
 | TESTABILITY-REQ-0004 | Non-Functional Testability |||	
 | TESTABILITY-REQ-0005 | Non-Functional Testability |||
-
->Tähän kirjataan vaatimuksia, joiden merkitys tulee esiin vasta tuotteen julkaisun jälkeen. Miten tuotteen ylläpidettävyyttä parannetaan? Mitä pitää ottaa huomioon, että ylläpidettävyys on helpompaa
 
 | Id | Vaatimuksen kuvaus | kategoria | Vastuullinen |
 |:-:|:-:|:-:|:-:|
@@ -374,12 +351,6 @@ Miten hyvin palvelu/komponentti tai muu osa-alue palvelusta suoriutuu kuormituks
 
 
 ## Tärkeimmät tunnistetut ominaisuudet/piirteet (Features)
-
->>Kannataa pohtia määrittely vaiheessa ovatko kaikki ominaisuudet tarpeellisia? Osa toiminnallisista vaatimuksista on oletuksena ominaisuuksia. Kannattaa pyrkiä ryhmittelemään tärkeimmät ominaisuudet ensin.
-Ominaisuuksia voidaa tarkentaa toiminnallisilla vaatimuksilla, jotka ns. laajentavat ominaisuuden kuvausta. Ominaisuudet ovat käytännössä isompia kokonaisuuksia, joista koko palvelu/ohjelmisto on muodostunut.
-Suomenkielen sana ominaisuus saattaa olla hieman harhaan johtava, koska usein tuotteita esiteltäessä pyritään korostamaan tuotteen ominaisuutena sen "tietoturvallisutta". 
-Tämä ei tarkoita, että kyseessä on tuoteeen ohjelmiston yksi ominaisuus vaan yleinen "suunnittelu filosofia". Tuote voi sisältää ominaisuuksia, joiden myötä sitä voidaan kutsua voidaan tietoturvalliseksi.
-
 
 | Ominaisuus | Prioriteetti | Muuta |
 | :-: | :-: | :-: |
