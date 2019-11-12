@@ -355,11 +355,6 @@ https://www.figma.com/proto/B19e7eZ0SGsRlZsf30vf9g/Untitled?node-id=0%3A1&scalin
 
 ## Hyväksyntätestit
 
->Kiinnitetään alustavat hyväksyntätestit vaatimuksiin taulukon muodossa.
-
->Hyväksyntätesteissä keskitytään yleisesti asiakkaan/loppukäyttäjän näkökulmaan. Tavoitteena on kelpuuttaa, eli validoida , onko tuote asiakkaan toiveiden mukainen ja täyttääkö se asetetut vaatimukset.
-Hyväksyntätesteillä voidaan selvittää onko tuote myös riittävän suorituskykyinen, käytettävä tai tietoturvallinen asiakkaiden käyttötarkoitukseen. 
-
 
 | VaatimusID | Testitapaus | Kuvaus |  |								
 |:-:|:-:|:-:|:-:|
@@ -370,52 +365,38 @@ Hyväksyntätesteillä voidaan selvittää onko tuote myös riittävän suoritus
 
 ## Alustava julkaisusuunnitelma
 
-
-> Julkaisusuunnitelman visualisoidulla muodolla on helpompi esittää ominaisuuksien julkaisut kehityksen aikanan.
-Alla oleva kuva on luotu käyttäen PlantUML-työkalua. Sen avulla on luoto ns. Gantt-kaavio ominaisuuksien julkaisuajankohdista.
-
-**Huomio** Alla oleva julkaisusuunnitelman kuva ei näy oikein vaatimusmäärittelydokumentin verkkojulkaisu-sivulla
-
->Oletamme, että tuotteessa on muutamia ominaisuuksia, joiden järjestys on mietitty ennakkoon..
-
 ```plantuml
 Project starts the 2019-11-4
 [Project time] Starts 2019-11-4 and ends 2020-2-28
+[Documentation] Starts 2019-11-4 and ends 2019-11-17
+[Coding] Starts 2019-11-18 and ends 2020-2-11
+[Testing] Starts 2019-11-25 and ends 2020-2-18
+[End documentation] Starts 2020-2-18 and ends 2020-2-28
 ```
 
 ## Julkaistavat tuotekokonaisuudet (Konfiguraatio)
 
->Tuotteen/ohjelmiston eri ominaisuuksista kehitetään usein eri versioita ja tämä johtaa usein erilaisiin tuotekokonaisuuksiin. Puhutaan ns. tuotekonfiguraatiosta, jonka avulla pyritään kiinnittämään eri 
-ohjelmiston ominaisuusversiot yhteen version. 
-
 Seuraavassa taulukossa on esitelty eri versioissa julkaistavat ominaisuudet taulukon muodossa. 
 
-
-**Julkaisu "EarlyAdopter - Versio 1.0"**
+**Demo 1**
 
 | Ominaisuus | Versio | Testattavissa | Julkaistaan |
 |:-:|:-:|:-:|:-:|
-| [Feature 1]() | 1.0 | x.y.201z | x+2,y+3.201z |
-| [Feature 2]() | 1.0 | x.y.201z | x+2,y+3.201z |
-| [Feature 3]() | 1.1 | x.y.201z | x+2,y+3.201z |
-| [Feature 4]() | 1.1 | x.y.201z | x+2,y+3.201z |
-| [Feature 5]() | 2.3 | x.y.201z | x+2,y+3.201z |
-| [Feature 6]() | 0.9 | x.y.201z | x+2,y+3.201z |
-| [Feature 7]() | 1.1 | x.y.201z | x+2,y+3.201z |
+| [Kirjautuminen]() | 1.0 | - | - |
+| [Tuotteen luonti]() | 1.0 | - | - |
+| [Tuotteen hakeminen]() | 1.1 | - | - |
+| [Käyttäjän luonti]() | 1.1 | - | - |
 
 Seuraavassa julkaisussa on mukana muutamia parannettuja ominaisuuksia, jotka ovat kehittyneet eteenpäin. Näistä on valittu sopiva kokonaisuus asiakas julkaisuun.
 
-**Julkaisu "Enhanced - Versio 1.1"**
+**Demo 2**
 
 | Ominaisuus | Versio | Testattavissa | Julkaistaan |
 |:-:|:-:|:-:|:-:|
-| [Feature 1]() | 1.1 | x.y.201z | x+2,y+3.201z |
-| [Feature 2]() | 1.1 | x.y.201z | x+2,y+3.201z |
-| [Feature 3]() | 1.2 | x.y.201z | x+2,y+3.201z |
-| [Feature 4]() | 1.4 | x.y.201z | x+2,y+3.201z |
-| [Feature 5]() | 2.6 | x.y.201z | x+2,y+3.201z |
-| [Feature 6]() | 1.2 | x.y.201z | x+2,y+3.201z |
-| [Feature 7]() | 1.1 | x.y.201z | x+2,y+3.201z |
+| [Tuotteen muokkas]() | 2.0 | - | - |
+| [Käyttäjätietojen muokkaus]() | 2.1 | - | - |
+| [Tuotteen poistaminen]() | 2.1 | - | - |
+
 
 
 # [Palvelun/ohjelmiston arkkitehtuuri](https://gitlab.labranet.jamk.fi/digiateam/core/blob/master/dokumentit/03-suunnittelu-ja-toteutus/arkkitehtuuri-ja-tekninentoteutus.md) 
@@ -423,8 +404,6 @@ Seuraavassa julkaisussa on mukana muutamia parannettuja ominaisuuksia, jotka ova
 
 
 ## Yleinen sijoittelunäkymä (Deployment diagram )
-
->Sijoittelunäkyvän avulla voi kuvata miten eri palvelu osat toimivat sen ollessa toiminnassa. 
 
 ### Tietokantakuvaus (Database ER-diagram)
 
@@ -505,12 +484,7 @@ __ Encrypted __
 * Salaisia tietoja näkyy henkilöille, joilla ei ole valtuuksia niiden näkemiseen.
 * Käyttäjällä on liikaa oikeuksia
 
-**Työkalu esimerkki**
-
-* SWOT -analyysi?
-
-
-### Dokumentit, standardit ja lähteet
+## Dokumentit, standardit ja lähteet
 
 
 **Lähteet/Standardit/Suositukset**
