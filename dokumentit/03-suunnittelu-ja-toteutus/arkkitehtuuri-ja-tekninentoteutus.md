@@ -70,10 +70,38 @@ Eli miten nuo eri ympäristöt on toteutettu ko. projektissa
 
 ```plantuml
 
+skinparam databaseBackgroundColor SpringGreen
+
+skinparam interface {
+  backgroundColor MediumPurple
+  borderColor Purple
+}
+
+skinparam component {
+	backgroundColor Lime
+	borderColor Green
+	ArrowColor DarkViolet
+}
+
+skinparam frame {
+	backgroundColor GreenYellow
+}
+
+skinparam entity { 
+    backgroundColor MediumSpringGreen
+    borderColor GreenYellow
+}
+
+skinparam node {
+	borderColor Green
+	backgroundColor MediumSpringGreen
+    backgroundColor<<API>> SpringGreen
+}
+
 interface dbAccess as "Database access"
 interface apiAccess as "HTTPS"
   
-node API
+node API <<API>> as "API (NodeJS)"
 
 node product
 node user
@@ -106,8 +134,8 @@ product -- deleteP
 product -- editP
 
 
-node "App" {
-   [Axios]   
+node "App (React)" {
+   [Axios]
 }
   
 
