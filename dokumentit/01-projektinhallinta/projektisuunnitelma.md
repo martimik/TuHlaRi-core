@@ -39,7 +39,7 @@
 
 ## 1 Projektin ja lopputuotteen kuvaus
 
-> ”Tässä dokumentissa kuvataan X-projektin taustaa, tavoitteita, tehtäviä, vaihejakoa, resursseja ja organisaatiota. Vaihejaon yhteydessä on kuvattu jokainen vaihe erikseen lyhyesti.”
+Lopputuotteeksi tulee Tuhlari niminen sovellus josta voidaan hakea eri projekteista erilaisia tietoja.
 
 ## 1.1 Tausta ja lähtökohdat
 
@@ -78,9 +78,15 @@ Projektin organisaation kuuluu yrityksen työntekijöitä ja toimeksiantajan edu
 
 * Projektiryhmä jäsenet
     * Markus Nylund - 0400 395 715 - L5392@student.jamk.fi
+<<<<<<< HEAD
     * Reko Meriö - (044 5267881) - K9260@student.jamk.fi
     * Mikko Martikainen  - () - K8936@student.jamk.fi
     * Kautto Elias - (045 1337582) - L4177@student.jamk.fi
+=======
+    * Reko Meriö - (044 5267881) - K9260@student.jamk.fi
+    * Mikko Martikainen  - 040 717 8658 - K8936@student.jamk.fi
+    * Kautto Elias - (045 1337582) - L4177@student.jamk.fi
+>>>>>>> 0df3ea8c275dd97ec78e358fab1ccf703f0639d9
 * Yrityksen edustajat
     * Anssi Ylönen - (050 3843771) - anssi.ylonen@digia.com
     * Markus Asikainen - (puhnro) - (sähköposti)
@@ -199,8 +205,6 @@ Projektin työstäminen keskeytetään jos jokainen projektiryhmän jäsen jätt
 Projektiryhmä sekä tukihenkilöt kommunikoivat Microsoft Teams sovelluksen kautta.
 Toimeksiantajalle ja vastaavalle taholle viestintään on tähän mennessä käytetty sähköpostia.
 
-Listaa projektissa sovitut työtilat ja viestintävälineet, palaverikäytäntö ja yhteydenpito, raportointi ja tiedotus.
-
 # 6. Projektin päättyminen
 
 ## 6.1 Lopputuotteen luovutus, käyttöönotto
@@ -230,4 +234,3 @@ Projektin loppuraportti laaditaan lopetustilaisuuteen mennessä.
 ## Liitteet
 
 Projektisuunnitelmaa täydentävät suunnitelmat esitetään liitteenä.
-
