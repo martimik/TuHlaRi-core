@@ -258,94 +258,86 @@ Tuotteita pitää pystyä selaamaan ja hakemaan käyttäjien oikeuksien mukaises
 
 | Id | Vaatimuksen kuvaus | kategoria | Vastuullinen |
 |:-:|:-:|:-:|:-:|
-| CONSTRAINT-REQ-S0001 | Constrain | Palvelun tulee noudattaa GDPR:ää | [Kirjautuminen ft1](ft1-ominaisuus.md) |
+| CONSTRAINT-REQ-S0001 | Constrain | Palvelun tulee noudattaa GDPR:ää |  |
 
 ## Toiminnalliset vaatimukset (Functional Requirements)
 
 | VaatimusID | Tyyppi | Kuvaus | Ominaisuus johon vaikuttaa |								
 |:-:|:-:|:-:|:-:|
-| FUNCTIONAL-REQ-C0001 | Functional Requirement | Käyttäjä voi kirjautua palveluun omilla tunnuksillaan. | [Kirjautuminen ft1](ft1-ominaisuus.md) |
-| FUNCTIONAL-REQ-C0002 | Functional Requirement | Pääkäyttäjä voi lisätä uusia käyttäjiä ||
-| FUNCTIONAL-REQ-C0003 | Functional Requirement | Pääkäyttäjä voi muokata käyttäjien tietoja ||
-| FUNCTIONAL-REQ-C0004 | Functional Requirement | Pääkäyttäjä voi palauttaa piilotetun tuotteen ||
-| FUNCTIONAL-REQ-C0005 | Functional Requirement | Myyjä voi lisätä tuoteidean ||
-| FUNCTIONAL-REQ-C0006 | Functional Requirement | Myyjä ja PO voi etsiä tuotteita rekisteristä. ||
-| FUNCTIONAL-REQ-C0007 | Functional Requirement | Myyjä voi muokata tuoteideoidensa tietoja. ||
-| FUNCTIONAL-REQ-C0008 | Functional Requirement | PO voi lisätä tuotteen eli hyväksyä tuoteidean. ||
-| FUNCTIONAL-REQ-C0009 | Functional Requirement | PO voi muokata tuotteidensa tietoja. ||
-| FUNCTIONAL-REQ-C0010 | Functional Requirement | PO voi poistaa eli piilottaa tuotteen. ||
-| FUNCTIONAL-REQ-C0011 | Functional Requirement | Käyttäjä voi etsiä julkisia tuotteita palvelusta ||
+| FUNCTIONAL-REQ-C0001 | Functional Requirement | Käyttäjä voi kirjautua palveluun omilla tunnuksillaan. | [Kirjautuminen](dokumentit/02-vaatimusmaarittely/Ominaisuudet/ominaisuus-01-kirjautuminen.md) |
+| FUNCTIONAL-REQ-C0002 | Functional Requirement | Pääkäyttäjä voi lisätä uusia käyttäjiä | [Käyttäjän luominen](Ominaisuudet/ominaisuus-07-kayttajan-luominen.md) |
+| FUNCTIONAL-REQ-C0003 | Functional Requirement | Pääkäyttäjä voi muokata käyttäjien tietoja | [Käyttäjätietojen muokkaaminen](Ominaisuudet/ominaisuus-03-kayttajatietojen-muokkaus.md) |
+| FUNCTIONAL-REQ-C0004 | Functional Requirement | Pääkäyttäjä voi palauttaa piilotetun tuotteen | [Tuotteen poistaminen](Ominaisuudet/ominaisuus-05-tuotteen-poistaminen.md) |
+| FUNCTIONAL-REQ-C0005 | Functional Requirement | Myyjä voi lisätä tuoteidean | [Tuotteen luonti](Ominaisuudet/ominaisuus-02-tuotteen-luonti.md) |
+| FUNCTIONAL-REQ-C0006 | Functional Requirement | Myyjä ja PO voi etsiä tuotteita rekisteristä. | [Tuotteen hakeminen](Ominaisuudet/ominaisuus-04-tuotteiden-hakeminen.md) |
+| FUNCTIONAL-REQ-C0007 | Functional Requirement | Myyjä voi muokata tuoteideoidensa tietoja. | [Tuotteen muokkaaminen](Ominaisuudet/ominaisuus-06-tuotteen-muokkaaminen.md) |
+| FUNCTIONAL-REQ-C0008 | Functional Requirement | PO voi lisätä tuotteen eli hyväksyä tuoteidean. | [Tuotteen muokkaaminen](Ominaisuudet/ominaisuus-06-tuotteen-muokkaaminen.md) |
+| FUNCTIONAL-REQ-C0009 | Functional Requirement | PO voi muokata tuotteidensa tietoja. | [Tuotteen muokkaaminen](Ominaisuudet/ominaisuus-06-tuotteen-muokkaaminen.md) |
+| FUNCTIONAL-REQ-C0010 | Functional Requirement | PO voi poistaa eli piilottaa tuotteen. | [Tuotteen poistaminen](Ominaisuudet/ominaisuus-05-tuotteen-poistaminen.md) |
+| FUNCTIONAL-REQ-C0011 | Functional Requirement | Käyttäjä voi etsiä julkisia tuotteita palvelusta | [Tuotteen hakeminen](Ominaisuudet/ominaisuus-04-tuotteiden-hakeminen.md) |
 
 ## Palveluun liittyvät tärkeimmät ei-toiminnalliset vaatimukset (Non Functional Requirements)
 
 | VaatimusID | Tyyppi | Kuvaus | Ominaisuus johon vaikuttaa |								
 |:-:|:-:|:-:|:-:|
-| NON-FUNCTIONAL-REQ-C0001 | Non-Functional Requirement | Käyttäjä voi kirjautua palveluun omilla tunnuksillaan. | [Kirjautuminen ft1](ft1-ominaisuus.md) |
-| NON-FUNCTIONAL-REQ-C0002 | Non-Functional Requirement | Pääkäyttäjä voi lisätä uusia käyttäjiä ||
+| NON-FUNCTIONAL-REQ-C0001 | Non-Functional Requirement | Kirjautuessa käyttäjään yhdistetään varmenne | [Kirjautuminen](dokumentit/02-vaatimusmaarittely/Ominaisuudet/ominaisuus-01-kirjautuminen.md) |
+| NON-FUNCTIONAL-REQ-C0002 | Non-Functional Requirement | Tuotetta lisättäessä tulee käyttäjälle ilmoittaa, jos pakolliseksi merkattu kenttä on tyhjä | [Tuotteen luonti](Ominaisuudet/ominaisuus-02-tuotteen-luonti.md) |
+| NON-FUNCTIONAL-REQ-C0003 | Non-Functional Requirement | Kirjautuessa tulee käyttäjälle ilmoittaa, jos salasana ja käyttäjätunnus eivät täsmää | [Kirjautuminen](dokumentit/02-vaatimusmaarittely/Ominaisuudet/ominaisuus-01-kirjautuminen.md) |
 
-
-### Suorituskyky? (Performance)
-
-| VaatimusID | Tyyppi | Kuvaus | Ominaisuus johon vaikuttaa |								
-|:-:|:-:|:-:|:-:|
-| PERFORMANCE-REQ-0001 | Non-Functional Performance | Kirjautumisen on oltava mahdollista yhtäaikaa 100 käyttäjällä (100 request/s) | [Kirjautuminen ft1](ft1-ominaisuus.md) |
-| PERFORMANCE-REQ-0002 | Non-Functional Performance | Hakutulosten tulee löytyä alle 2 sekunnissa ||
-
-
-### Tietoturva?
+### Suorituskyky (Performance)
 
 | VaatimusID | Tyyppi | Kuvaus | Ominaisuus johon vaikuttaa |								
 |:-:|:-:|:-:|:-:|
-| SECURITY-REQ-0001 | Non-Functional Security | Salasanassa on käytettävä vähintään MD5-tason salausta | [Kirjautuminen ft1](ft1-ominaisuus.md) |								
-| SECURITY-REQ-0002 | Non-Functional Security | Salasanan pituuden tulee olla vähintään 6 merkkiä ||
-| SECURITY-REQ-0003 | Non-Functional Security | Salasanassa tulee olla vähintään yksi numero ||
-| SECURITY-REQ-0004 | Non-Functional Security | Salasanassa tulee olla vähintään yksi iso kirjain ||
-| SECURITY-REQ-0005 | Non-Functional Security | Salasanassa tulee olla vähintään yksi pieni kirjain ||
-| SECURITY-REQ-0006 | Non-Functional Security | Yhteyden tulee olla salattu (HTTPS) ||
-| SECURITY-REQ-0007 | Non-Functional Security | Käyttäjä ei saa nähdä häneltä salattuja tietoja ||
-| SECURITY-REQ-0008 | Non-Functional Security | Käyttäjän antama data täytyy tarkistaa SQL-injektioiden ja muiden hyökkäysten varalta ||
+| PERFORMANCE-REQ-0001 | Non-Functional Performance | Kirjautumisen on oltava mahdollista yhtäaikaa 100 käyttäjällä (100 request/s) | [Kirjautuminen](dokumentit/02-vaatimusmaarittely/Ominaisuudet/ominaisuus-01-kirjautuminen.md) |
+| PERFORMANCE-REQ-0002 | Non-Functional Performance | Hakutulosten tulee löytyä alle 2 sekunnissa | [Tuotteiden hakeminen](dokumentit/02-vaatimusmaarittely/Ominaisuudet/ominaisuus-04-tuotteiden-hakeminen.md) |
+
+
+### Tietoturva
+
+| VaatimusID | Tyyppi | Kuvaus | Ominaisuus johon vaikuttaa |								
+|:-:|:-:|:-:|:-:|
+| SECURITY-REQ-0001 | Non-Functional Security | Salasanassa on käytettävä vähintään MD5-tason salausta | [Kirjautuminen](dokumentit/02-vaatimusmaarittely/Ominaisuudet/ominaisuus-01-kirjautuminen.md) |								
+| SECURITY-REQ-0002 | Non-Functional Security | Salasanan pituuden tulee olla vähintään 6 merkkiä | [Kirjautuminen](dokumentit/02-vaatimusmaarittely/Ominaisuudet/ominaisuus-01-kirjautuminen.md) |
+| SECURITY-REQ-0003 | Non-Functional Security | Salasanassa tulee olla vähintään yksi numero | [Kirjautuminen](dokumentit/02-vaatimusmaarittely/Ominaisuudet/ominaisuus-01-kirjautuminen.md) |
+| SECURITY-REQ-0004 | Non-Functional Security | Salasanassa tulee olla vähintään yksi iso kirjain | [Kirjautuminen](dokumentit/02-vaatimusmaarittely/Ominaisuudet/ominaisuus-01-kirjautuminen.md) |
+| SECURITY-REQ-0005 | Non-Functional Security | Salasanassa tulee olla vähintään yksi pieni kirjain | [Kirjautuminen](dokumentit/02-vaatimusmaarittely/Ominaisuudet/ominaisuus-01-kirjautuminen.md) |
+| SECURITY-REQ-0006 | Non-Functional Security | Yhteyden tulee olla salattu (HTTPS) | [Kirjautuminen](dokumentit/02-vaatimusmaarittely/Ominaisuudet/ominaisuus-01-kirjautuminen.md) |
+| SECURITY-REQ-0007 | Non-Functional Security | Käyttäjä ei saa nähdä häneltä salattuja tietoja | [Tuotteen hakeminen](Ominaisuudet/ominaisuus-04-tuotteiden-hakeminen.md) |
+| SECURITY-REQ-0008 | Non-Functional Security | Käyttäjän antama data täytyy tarkistaa SQL-injektioiden ja muiden hyökkäysten varalta |  |
 
 
 ### Käytettävyys
 
-| VaatimusID | Tyyppi | Kuvaus | Ominaisuus johon vaikuttaa |								
+| VaatimusID | Tyyppi | Kuvaus |						
 |:-:|:-:|:-:|:-:|
-| USABILITY-REQ-0000 | Non-Functional Usability | Käyttöliittymän tulee olla suoraviivainen |  [Kirjautuminen ft1](ft1-ominaisuus.md) | |	
-| USABILITY-REQ-0001 | Non-Functional Usability | Tuotetta lisättäessä tulee käyttäjälle ilmoittaa, jos pakolliseksi merkattu kenttä on tyhjä ||
-| USABILITY-REQ-0002 | Non-Functional Usability | Kirjautuessa tulee käyttäjälle ilmoittaa, jos salasana ja käyttäjätunnus eivät täsmää ||
-| USABILITY-REQ-0003 | Non-Functional Usability |||
-| USABILITY-REQ-0004 | Non-Functional Usability |||
-| USABILITY-REQ-0005 | Non-Functional Usability |||
+| USABILITY-REQ-0000 | Non-Functional Usability | Käyttöliittymän tulee olla suoraviivainen |
 
 ### Testattavuus/Ylläpidettävyys
 
-| VaatimusID | Tyyppi | Kuvaus | Ominaisuus johon vaikuttaa |								
+| VaatimusID | Tyyppi | Kuvaus |								
 |:-:|:-:|:-:|:-:|
-| TESTABILITY-REQ-0000 | Non-Functional Testability | Jokaisella napilla on oltava uniikki id ||	
-| TESTABILITY-REQ-0001 | Non-Functional Testability | Koodin tulee olla hyvin dokumentoitu ||	
-| TESTABILITY-REQ-0002 | Non-Functional Testability |||	
-| TESTABILITY-REQ-0003 | Non-Functional Testability |||	
-| TESTABILITY-REQ-0004 | Non-Functional Testability |||	
-| TESTABILITY-REQ-0005 | Non-Functional Testability |||
+| TESTABILITY-REQ-0000 | Non-Functional Testability | Jokaisella napilla on oltava uniikki id |	
+| TESTABILITY-REQ-0001 | Non-Functional Testability | Koodin tulee olla hyvin dokumentoitu |
 
-| Id | Vaatimuksen kuvaus | kategoria | Vastuullinen |
-|:-:|:-:|:-:|:-:|
-| MAINT-REQ00x | Koodin tulee olla kattavasti kommentoitu | Tekninen | Kuka vastaa | 
-| MAINT-REQ00x | Toimintalogiikasta tulee olla kaavioita | Tekninen | Kuka vastaa | 
-| MAINT-REQ00x | Rajapinnoista tulee olla selkeä dokumentaatio | Tekninen | Kuka vastaa | 
-| MAINT-REQ00x | Vaatimus? | Ylläpito | Kuka vastaa | 
-| MAINT-REQ00x | Vaatimus? | Käytettävyys | Kuka vastaa | 
+
+| Id | Vaatimuksen kuvaus | kategoria |
+|:-:|:-:|:-:|
+| MAINT-REQ00x | Koodin tulee olla kattavasti kommentoitu | Tekninen | 
+| MAINT-REQ00x | Toimintalogiikasta tulee olla kaavioita | Tekninen | 
+| MAINT-REQ00x | Rajapinnoista tulee olla selkeä dokumentaatio | Tekninen |
 
 
 ## Tärkeimmät tunnistetut ominaisuudet/piirteet (Features)
 
 | Ominaisuus | Prioriteetti | Muuta |
 | :-: | :-: | :-: |
-| [Kirjautuminen](pohjat/pohja-ominaisuus.md) | Pakollinen | |
-| [Tuotteiden etsiminen](pohjat/pohja-ominaisuus.md) | Tärkeä | |
-| [Tuotteiden lisääminen](pohjat/pohja-ominaisuus.md) | Pakollinen | |
-| [Tuotteiden muokkaaminen](pohjat/pohja-ominaisuus.md) | Tärkeä | |
-| [Ominaisuus 5](pohjat/pohja-ominaisuus.md) | | |
+| [Kirjautuminen](ominaisuudet/ominaisuus-01-kirjautuminen.md	) | Pakollinen | |
+| [Tuotteen luonti](Ominaisuudet/ominaisuus-02-tuotteen-luonti.md) | Tärkeä | |
+| [Käyttäjätietojen muokkaaminen](Ominaisuudet/ominaisuus-03-kayttajatietojen-muokkaus.md) | Tärkeä | |
+| [Tuotteen hakeminen](Ominaisuudet/ominaisuus-04-tuotteiden-hakeminen.md) | Pakollinen | |
+| [Tuotteen poistaminen](Ominaisuudet/ominaisuus-05-tuotteen-poistaminen.md) | Tärkeä | |
+| [Tuotteen muokkaaminen](Ominaisuudet/ominaisuus-06-tuotteen-muokkaaminen.md) | Tärkeä | |
+| [Käyttäjän luominen](Ominaisuudet/ominaisuus-07-kayttajan-luominen.md) | Tärkeä | |
 
 
 ## Palvelu MockUp-prototyyppi
@@ -356,12 +348,7 @@ https://www.figma.com/proto/B19e7eZ0SGsRlZsf30vf9g/Untitled?node-id=0%3A1&scalin
 ## Hyväksyntätestit
 
 
-| VaatimusID | Testitapaus | Kuvaus |  |								
-|:-:|:-:|:-:|:-:|
-| USE-CASE-007,SYSTEM-REQ-0001,SYSTEM-REQ-0004, SYSTEM-REQ-0012 | [Test Case Id X](Linkki testiin) | Hyväksyntätesti  |
-| USE-CASE-017,SYSTEM-REQ-0011,SYSTEM-REQ-0004, SYSTEM-REQ-0012 | [Test Case Id Y](Linkki testiin) | Hyväksyntätesti  |
-| USE-CASE-011,USE-CASE-013,SYSTEM-REQ-0204, SYSTEM-REQ-0212 | [Test Case Id Z](Linkki testiin) | Hyväksyntätesti  |
-| USE-CASE-002,SYSTEM-REQ-0301,SYSTEM-REQ-0304, SYSTEM-REQ-0312 | [Test Case Id O](Linkki testiin) | Hyväksyntätesti  |
+Testit löytyvät testlink-palvelusta.
 
 ## Alustava julkaisusuunnitelma
 
