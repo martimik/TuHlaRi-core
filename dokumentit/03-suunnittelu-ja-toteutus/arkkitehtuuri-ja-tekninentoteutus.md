@@ -70,43 +70,61 @@ Eli miten nuo eri ympäristöt on toteutettu ko. projektissa
 
 ```plantuml
 
+interface dbAccess as "Database access"
+interface apiAccess as "HTTPS"
+  
+node API
+
+node product
+node user
+node login
+node logout
+
+entity  get as getU
+entity  create as createU
+entity  delete as deleteU
+entity  edit as editU
+
+entity  get as getP
+entity  create as createP
+entity  delete as deleteP
+entity  edit as editP
+
+API -- product
+API -- user
+API -- login
+API -- logout
+
+user -- getU
+user -- createU
+user -- deleteU
+user -- editU
+
+product -- getP
+product -- createP
+product -- deleteP
+product -- editP
 
 
-  interface dbAccess as "Database access"
-  interface apiAccess as "HTTPS"
-
-    
-
-  NodeJS <-- dbAccess
-  MongoDB <-- dbAccess
+node "App" {
+   [Axios]   
+}
   
 
-   node "App" {
-     [Axios]   
-   }
-  
-   node "NodeJS" {
-     package "API" {
-        [/products]
-        [/users]
-        [/createProduct]
-        [/editProduct]
-        [/editUser] 
-     }
-   } 
- 
-  database "MongoDB" {
-  
+database "MongoDB" {
     frame "Users" {
-
     }
-    
+
     frame "Products" {
-
     }
-  }
+}
   
-    Axios <-- apiAccess
-  API <-- apiAccess
+API <-left- dbAccess
+MongoDB <--up- dbAccess
+
+API <-up- apiAccess  
+Axios <-down- apiAccess
+
+
   
 ```
