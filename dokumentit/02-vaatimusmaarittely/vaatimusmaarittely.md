@@ -309,13 +309,13 @@ Tuotteita pitää pystyä selaamaan ja hakemaan käyttäjien oikeuksien mukaises
 ### Käytettävyys
 
 | VaatimusID | Tyyppi | Kuvaus |						
-|:-:|:-:|:-:|:-:|
+|:-:|:-:|:-:|
 | USABILITY-REQ-0000 | Non-Functional Usability | Käyttöliittymän tulee olla suoraviivainen |
 
 ### Testattavuus/Ylläpidettävyys
 
 | VaatimusID | Tyyppi | Kuvaus |								
-|:-:|:-:|:-:|:-:|
+|:-:|:-:|:-:|
 | TESTABILITY-REQ-0000 | Non-Functional Testability | Jokaisella napilla on oltava uniikki id |	
 | TESTABILITY-REQ-0001 | Non-Functional Testability | Koodin tulee olla hyvin dokumentoitu |
 
