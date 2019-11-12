@@ -3,20 +3,14 @@
 
 ## Persoona/sidosryhmän kuvaus
 
-![](https://openclipart.org/image/300px/svg_to_png/293286/Unknown-With-Background.png)
 
-
-**Makke Myyjä**
+**Make Muukalainen**
 
 
 
 ## Motiivi käyttää/soveltaa palvelua? 
 
 * Haluaa selata palveluja.
-
-
-![](https://openclipart.org/image/300px/svg_to_png/291313/why.png)
-
 
 ## Arvot  
 

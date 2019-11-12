@@ -312,19 +312,20 @@ Tuotteita pitää pystyä selaamaan ja hakemaan käyttäjien oikeuksien mukaises
 |:-:|:-:|:-:|
 | USABILITY-REQ-0000 | Non-Functional Usability | Käyttöliittymän tulee olla suoraviivainen |
 
-### Testattavuus/Ylläpidettävyys
+### Testattavuus
 
 | VaatimusID | Tyyppi | Kuvaus |								
 |:-:|:-:|:-:|
 | TESTABILITY-REQ-0000 | Non-Functional Testability | Jokaisella napilla on oltava uniikki id |	
 | TESTABILITY-REQ-0001 | Non-Functional Testability | Koodin tulee olla hyvin dokumentoitu |
 
+### Ylläpidettävyys
 
-| Id | Vaatimuksen kuvaus | kategoria |
+| VaatimusId | Vaatimuksen kuvaus | kategoria |
 |:-:|:-:|:-:|
-| MAINT-REQ00x | Koodin tulee olla kattavasti kommentoitu | Tekninen | 
-| MAINT-REQ00x | Toimintalogiikasta tulee olla kaavioita | Tekninen | 
-| MAINT-REQ00x | Rajapinnoista tulee olla selkeä dokumentaatio | Tekninen |
+| MAINT-REQ001 | Koodin tulee olla kattavasti kommentoitu | Tekninen | 
+| MAINT-REQ002 | Toimintalogiikasta tulee olla kaavioita | Tekninen | 
+| MAINT-REQ003 | Rajapinnoista tulee olla selkeä dokumentaatio | Tekninen |
 
 
 ## Tärkeimmät tunnistetut ominaisuudet/piirteet (Features)
