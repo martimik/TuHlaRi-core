@@ -283,6 +283,7 @@ Tuotteita pitää pystyä selaamaan ja hakemaan käyttäjien oikeuksien mukaises
 | NON-FUNCTIONAL-REQ-C0001 | Non-Functional Requirement | Kirjautuessa käyttäjään yhdistetään varmenne | [Kirjautuminen](dokumentit/02-vaatimusmaarittely/Ominaisuudet/ominaisuus-01-kirjautuminen.md) |
 | NON-FUNCTIONAL-REQ-C0002 | Non-Functional Requirement | Tuotetta lisättäessä tulee käyttäjälle ilmoittaa, jos pakolliseksi merkattu kenttä on tyhjä | [Tuotteen luonti](Ominaisuudet/ominaisuus-02-tuotteen-luonti.md) |
 | NON-FUNCTIONAL-REQ-C0003 | Non-Functional Requirement | Kirjautuessa tulee käyttäjälle ilmoittaa, jos salasana ja käyttäjätunnus eivät täsmää | [Kirjautuminen](dokumentit/02-vaatimusmaarittely/Ominaisuudet/ominaisuus-01-kirjautuminen.md) |
+| NON-FUNCTIONAL-REQ-C0004 | Non-Functional Requirement | Palvelu vaatii internet-yhteyden toimiakseen ||
 
 ### Suorituskyky (Performance)
 
@@ -311,6 +312,7 @@ Tuotteita pitää pystyä selaamaan ja hakemaan käyttäjien oikeuksien mukaises
 | VaatimusID | Tyyppi | Kuvaus |						
 |:-:|:-:|:-:|
 | USABILITY-REQ-0000 | Non-Functional Usability | Käyttöliittymän tulee olla suoraviivainen |
+| USABILITY-REQ-0001 | Non-Functional Usability | Käyttöliittymän tulee olla reponsiivinen |
 
 ### Testattavuus
 
@@ -318,6 +320,7 @@ Tuotteita pitää pystyä selaamaan ja hakemaan käyttäjien oikeuksien mukaises
 |:-:|:-:|:-:|
 | TESTABILITY-REQ-0000 | Non-Functional Testability | Jokaisella napilla on oltava uniikki id |	
 | TESTABILITY-REQ-0001 | Non-Functional Testability | Koodin tulee olla hyvin dokumentoitu |
+| TESTABILITY-REQ-0002 | Non-Functional Testability | Koodin tulee olla katselmoitu ryhmän toimesta |
 
 ### Ylläpidettävyys
 
@@ -326,6 +329,7 @@ Tuotteita pitää pystyä selaamaan ja hakemaan käyttäjien oikeuksien mukaises
 | MAINT-REQ001 | Koodin tulee olla kattavasti kommentoitu | Tekninen | 
 | MAINT-REQ002 | Toimintalogiikasta tulee olla kaavioita | Tekninen | 
 | MAINT-REQ003 | Rajapinnoista tulee olla selkeä dokumentaatio | Tekninen |
+| MAINT-REQ004 | Palvelu koodataan englannin kielellä | Tekninen |
 
 
 ## Tärkeimmät tunnistetut ominaisuudet/piirteet (Features)
