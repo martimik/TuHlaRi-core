@@ -343,7 +343,7 @@ Tuotteita pitää pystyä selaamaan ja hakemaan käyttäjien oikeuksien mukaises
 
 ## Palvelu MockUp-prototyyppi
 
-https://www.figma.com/proto/B19e7eZ0SGsRlZsf30vf9g/Untitled?node-id=0%3A1&scaling=min-zoom
+https://www.figma.com/proto/B19e7eZ0SGsRlZsf30vf9g/Untitled?node-id=1%3A71&scaling=min-zoom
 
 
 ## Hyväksyntätestit
