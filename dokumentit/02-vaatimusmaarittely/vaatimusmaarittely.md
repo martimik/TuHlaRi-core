@@ -275,15 +275,16 @@ Tuotteita pitää pystyä selaamaan ja hakemaan käyttäjien oikeuksien mukaises
 | FUNCTIONAL-REQ-C0009 | Functional Requirement | PO voi muokata tuotteidensa tietoja. | [Tuotteen muokkaaminen](Ominaisuudet/ominaisuus-06-tuotteen-muokkaaminen.md) |
 | FUNCTIONAL-REQ-C0010 | Functional Requirement | PO voi poistaa eli piilottaa tuotteen. | [Tuotteen poistaminen](Ominaisuudet/ominaisuus-05-tuotteen-poistaminen.md) |
 | FUNCTIONAL-REQ-C0011 | Functional Requirement | Käyttäjä voi etsiä julkisia tuotteita palvelusta | [Tuotteen hakeminen](Ominaisuudet/ominaisuus-04-tuotteiden-hakeminen.md) |
+| FUNCTIONAL-REQ-C0012 | Functional Requirement | Tuotetta lisättäessä tulee käyttäjälle ilmoittaa, jos pakolliseksi merkattu kenttä on tyhjä | [Tuotteen luonti](Ominaisuudet/ominaisuus-02-tuotteen-luonti.md) |
+| FUNCTIONAL-REQ-C0013 | Functional Requirement | Kirjautuessa tulee käyttäjälle ilmoittaa, jos salasana ja käyttäjätunnus eivät täsmää | [Kirjautuminen](dokumentit/02-vaatimusmaarittely/Ominaisuudet/ominaisuus-01-kirjautuminen.md) |
+
 
 ## Palveluun liittyvät tärkeimmät ei-toiminnalliset vaatimukset (Non Functional Requirements)
 
 | VaatimusID | Tyyppi | Kuvaus | Ominaisuus johon vaikuttaa |								
 |:-:|:-:|:-:|:-:|
 | NON-FUNCTIONAL-REQ-C0001 | Non-Functional Requirement | Kirjautuessa käyttäjään yhdistetään varmenne | [Kirjautuminen](dokumentit/02-vaatimusmaarittely/Ominaisuudet/ominaisuus-01-kirjautuminen.md) |
-| NON-FUNCTIONAL-REQ-C0002 | Non-Functional Requirement | Tuotetta lisättäessä tulee käyttäjälle ilmoittaa, jos pakolliseksi merkattu kenttä on tyhjä | [Tuotteen luonti](Ominaisuudet/ominaisuus-02-tuotteen-luonti.md) |
-| NON-FUNCTIONAL-REQ-C0003 | Non-Functional Requirement | Kirjautuessa tulee käyttäjälle ilmoittaa, jos salasana ja käyttäjätunnus eivät täsmää | [Kirjautuminen](dokumentit/02-vaatimusmaarittely/Ominaisuudet/ominaisuus-01-kirjautuminen.md) |
-| NON-FUNCTIONAL-REQ-C0004 | Non-Functional Requirement | Palvelu vaatii internet-yhteyden toimiakseen ||
+| NON-FUNCTIONAL-REQ-C0002 | Non-Functional Requirement | Palvelu vaatii internet-yhteyden toimiakseen ||
 
 ### Suorituskyky (Performance)
 
@@ -321,6 +322,7 @@ Tuotteita pitää pystyä selaamaan ja hakemaan käyttäjien oikeuksien mukaises
 | TESTABILITY-REQ-0000 | Non-Functional Testability | Jokaisella napilla on oltava uniikki id |	
 | TESTABILITY-REQ-0001 | Non-Functional Testability | Koodin tulee olla hyvin dokumentoitu |
 | TESTABILITY-REQ-0002 | Non-Functional Testability | Koodin tulee olla katselmoitu ryhmän toimesta |
+| TESTABILITY-REQ-0003 | Non-Functional Testability | Yksikkötestien kattavuus tulee olla enemmän kuin nolla |
 
 ### Ylläpidettävyys
 
@@ -447,6 +449,10 @@ class products << (P, Silver) >> {
 --
  +array[string] customer
 --
+ +int productOwner
+--
+ +int salesPerson
+--
  +int lifecycleStatus
 --
  +int businessType
@@ -456,6 +462,10 @@ class products << (P, Silver) >> {
  +bool isClassified
 --
  +bool isIdea
+--
+ +timestamp createdAt
+--
+ +timestamp editedAt
 }
 
 class users << (U, Silver) >> {
@@ -466,6 +476,8 @@ class users << (U, Silver) >> {
   +string email
 --
   +int userGroup
+--
+  +timestamp createdAt
 
 __ Encrypted __
   -string password
