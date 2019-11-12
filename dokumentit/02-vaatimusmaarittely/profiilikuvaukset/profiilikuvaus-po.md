@@ -6,8 +6,6 @@
 
 **Ossi Omistaja**
 
-
-
 ## Motiivi käyttää/soveltaa palvelua? 
 
 * Haluaa selailla muita valmiita palveluita.

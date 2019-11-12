@@ -5,8 +5,6 @@
 
 **Makke Myyjä**
 
-
-
 ## Motiivi käyttää/soveltaa palvelua? 
 
 * Haluaa lisätä palveluideoita.
