@@ -82,6 +82,7 @@ Projektin organisaation kuuluu yrityksen työntekijöitä ja toimeksiantajan edu
     * Mikko Martikainen  - 040 717 8658 - K8936@student.jamk.fi
     * Kautto Elias - (045 1337582) - L4177@student.jamk.fi
 
+
 * Yrityksen edustajat
     * Anssi Ylönen - (050 3843771) - anssi.ylonen@digia.com
     * Markus Asikainen - (puhnro) - (sähköposti)
