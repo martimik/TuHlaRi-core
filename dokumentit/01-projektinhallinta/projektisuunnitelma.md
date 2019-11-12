@@ -78,9 +78,9 @@ Projektin organisaation kuuluu yrityksen työntekijöitä ja toimeksiantajan edu
 
 * Projektiryhmä jäsenet
     * Markus Nylund - 0400 395 715 - L5392@student.jamk.fi
-    * Reko Meriö - (puhnro) - K9260@student.jamk.fi
-    * Mikko Martikainen  - (puhnro) - K8936@student.jamk.fi
-    * Kautto Elias - (puhnro) - L4177@student.jamk.fi
+    * Reko Meriö - (044 5267881) - K9260@student.jamk.fi
+    * Mikko Martikainen  - () - K8936@student.jamk.fi
+    * Kautto Elias - (045 1337582) - L4177@student.jamk.fi
 * Yrityksen edustajat
     * Anssi Ylönen - (050 3843771) - anssi.ylonen@digia.com
     * Markus Asikainen - (puhnro) - (sähköposti)
