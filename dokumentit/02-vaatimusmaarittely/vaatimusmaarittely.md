@@ -368,7 +368,7 @@ https://www.figma.com/proto/B19e7eZ0SGsRlZsf30vf9g/Untitled?node-id=0%3A1&scalin
 ```plantuml
 Project starts the 2019-11-4
 [Project time] Starts 2019-11-4 and ends 2020-2-28
-[Documentation] Starts 2019-11-4 and ends 2019-11-17
+[Documentation] Starts 2019-11-4 and ends 2019-12-1
 [Coding] Starts 2019-11-18 and ends 2020-2-11
 [Testing] Starts 2019-11-25 and ends 2020-2-18
 [End documentation] Starts 2020-2-18 and ends 2020-2-28
