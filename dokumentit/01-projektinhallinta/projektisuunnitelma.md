@@ -78,13 +78,13 @@ Projektin organisaation kuuluu yrityksen työntekijöitä ja toimeksiantajan edu
 
 * Projektiryhmä jäsenet
     * Markus Nylund - 0400 395 715 - L5392@student.jamk.fi
-    * Reko Meriö - (044 5267881) - K9260@student.jamk.fi
+    * Reko Meriö - 044 5267881 - K9260@student.jamk.fi
     * Mikko Martikainen  - 040 717 8658 - K8936@student.jamk.fi
-    * Kautto Elias - (045 1337582) - L4177@student.jamk.fi
+    * Kautto Elias - 045 1337582 - L4177@student.jamk.fi
 
 
 * Yrityksen edustajat
-    * Anssi Ylönen - (050 3843771) - anssi.ylonen@digia.com
+    * Anssi Ylönen - 050 3843771 - anssi.ylonen@digia.com
     * Markus Asikainen - (puhnro) - (sähköposti)
 
 **Projektiryhmä**
@@ -97,8 +97,8 @@ Johtoryhmän muodostavat siihen valitut projektiryhmän jäsenet sekä toimeksia
 
 **Tukiryhmä**
 
-* Kuuva Pekka - (puhnro) - (M9015@student.jamk.fi)
-* Lindgren Sami - (puhnro) - (M9016@student.jamk.fi)
+* Kuuva Pekka - (puhnro) - M9015@student.jamk.fi
+* Lindgren Sami - (puhnro) - M9016@student.jamk.fi
 
 Tukiryhmän jäsenet työstävät CI/CD Pipelineä gitlab ympäristöön sekä toimivat konsultteina projektina alkuvaiheessa.
 
