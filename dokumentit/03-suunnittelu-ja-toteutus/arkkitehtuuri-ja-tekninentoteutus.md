@@ -23,6 +23,15 @@ NodeJS ja React ovat molemmat ohjelmoitavissa korkean luokan JavaScript kielell�
 * Front-end: React - Monipuolinen ja hyväksi todettu
 * Tietokanta: MongoDB - Helppo datan hallinta
 
+### Kirjastot
+---------------------
+### NodeJs
+
+* Express
+
+### React
+
+
 ## Tuotekehitysympäristöjen kuvaukset
 
 Kuvaa ainakin seuraavat:
