@@ -322,7 +322,7 @@ Tuotteita pitää pystyä selaamaan ja hakemaan käyttäjien oikeuksien mukaises
 | TESTABILITY-REQ-0000 | Non-Functional Testability | Jokaisella napilla on oltava uniikki id |	
 | TESTABILITY-REQ-0001 | Non-Functional Testability | Koodin tulee olla hyvin dokumentoitu |
 | TESTABILITY-REQ-0002 | Non-Functional Testability | Koodin tulee olla katselmoitu ryhmän toimesta |
-| TESTABILITY-REQ-0003 | Non-Functional Testability | Yksikkötestien kattavuus tulee olla enemmän kuin nolla |
+| TESTABILITY-REQ-0003 | Non-Functional Testability | Yksikkötestien kattavuus tulee olla enemmän kuin 0% |
 
 ### Ylläpidettävyys
 
