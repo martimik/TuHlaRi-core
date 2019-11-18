@@ -332,6 +332,7 @@ Tuotteita pitää pystyä selaamaan ja hakemaan käyttäjien oikeuksien mukaises
 | MAINT-REQ002 | Toimintalogiikasta tulee olla kaavioita | Tekninen | 
 | MAINT-REQ003 | Rajapinnoista tulee olla selkeä dokumentaatio | Tekninen |
 | MAINT-REQ004 | Palvelu koodataan englannin kielellä | Tekninen |
+| MAINT-REQ005 | Koodin tulee käydä lintterin läpi joko koodatessa pluginin kautta tai putken kautta gitlabiin puskiessa | Laatu |
 
 
 ## Tärkeimmät tunnistetut ominaisuudet/piirteet (Features)
