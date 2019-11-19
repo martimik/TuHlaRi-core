@@ -391,6 +391,7 @@ Seuraavassa julkaisussa on mukana muutamia parannettuja ominaisuuksia, jotka ova
 | [Tuotteen muokkas]() | 2.0 | - | - |
 | [Käyttäjätietojen muokkaus]() | 2.1 | - | - |
 | [Tuotteen poistaminen]() | 2.1 | - | - |
+| [Tuotteen palauttaminen]() | 2.1. | - | - |
 
 
 
