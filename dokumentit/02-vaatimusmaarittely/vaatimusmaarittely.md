@@ -382,6 +382,8 @@ Seuraavassa taulukossa on esitelty eri versioissa julkaistavat ominaisuudet taul
 | [Tuotteen hakeminen]() | 1.1 | - | - |
 | [Käyttäjän luonti]() | 1.1 | - | - |
 
+#### Demo 1 Nähtävissä 10.12.2019
+
 Seuraavassa julkaisussa on mukana muutamia parannettuja ominaisuuksia, jotka ovat kehittyneet eteenpäin. Näistä on valittu sopiva kokonaisuus asiakas julkaisuun.
 
 **Demo 2**
