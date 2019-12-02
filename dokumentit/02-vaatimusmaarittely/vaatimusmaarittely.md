@@ -9,7 +9,7 @@ Vaatimusmäärittely pohjan versio 1.1 - 24.4.2019
 * Elias Kautto - L4177
 * Markus Nylund - L5392
 * 2019
-* Versionumero 0.3
+* Versionumero 0.4
 
 ## Sisällysluettelo 
 
