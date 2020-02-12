@@ -57,5 +57,13 @@ Salasana vaihdetaan, jos vanha salasana on oikein.
 * Response: `{ message: "User updated succesfully.", code: "UPS" }` or `{ message: "Couldn't update user", code: "UPE4" }` or `{ message: "Unauthorized, need admin privileges", code: "UAE2" }`
 * Parameters `{ name, reqEmail, email, userGroup }` 
 
-Vain admin käyttäjäryhmään kuuluva voi muokata käyttäjän tietoja.
-Salasana vaihdetaan, jos vanha salasana on oikein.
+Vain admin käyttäjäryhmään kuuluva voi muokata käyttäjän tietoja. reqEmail on muokattavan käyttäjän nykyinen sähköposti ja email on käyttäjän mahdollinen uusi sähköposti
+
+### /deleteUser
+* Method: POST
+* Response: `{ message: "User deleted succesfully.", code: "UDS" }` or `{ message: "Couldn't delete user", code: "UDE1" }` or `{ message: "Unauthorized, need admin privileges", code: "UAE2" }`
+* Parameters `{ email }` 
+
+Vain admin käyttäjäryhmään kuuluva voi poistaa käyttäjiä.
+
+
