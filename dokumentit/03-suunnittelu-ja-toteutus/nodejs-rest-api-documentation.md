@@ -37,3 +37,25 @@ Tuhoaa session eli kirjaa käyttäjän ulos, mikäli sessio on olemassa.
 
 Palauttaa listan käyttäjistä, jos sessio on olemassa, eli käyttäjä on kirjautunut.
 Vain admin voi nähdä muut admin ryhmään kuuluvat käyttäjät.
+
+### /newUser
+* Method: POST
+* Response: `{ message: "New user created" }` or `{ message: "Email already in use.", code: "NUE2" }` or `{ message: "Unauthorized", code: "UAE1" }`
+* Parameters `{ email, password, userGroup }` 
+
+Luo uuden käyttäjän, jos samalla sähköpostilla ei vielä ole käyttäjää olemassa. Vain admin käyttäjäryhmään kuuluva voi luoda uuden käyttäjän.
+
+### /editPassword
+* Method: POST
+* Response: `{ message: "New user created" }` or `{ message: "Email already in use.", code: "NUE2" }` or `{ message: "Unauthorized", code: "UAE1" }`
+* Parameters `{ password, oldPassword }` 
+
+Salasana vaihdetaan, jos vanha salasana on oikein.
+
+### /editUser
+* Method: POST
+* Response: `{ message: "User updated succesfully.", code: "UPS" }` or `{ message: "Couldn't update user", code: "UPE4" }` or `{ message: "Unauthorized, need admin privileges", code: "UAE2" }`
+* Parameters `{ name, reqEmail, email, userGroup }` 
+
+Vain admin käyttäjäryhmään kuuluva voi muokata käyttäjän tietoja.
+Salasana vaihdetaan, jos vanha salasana on oikein.
