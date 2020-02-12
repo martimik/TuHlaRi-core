@@ -33,7 +33,7 @@ Tuhoaa session eli kirjaa käyttäjän ulos, mikäli sessio on olemassa.
 
 ### /users
 * Method: GET
-* Response: `[{email, userGroup, name, createdAt}]` or `{ error: "Nothing found" }` or `{ message: "Unauthorized", code: "UAE1" }`
+* Response: `[{email, userGroup, name, createdAt}...]` or `{ error: "Nothing found" }` or `{ message: "Unauthorized", code: "UAE1" }`
 
 Palauttaa listan käyttäjistä, jos sessio on olemassa, eli käyttäjä on kirjautunut.
 Vain admin voi nähdä muut admin ryhmään kuuluvat käyttäjät.
@@ -66,4 +66,14 @@ Vain admin käyttäjäryhmään kuuluva voi muokata käyttäjän tietoja. reqEma
 
 Vain admin käyttäjäryhmään kuuluva voi poistaa käyttäjiä.
 
+### /products
+* Method: GET
+* Response: `[{product}...]` or `{ message: "Nothing found", code: "PE1" }`
+* Parameters `{ myProducts, isParticipant, isClassified, lifecycleStatus, search }` 
 
+Palauttaa kaikki hakukriteereihin osuvat tuotteet. 
+* myProducts: Palauttaa tuotteet, jotka käyttäjä on luonut
+* isParticpant: Palauttaa tuotteet, joissa käyttäjä on osallisena
+* isClassified: Palauttaa myös ns. salatut tuotteet, jotka käyttäjä on oiketettu näkemään.
+* search: Palauttaa tuotteet joiden otsikosta tai lyhyestä- tai pitkästä kuvauksesta löytyy annettu merkkiyhdistelmä
+* lifecycleStatus: Palauttaa tuotteet, jotka ovat samalla lifecycleStatuksella, tai jos lifecycleStatus on 0, palautetaan kaikki
