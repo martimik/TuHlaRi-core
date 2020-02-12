@@ -1,7 +1,7 @@
 # Projektin loppuraportti
 
 # 1.	JOHDANTO	
-Tämä dokumentti liittyy tiimin ReLamb tekemään projektiin Tuhlari joka tehtiin yritykselle DDDDD. Projektin osapuolina olivat:
+Tämä dokumentti liittyy tiimin ReLamb tekemään projektiin [Tuhlari](https://front-end-tuhlari.rahtiapp.fi) joka tehtiin yritykselle DDDDD. Projektin osapuolina olivat:
 * Markus Nylund - L5392
 * Reko Meriö - K9260
 * Elias Kautto - L4177
@@ -14,7 +14,7 @@ Dokumentin tarkoituksena on raportoida projektin kulkua yleisesti sen loputtua.
 
 ## 2.1.	Yhteenveto projektin toteumasta
 
-Tarkoituksena oli luoda tuotehallintarekisteri. Saamiemme palautteiden perusteella onnistuimme siinä.
+Tarkoituksena oli luoda tuotehallintarekisteri. Saamamme palautteiden perusteella onnistuimme siinä.
 
 <!-- 
 * Koko projektin toteuma (projektisuunnitelman tavoitteisiin ja tehtäviin peilaten): 
@@ -24,8 +24,13 @@ Tarkoituksena oli luoda tuotehallintarekisteri. Saamiemme palautteiden perusteel
 -->
 
 ## 2.2.	 Projektin onnistuminen (suunnitelma vs. toteutuma)
+<!-- 
 Projektiprosessin osalta raportissa esitellään ainakin seuraavat asiakokonaisuudet:
 
+*	prosessin rakenne: vaiheet ja tehtävät, niiden toteutusperiaatteet ja aikataulut
+*	projektin sisäiset aikaresurssit: suunnitellut ja toteutuneet vaiheittain ja viikoittain, jakauma tehtävittäin (varsinainen sisältö ja projektin hallinta)
+*	projektin ulkopuoliset resurssit: konsultaatiot, koulutus, katselmoinnit, testaukset jne.
+-->
 Suunitellussa aikataulussamme emme varsinaisesti pysyneet vaan se oli hieman häilyvä käsite. Saimme kuitenkin kaikki hommat tehtyä ajallaan mallikkaasti.
 Suunnitteluvaiheessa ryhmässä näkyi myös hieman väsymystä joka myöhemmin katosi täysin aloittaessamme tekemään toteutusta, myöhemmin se kuitenkin taas ilmaantui kun muistimme että testejä pitää projektiin tehdä.
 
@@ -35,16 +40,10 @@ Alussa emme pyytäneet yritykseltä kauheammin konsultaatiota mutta myöhemmin t
 
 Katselmointeina pidimme 2 demoa ja yhden epävirallisemman demon. Ensimmälle demolla pidimme esitelmän noin 6:lle yrityksen hengelle, mukaan lukien meidän yrityksen yhteyshenkilölle, valitettavasti tuotteen omistaja ei päässyt kyseisenä päivämääränä paikalle, palaute oli positiivinen vaikka tulikin hieman keppiä sillä palvelu pyöri vielä localhostilla. Seuraavana oli hieman epävirallisempi demo jolloin yritys tarjosi meille pizzat jolloin pääsimme näyttämään tuotetta tuotteen omistajalle ja palaute oli positiivinen ja saimme myös parannusideoita. Viimeisellä demokerralla pidimme noin 2,5h kestävän avointen ovien demon jolloin yrityksen jäsenet pääsivät testailemaan tuotetta. Palaute oli jälleen positiivinen mutta ongelmia siltikin löytyi, jotkut ongelmat jopa korjattiin demon aikana kun ei ollut testaajia paikalla.
 
-<!-- 
-*	prosessin rakenne: vaiheet ja tehtävät, niiden toteutusperiaatteet ja aikataulut
-*	projektin sisäiset aikaresurssit: suunnitellut ja toteutuneet vaiheittain ja viikoittain, jakauma tehtävittäin (varsinainen sisältö ja projektin hallinta)
-*	projektin ulkopuoliset resurssit: konsultaatiot, koulutus, katselmoinnit, testaukset jne.
--->
-
 # 3.	ONGELMAT JA NIIDEN RATKAISUT
-
+<!-- 
 * Kuvatkaa ongelmat projektin suunnittelussa ja toteutuksessa (mistä johtui, miten ratkaistiin, mitä olisi pitänyt tehdä toisin ja miten)
-
+-->
 ## 3.1.	Ongelmat suunnittelussa
 
 Suunnittelu vaiheen anioa ongelma oli vaihteleva motivaatio.
@@ -54,6 +53,8 @@ Suunnittelu vaiheen anioa ongelma oli vaihteleva motivaatio.
 Toteutuksena ongelmina esiintyi lähinnä Openshift alusta ja siellä "seikkaileminen", eli mistä löysimme mitäkin ja miten saimme asiat toimimaan vaihtelevan dokumentaation takia. 
 
 ## 3.3.	Muut ongelmat tai toteutuneet riskit ja niiden käsittely
+
+Muutamia sairastumisia tai vastaavia oli mutta selvisimme niistä mallikaasti koska teimme hommia pareina niin toinen osapuoli pystyi aina ottamaan hommat haskaansa toisen ollessa poissa.
 
 # 4.	YHTEENVETO
 
@@ -68,11 +69,9 @@ Toteutuksena ongelmina esiintyi lähinnä Openshift alusta ja siellä "seikkaile
 
 ## 4.2.	Itsearviointi
 
-* Arvioikaa seuraavia:
-
 ### 4.2.1.	Ryhmätyö
 
-|Mitä? | Arvosana | Selitystä  |
+|Mitä? | Arvosana | Selitys  |
 |---|---|---|
 |Projektipäällikkyys (ei henkilöön kohdistuvaa, vaan yleisemmällä tasolla)| - | - |
 |Erilaisuuden hyödyntäminen| - | - |
@@ -88,7 +87,7 @@ Toteutuksena ongelmina esiintyi lähinnä Openshift alusta ja siellä "seikkaile
 
 ### 4.2.2.	Suunnitelmallisuus (projektityöskentely) 
 
-|Mitä? | Arvosana | Selitystä  |
+|Mitä? | Arvosana | Selitys  |
 |---|---|---|
 |Suunnitelmat| - | - |
 |Mitä tehty?| - | - |
@@ -104,7 +103,7 @@ Toteutuksena ongelmina esiintyi lähinnä Openshift alusta ja siellä "seikkaile
 
 ### 4.2.3.	Vuorovaikutus
 
-|Mitä? | Arvosana | Selitystä  |
+|Mitä? | Arvosana | Selitys  |
 |---|---|---|
 |Yhteydenpito sidosryhmiin (ketkä ovat sidosryhmiä?)| - | - |
 |Tiedonhankinta (toimeksiantajalta tiedon saaminen)| - | - |
@@ -127,7 +126,7 @@ Toteutuksena ongelmina esiintyi lähinnä Openshift alusta ja siellä "seikkaile
 
 ### 4.2.4.	Asenne
 
-|Mitä? | Arvosana | Selitystä  |
+|Mitä? | Arvosana | Selitys  |
 |---|---|---|
 |Tehtävään|5|Asenne ollut loistava alusta asti.|
 |Oppimiseen|5|Olimme oppimaan innokkaita!|
@@ -137,9 +136,9 @@ Toteutuksena ongelmina esiintyi lähinnä Openshift alusta ja siellä "seikkaile
 
 ### 4.2.5.	Tulos
 
-|Mitä? | Arvosana | Selitystä  |
+<!-- Tulosta on kaikki, mitä projekti tavoitteellisesti tarjoaa ryhmän ulkopuolisten hyödyksi -->
+|Mitä? | Arvosana | Selitys  |
 |---|---|---|
-|Tulosta on kaikki, mitä projekti tavoitteellisesti tarjoaa ryhmän ulkopuolisten hyödyksi| - | - |
 |Mitkä ovat projektin tulokset?| - | - |
 |Kuinka hyviä tuotokset ovat?| - | - |
 |Onko projektilla ”aineettomia” tuloksia? (esim. asennemuutos)| - | - | 
@@ -147,10 +146,12 @@ Toteutuksena ongelmina esiintyi lähinnä Openshift alusta ja siellä "seikkaile
 |Jatkotoimenpiteet| - | - |
 
 ## 4.3.	Arvosanaehdotukset
+
+Tähän arvosana ehdotus sekä perustelu
 <!-- 
 * Mikä on mielestänne arvosana, jonka ansaitsemme em. kriteerien perusteella?
 * Voitte jakaa arvosanaehdotuksen ryhmän sisällä siten, että joku enemmän töitä tehnyt saisi paremman arvosanan (tai työhön vähäisesti osallistunut huonomman).
 -->
-# LÄHTEET
+## Lähteet
 
-# LIITTEET
+## Liitteet
