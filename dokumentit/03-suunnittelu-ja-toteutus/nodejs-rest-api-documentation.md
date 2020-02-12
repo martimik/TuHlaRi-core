@@ -77,3 +77,21 @@ Palauttaa kaikki hakukriteereihin osuvat tuotteet.
 * isClassified: Palauttaa myös ns. salatut tuotteet, jotka käyttäjä on oiketettu näkemään.
 * search: Palauttaa tuotteet joiden otsikosta tai lyhyestä- tai pitkästä kuvauksesta löytyy annettu merkkiyhdistelmä
 * lifecycleStatus: Palauttaa tuotteet, jotka ovat samalla lifecycleStatuksella, tai jos lifecycleStatus on 0, palautetaan kaikki
+
+### /product/:id
+* Method: GET
+* Response: `{ product }` or `{ message: "Not found" }`
+
+Palauttaa tuotteen annetulla id:llä
+
+### /product/:id
+* Method: DELETE
+* Response: `{ message: "Deleted :id" }` or `{ message: "Not found" }` or `{ message: "Unauthorized" }` 
+
+Poistaa tuotteen annetulla id:llä, jos lähettäjä on sama kuin tuotteen luoja.
+
+### /deletedProducts
+* Method: GET
+* Response: `[{product}...]` or `{ message: "Nothing found", code:"PE1" }`
+
+Palauttaa listan kaikista ns. "poistetuista tuotteista".
