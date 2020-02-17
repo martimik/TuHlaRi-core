@@ -73,81 +73,78 @@ Muutamia sairastumisia tai vastaavia oli mutta selvisimme niistä mallikaasti ko
 
 |Mitä? | Arvosana | Selitys  |
 |---|---|---|
-|Projektipäällikkyys (ei henkilöön kohdistuvaa, vaan yleisemmällä tasolla)| - | - |
-|Erilaisuuden hyödyntäminen| - | - |
-|Ongelmanratkaisu (ei pelkästään teknisten ongelmien ratkaisemista, viestintä ym.)| - | - |
-|Työnjako ja tehtävien hallina| - | - |
-|Ryhmän oma työ| - | - |
-|Toisten työ (esim. tukiryhmätoiminta)| - | - |
-|Resurssien hyödyntäminen (mitkä ovat teidän resurssinne?)| - | - |
-|Ohjaus ja sen käyttö (mitä muutakin kuin oma ohjaaja?)| - | - |
-|Ryhmäprosessi (ryhmällä eri kehitysvaiheita (joukko, klikki, ME, tiimi), miten kehittynyt?)| - | - |
-|Kriisit ja niistä selviäminen| - | - |
-|Oman työn kriittinen kehittäminen| - | - |
+|Projektipäällikkyys | 5 | Homma suju. |
+|Erilaisuuden hyödyntäminen| 5 | Hyödynsimme jäsenien taitoja mallikkaasti. |
+|Ongelmanratkaisu (ei pelkästään teknisten ongelmien ratkaisemista, viestintä ym.)| 5 | Ratkaisimme ongelmamme vaikka joissain meni oma aikansa. |
+|Työnjako ja tehtävien hallina| 4 | Työt jaettiin suurimmilta osin tasaisesti. |
+|Ryhmän oma työ| 5 | Toimiva homma. |
+|Resurssien hyödyntäminen (mitkä ovat teidän resurssinne?)| 5 | Käytimme annettuja tietokoneita ja csc palvelua. |
+|Ohjaus ja sen käyttö | 5 | Saimme apua yritykseltä pyydettäessä sekä muilta JAMK:in opettajilta. |
+|Ryhmäprosessi (ryhmällä eri kehitysvaiheita (joukko, klikki, ME, tiimi), miten kehittynyt?)| 5 | Meidän joukollamme oli hyvä yhteis klikki joka teki meistä hyvän tiimin. |
+|Kriisit ja niistä selviäminen| 5 | Kriisejä ei kauhemmin ollut paitsi muutama sairastuminen, mutta niistä pääsimme mallikkaasti hyvin. |
+|Oman työn kriittinen kehittäminen| 5 | Kritisoimme omaa työtä radikaalisti tiimin sisällä. |
 
 ### 4.2.2.	Suunnitelmallisuus (projektityöskentely) 
 
 |Mitä? | Arvosana | Selitys  |
 |---|---|---|
-|Suunnitelmat| - | - |
-|Mitä tehty?| - | - |
-|Mitä käytetty/valvottu (miten näkynyt projektin arjessa)?| - | - |
-|Mitä päivitetty ja miksi? | - | - |
-|Miten hyvin tehty? | - | - |
-|Resurssien hallinta| - | - |
-|Suunniteltu| - | - |
-|Valvonta| - | - |
-|Toteutuminen| - | - |
-|Projektiprosessin dokumentointi (mm. muistiot eri palavereista)| - | - |
-|Projektiprosessin hallinta| - | - |
+|Suunnitelmat| 3 | Emme suunnitelleet niin paljon kuin Narsu oli halunnut. |
+|Mitä tehty?| 5 | Tarpeellisest |
+|Mitä käytetty/valvottu (miten näkynyt projektin arjessa)?| 5 | Tunnit kirjattu sekä käytimme projektitilasta löytynyttä valkotaulua |
+|Mitä päivitetty ja miksi? | - | Ei päivitetty |
+|Miten hyvin tehty? | 5 | Dokumentteja tehtiin kovaa mallia. |
+|Resurssien hallinta| 5 | Resurssimme ei loppunut kesken |
+|Suunniteltu| 1 | Emme suunitelleet resussien käyttöä |
+|Valvonta| 5 | Valvoimme tuntityöskentelyä excel taulukkoon. |
+|Projektiprosessin dokumentointi (mm. muistiot eri palavereista)| 2 | Tässä kohdassa meillä olisi parantamista. Ensimmäiseen palaveriin tulimme hieman valmistautumatta. |
+|Projektiprosessin hallinta| 5 | Projekti oli meidän hallinassa erinomaisesti. |
 
 ### 4.2.3.	Vuorovaikutus
 
 |Mitä? | Arvosana | Selitys  |
 |---|---|---|
-|Yhteydenpito sidosryhmiin (ketkä ovat sidosryhmiä?)| - | - |
-|Tiedonhankinta (toimeksiantajalta tiedon saaminen)| - | - |
-|Haastattelut ja niiden valmistelu, toteutus ja tiedon jalostus| - | - |
-|Tiedottaminen| - | - | 
-|Asiakasorganisaatiossa| - | - |
-|Erityiskohderyhmät| - | - |
-|Ammattikorkeakoululle| - | - |
-|Muut kohteet ja mediat (jos näkynyt esim. lehdissä, messuilla tms.)| - | - |
-|Kohderyhmätyöskentely (valmistautuminen, tavoitteiden saavuttaminen, läpivienti)| - | - |
-|Tehtävän kehittäminen ja rajaukset| - | - |
-|Miten tehty?| - | - | 
-|Kenen esityksestä ja millä tiedoilla? | - | - | 
-|Tukiryhmätoiminta (tiedon saaminen, asiantuntijoiden hyödyntäminen)| - | - |
-|”Fiilis” ja sen syyt (jos ”alavireinen”, niin kuinka parannettu?)| - | - |
-|Toisten työkiireiden huomioiminen yhteydenpidossa (ennakointi, matkat ym.)| - | - |
-|Yhteydenpitovälineiden käyttö (mikä on järkevä väline eri tilanteisiin, palaverit kallista ajankäyttöä)| - | - |
-|Vuorovaikutuksen tuloksellisuus (Jory, sähköposti, muut)| - | - |
+|Yhteydenpito sidosryhmiin (ketkä ovat sidosryhmiä?)| 5 | Sähköpostin välityksellä olimme yhteydessä lähes joka viikko. |
+|Tiedonhankinta (toimeksiantajalta tiedon saaminen)| 5 | Saimme tietoa halutessamme. |
+|Haastattelut ja niiden valmistelu, toteutus ja tiedon jalostus| 5 | Demoissa otimme innokaasti jalostustietoa vastaan |
+|Tiedottaminen| 5 | Tiedotimme toiminnastamme. | 
+|Kohderyhmätyöskentely (valmistautuminen, tavoitteiden saavuttaminen, läpivienti)| 5 | Valmistauduimme demoihin ja saavutimme tavoitteet. | 
+|”Fiilis” ja sen syyt (jos ”alavireinen”, niin kuinka parannettu?)| 5 | Koodaus oli hauskaa, yhteystyö sujui ja hommat jaettiin tasan. |
+|Toisten työkiireiden huomioiminen yhteydenpidossa (ennakointi, matkat ym.)| 5 | Huomioimme. |
+|Yhteydenpitovälineiden käyttö (mikä on järkevä väline eri tilanteisiin, palaverit kallista ajankäyttöä)| 5 | Käytimme Microsoft Teams sovellusta mainiosti hyödyntäen sen eri ominaisuuksia esimerksi tiedostojen jakoon. |
+|Vuorovaikutuksen tuloksellisuus (Sähköposti, muut)| 5 | Loistavaa settiä. Viestit liikkui. |
 
 
 ### 4.2.4.	Asenne
 
 |Mitä? | Arvosana | Selitys  |
 |---|---|---|
-|Tehtävään|5|Asenne ollut loistava alusta asti.|
-|Oppimiseen|5|Olimme oppimaan innokkaita!|
-|Ongelmiin|5|Ongelmiin suhtauduttiin purevasti.|
-|Ote projektista sen eri vaiheissa| - | - | 
-|Palautehakuisuus| - | - |
+|Tehtävään| 5 | Asenne ollut loistava alusta asti. |
+|Oppimiseen| 5 | Olimme oppimaan innokkaita! |
+|Ongelmiin| 5 | Ongelmiin suhtauduttiin purevasti. |
+|Ote projektista sen eri vaiheissa| 5 | Kova puristus, kuin anakonda saalinsa ääressä | 
+|Palautehakuisuus| 5 | Haimme innokaasti palautetta. |
 
 ### 4.2.5.	Tulos
 
 <!-- Tulosta on kaikki, mitä projekti tavoitteellisesti tarjoaa ryhmän ulkopuolisten hyödyksi -->
 |Mitä? | Arvosana | Selitys  |
 |---|---|---|
-|Mitkä ovat projektin tulokset?| - | - |
-|Kuinka hyviä tuotokset ovat?| - | - |
-|Onko projektilla ”aineettomia” tuloksia? (esim. asennemuutos)| - | - | 
-|Tulosten arvo organisaatiolle ja muille tahoille| - | - |
-|Jatkotoimenpiteet| - | - |
+|Mitkä ovat projektin tulokset?| 5 | Erinomaisesti toimiva tuote |
+|Kuinka hyviä tuotokset ovat?| 💯 | Tuote on vaatimusten mukainen ja on tehty moderneilla tekniikoilla :thumbsup: |
+|Onko projektilla ”aineettomia” tuloksia? (esim. asennemuutos)| - | Ei ole |  
+|Tulosten arvo organisaatiolle ja muille tahoille| 5 | Suullisesti sanottuna tuotos oli "Oikein hyvä". |
+|Jatkotoimenpiteet| - | Luovutetaan homma asikkaalle. |
 
 ## 4.3.	Arvosanaehdotukset
 
-Tähän arvosana ehdotus sekä perustelu
+Tähän arvosana ehdotus sekä perustelu:
+Yhteisesti tiimin kanssa totesimme että ansaitsemme arvosanan: <span style="font-size:20px; font-weight:500 "> 5 <span> 
+
+### Miksi?
+
+Koska tuotoksemme on arviointien perusteella loistavaa settiä. Tähän tulokseen on tullut myös muut.
+
+
 <!-- 
 * Mikä on mielestänne arvosana, jonka ansaitsemme em. kriteerien perusteella?
 * Voitte jakaa arvosanaehdotuksen ryhmän sisällä siten, että joku enemmän töitä tehnyt saisi paremman arvosanan (tai työhön vähäisesti osallistunut huonomman).
