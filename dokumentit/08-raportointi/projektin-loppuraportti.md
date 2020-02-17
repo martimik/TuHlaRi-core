@@ -34,7 +34,7 @@ Projektiprosessin osalta raportissa esitellään ainakin seuraavat asiakokonaisu
 Suunitellussa aikataulussamme emme varsinaisesti pysyneet vaan se oli hieman häilyvä käsite. Saimme kuitenkin kaikki hommat tehtyä ajallaan mallikkaasti.
 Suunnitteluvaiheessa ryhmässä näkyi myös hieman väsymystä joka myöhemmin katosi täysin aloittaessamme tekemään toteutusta, myöhemmin se kuitenkin taas ilmaantui kun muistimme että testejä pitää projektiin tehdä.
 
-Projektin suunnitteluvaihetta teimme keskustellen samalla kun kirjoitimme dokumentaatiota. Toteutusvaiheessa jakauduimme ryhmän sisällä kahden hengen pareihin yrityksen pyynnöstä ja tämä toimi loistavasti. Aluksi työstimme toinen pari "Backend" puolta ja toinen "Frontend" puolta. Myöhemmin tämä kuitenkin vaihtui siihen että työstimme sitä mikä oli tarpeen. 
+Projektin suunnitteluvaihetta teimme keskustellen samalla kun kirjoitimme dokumentaatiota. Toteutusvaiheessa jakauduimme ryhmän sisällä kahden hengen pareihin yrityksen pyynnöstä ja tämä toimi loistavasti. Aluksi työstimme toinen pari "Backend" puolta ja toinen "Frontend" puolta, jonka jälkeen osia vaihdettiin. Myöhemmin tämä kuitenkin vaihtui siihen että työstimme sitä mikä oli tarpeen. 
 
 Alussa emme pyytäneet yritykseltä kauheammin konsultaatiota mutta myöhemmin totesimme sen kuitenkin olevan tarpeen vaikka sitä oli välillä hieman vaikeaa saada esimerkiksi sairastumisien tai yrityksen työntekijöiden matkailujen takia. 
 
@@ -80,9 +80,9 @@ Muutamia sairastumisia tai vastaavia oli mutta selvisimme niistä mallikaasti ko
 |Ryhmän oma työ| 5 | Toimiva homma. |
 |Resurssien hyödyntäminen (mitkä ovat teidän resurssinne?)| 5 | Käytimme annettuja tietokoneita ja csc palvelua. |
 |Ohjaus ja sen käyttö | 5 | Saimme apua yritykseltä pyydettäessä sekä muilta JAMK:in opettajilta. |
-|Ryhmäprosessi (ryhmällä eri kehitysvaiheita (joukko, klikki, ME, tiimi), miten kehittynyt?)| 5 | Meidän joukollamme oli hyvä yhteis klikki joka teki meistä hyvän tiimin. |
-|Kriisit ja niistä selviäminen| 5 | Kriisejä ei kauhemmin ollut paitsi muutama sairastuminen, mutta niistä pääsimme mallikkaasti hyvin. |
-|Oman työn kriittinen kehittäminen| 5 | Kritisoimme omaa työtä radikaalisti tiimin sisällä. |
+|Ryhmäprosessi (ryhmällä eri kehitysvaiheita (joukko, klikki, ME, tiimi), miten kehittynyt?)| 5 | Meidän joukollamme oli hyvä yhteis klikki joka teki meistä hyvän tiimin. Koko projektin ajan oli hauska tulla paikalle. |
+|Kriisit ja niistä selviäminen| 5 | Kriisejä ei kauhemmin ollut paitsi muutama sairastuminen (Ja yksi murtunut jalka), mutta niistä pääsimme mallikkaasti hyvin. |
+|Oman työn kriittinen kehittäminen| 5 | Kritisoimme omaa työtä radikaalisti tiimin sisällä ja parannuksista keskusteltiin yhdessä. |
 
 ### 4.2.2.	Suunnitelmallisuus (projektityöskentely) 
 
@@ -109,7 +109,7 @@ Muutamia sairastumisia tai vastaavia oli mutta selvisimme niistä mallikaasti ko
 |Tiedottaminen| 5 | Tiedotimme toiminnastamme. | 
 |Kohderyhmätyöskentely (valmistautuminen, tavoitteiden saavuttaminen, läpivienti)| 5 | Valmistauduimme demoihin ja saavutimme tavoitteet. | 
 |”Fiilis” ja sen syyt (jos ”alavireinen”, niin kuinka parannettu?)| 5 | Koodaus oli hauskaa, yhteystyö sujui ja hommat jaettiin tasan. |
-|Toisten työkiireiden huomioiminen yhteydenpidossa (ennakointi, matkat ym.)| 5 | Huomioimme. |
+|Toisten työkiireiden huomioiminen yhteydenpidossa (ennakointi, matkat ym.)| 5 | Huomioitiin ja joustoa oli tarvittaessa hyvin. |
 |Yhteydenpitovälineiden käyttö (mikä on järkevä väline eri tilanteisiin, palaverit kallista ajankäyttöä)| 5 | Käytimme Microsoft Teams sovellusta mainiosti hyödyntäen sen eri ominaisuuksia esimerksi tiedostojen jakoon. |
 |Vuorovaikutuksen tuloksellisuus (Sähköposti, muut)| 5 | Loistavaa settiä. Viestit liikkui. |
 
@@ -120,7 +120,7 @@ Muutamia sairastumisia tai vastaavia oli mutta selvisimme niistä mallikaasti ko
 |---|---|---|
 |Tehtävään| 5 | Asenne ollut loistava alusta asti. |
 |Oppimiseen| 5 | Olimme oppimaan innokkaita! |
-|Ongelmiin| 5 | Ongelmiin suhtauduttiin purevasti. |
+|Ongelmiin| 5 | Ongelmiin suhtauduttiin purevasti ja tartuttiin yhdessä. |
 |Ote projektista sen eri vaiheissa| 5 | Kova puristus, kuin anakonda saalinsa ääressä | 
 |Palautehakuisuus| 5 | Haimme innokaasti palautetta. |
 
@@ -142,7 +142,7 @@ Yhteisesti tiimin kanssa totesimme että ansaitsemme arvosanan: <span style="fon
 
 ### Miksi?
 
-Koska tuotoksemme on arviointien perusteella loistavaa settiä. Tähän tulokseen on tullut myös muut.
+Koska tuotoksemme on arviointien perusteella loistavaa settiä ja projektityöskentely erinomaista. Tähän tulokseen on tullut myös muut.
 
 
 <!-- 
