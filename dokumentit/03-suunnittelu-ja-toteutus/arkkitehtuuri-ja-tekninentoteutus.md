@@ -150,9 +150,19 @@ node "App (React)" {
 
 database "MongoDB" {
     frame "Users" {
+        
     }
-
     frame "Products" {
+        
+    }
+    frame "Technologies" {
+        
+    }
+    frame "Components" {
+        
+    }
+    frame "EnvironmentRequirements" {
+        
     }
 }
   
