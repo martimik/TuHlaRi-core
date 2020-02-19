@@ -62,7 +62,7 @@ Muutamia sairastumisia tai vastaavia oli mutta selvisimme niistä mallikaasti ko
 <!-- 
 * Listatkaa opitut asiat esim. henkilöittäin ja/tai vaiheittain. Mainitkaa myös hyvin toimineet työskentelytavat, työkalut ja menetelmät (nk. best practises).
 -->
-* Markus Nylund (L5392) - 
+* Markus Nylund (L5392) - Opin paljon Pipelinenin rakentamisesta ja Openshift alustata, hieman lisää NodeJSää ja Reactia. Sekä muistutuksia RobotFrameworkistä ja Seleniumista. 
 * Reko Meriö (K9260) - 
 * Elias Kautto (L4177) - 
 * Mikko Martikainen (K8936) -
