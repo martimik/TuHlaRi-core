@@ -130,7 +130,7 @@ Muutamia sairastumisia tai vastaavia oli mutta selvisimme niistä mallikaasti ko
 |Mitä? | Arvosana | Selitys  |
 |---|---|---|
 |Mitkä ovat projektin tulokset?| 5 | Erinomaisesti toimiva tuote |
-|Kuinka hyviä tuotokset ovat?| 💯 | Tuote on vaatimusten mukainen ja on tehty moderneilla tekniikoilla :thumbsup: |
+|Kuinka hyviä tuotokset ovat?| 5 | Tuote on vaatimusten mukainen ja on tehty moderneilla tekniikoilla. |
 |Onko projektilla ”aineettomia” tuloksia? (esim. asennemuutos)| - | Ei ole |  
 |Tulosten arvo organisaatiolle ja muille tahoille| 5 | Suullisesti sanottuna tuotos oli "Oikein hyvä". |
 |Jatkotoimenpiteet| - | Luovutetaan homma asikkaalle. |
