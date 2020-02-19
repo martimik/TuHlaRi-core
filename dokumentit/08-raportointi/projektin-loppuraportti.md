@@ -69,7 +69,8 @@ Muutamia sairastumisia tai vastaavia oli mutta selvisimme niistä mallikaasti ko
     Projektin kannalta opin lisää myös ihan yleisesti ryhmätyöskentelystä.
 * Elias Kautto (L4177)
     * Projektin aikana opin Openshiftistä, NodeJSää ja Reactia. RobotFrameworkkia pääsin palauttamaan mieleen testauksen aikana. Samalla pääsin myös tutustumaan testaukseen Chaita käyttäen. Sain myös hyvää kokemusta ryhmätyöskentelystä.
-* Mikko Martikainen (K8936) -
+* Mikko Martikainen (K8936):
+    *  Hyviä oppeja NodeJs:n sekä Reactin kanssa työskentelystä. Myös mongoDB tuli hieman tutummaksi. Lisää hyvää kokemusta ohjelmistoprojektin läpiviennistä, parikoodaus todettu hyväksi toimintatavaksi.
 
 ## 4.2.	Itsearviointi
 
