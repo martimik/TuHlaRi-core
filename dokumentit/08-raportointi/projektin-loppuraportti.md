@@ -62,9 +62,10 @@ Muutamia sairastumisia tai vastaavia oli mutta selvisimme niistä mallikaasti ko
 <!-- 
 * Listatkaa opitut asiat esim. henkilöittäin ja/tai vaiheittain. Mainitkaa myös hyvin toimineet työskentelytavat, työkalut ja menetelmät (nk. best practises).
 -->
-* Markus Nylund (L5392) - Opin paljon Pipelinenin rakentamisesta ja Openshift alustata, hieman lisää NodeJSää ja Reactia. Sekä muistutuksia RobotFrameworkistä ja Seleniumista. 
+* Markus Nylund (L5392) 
+    * Opin paljon Pipelinenin rakentamisesta ja Openshift alustata, hieman lisää NodeJSää ja Reactia. Sekä muistutuksia RobotFrameworkistä ja Seleniumista. Opin myös ryhmätyöskentelystä sekä ryhmän johtamisesta.
 * Reko Meriö (K9260): 
-  * Uutta oppia tuli teknologioiden kannalta enimmäkseen NodeJS:stä, MongoDB:stä ja Openshiftistä. Reactilla tehdyt asiat olivat itselleni melko tuttuja. 
+    * Uutta oppia tuli teknologioiden kannalta enimmäkseen NodeJS:stä, MongoDB:stä ja Openshiftistä. Reactilla tehdyt asiat olivat itselleni melko tuttuja. 
     Projektin kannalta opin lisää myös ihan yleisesti ryhmätyöskentelystä.
 * Elias Kautto (L4177) - 
 * Mikko Martikainen (K8936) -
