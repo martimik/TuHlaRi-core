@@ -1,7 +1,7 @@
 # Projektin loppuraportti
 
 # 1.	JOHDANTO	
-Tämä dokumentti liittyy tiimin ReLamb tekemään projektiin [Tuhlari](https://front-end-tuhlari.rahtiapp.fi) joka tehtiin yritykselle DDDDD. Projektin osapuolina olivat:
+Tämä dokumentti liittyy tiimin ReLamb tekemään projektiin [Tuhlari](https://front-end-tuhlari.rahtiapp.fi) joka tehtiin yritykselle Digia Finland Oy. Projektin osapuolina olivat:
 * Markus Nylund - L5392
 * Reko Meriö - K9260
 * Elias Kautto - L4177
