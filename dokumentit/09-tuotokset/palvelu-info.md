@@ -1,8 +1,9 @@
 # Palvelukuvaus
 
 Palvelu on tuotehallintarekisteri, yrityksen tuottamien ohjelmistojen seurantaan.
+Tuotteen päätarkoituksena on helpottaa yrityksen myyjien työtä, jotta he voivat helposti tarkastaa minkälaisia tuotteita yritys on jo luonut.
 
-![](https://openclipart.org/image/300px/svg_to_png/281557/lavagna.png)
+![](https://gitlab.labranet.jamk.fi/digiateam/core/raw/master/dokumentit/09-tuotokset/img/Screenshot_2020-02-19_Tuhlari.png)
 
 ## Mistä lötyy demo-palvelin?
 
