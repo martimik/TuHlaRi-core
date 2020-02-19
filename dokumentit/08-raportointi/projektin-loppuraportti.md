@@ -67,7 +67,8 @@ Muutamia sairastumisia tai vastaavia oli mutta selvisimme niistä mallikaasti ko
 * Reko Meriö (K9260): 
     * Uutta oppia tuli teknologioiden kannalta enimmäkseen NodeJS:stä, MongoDB:stä ja Openshiftistä. Reactilla tehdyt asiat olivat itselleni melko tuttuja. 
     Projektin kannalta opin lisää myös ihan yleisesti ryhmätyöskentelystä.
-* Elias Kautto (L4177) - 
+* Elias Kautto (L4177)
+    * Projektin aikana opin Openshiftistä, NodeJSää ja Reactia. RobotFrameworkkia pääsin palauttamaan mieleen testauksen aikana. Samalla pääsin myös tutustumaan testaukseen Chaita käyttäen. Sain myös hyvää kokemusta ryhmätyöskentelystä.
 * Mikko Martikainen (K8936) -
 
 ## 4.2.	Itsearviointi
