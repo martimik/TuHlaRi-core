@@ -8,9 +8,9 @@ Dokumentaatio TuHlaRi tuotteenhallintarekisteri-projektista.
 
 ## Live Demo
 
-[Current version](http://front-end-tuhlari.rahtiapp.fi/#/)
+[Current version](https://front-end-tuhlari.rahtiapp.fi/#/)
 
 Login:
 
-* Email: admin@admin.com
-* Password: admin
+* Email: test@user.com
+* Password: testuser
