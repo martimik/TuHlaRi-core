@@ -1,46 +1,37 @@
-# Henkilökohtainen oppimisraportti
-
-* Oppimisraporttia sovelletaan tarvittaessa tilanteen mukaan..
-* Kirjaa opintojakson aikana keskeiset oppimasi asiat tähän asiakirjaan, omaan blogiisi, muistioon tms. 
-* Voit kirjoittaa myös aiheeseen liittyvistä epäselvistä asioista tai ongelmista ja kuinka ne ratkaistiin. 
-* Lopuksi voit arvioida omaa oppimistasi, esimerkiksi pääsitkö asettamiisi tavoitteisiin ja jos et päässyt niin mistä se johtui.
-* Voit poistaa tai muuttaa näitä valmiita tekstikohtia aivan vapaasti. 
-* Jos sinulla tulee kysymyksiä tai ongelmia tämän täyttämisen suhteen niin ota yhteys opettajaan.
+# Henkilökohtainen oppimisraportti - Mikko Martikainen / K8936
 
 ## Aluksi
 
 **Tavoitteeni / kiinnostukseni**
 
-* Kirjaa tavoitteesi opintojakson osalta: mitä haluat oppia. 
-* Kerro myös minkä arvosanan haluat opintojaksolta saada, kuinka paljon olet valmis tekemään töitä opintojakson eteen ja kuinka kiinnostunut olet opintojakson aiheesta? 
+* Tavoitteenani on oppia lisää ohjelmistotuotannon prosesseista, sekä itse ohjelmiston kehittämisestä ja julkaisusta.
+* Arvosanatavoitteeni opintojaksolle on luonnollisesti 5, jonka eteen olen valmis tekemään resurssien salliman määrän töitä. Opintojakson aihe on myös mielenkiintoinen, sillä se tarjoaa mahdollisuuden oppia lisää ohjelmistotuotannosta sekä sen käytänteistä suoraan tosielämän yritykseltä.
 
 ## Taustani / aikaisempi osaamiseni (vertaa osaamistasi opintojakson osaamis-tavoitteisiin)
 
-* Perehdy opintojakson osaamis¬tavoitteisiin – mitä niistä osaat ennestään? 
-* Jotta opetus voitaisiin paremmin suunnata tarpeisiisi, niin kerro lisäksi hieman taustastasi (esim. mitä tiedät opetettavasta aiheesta entuudestaan). 
-* Jos mahdollista, niin ala heti rakentamaan jonkinlaista käsitekarttaa siitä, miten opintojaksolla esiintyvät asiat liittyvät toisiinsa. 
-* Määrittele itse omin sanoin keskeiset opintojaksolla esiintyvät termit ja vertaa niitä opintojaksolla esitettyihin.
+* Aikaisempi osaamiseni perustuu hyvin vahvasti jo suoritettuihin opintojaksoihin sekä erinäisiin projektitöihin.
 
 ## Haasteeni / projektityöni
 
-* Aloita heti pohdiskelu, minkä omassa elämässäsi kohtaamasi ongelman haluat opintojaksolla ratkaista. 
-* Kirjaa tähän sekä ongelman kuvaus että sen potentiaaliset ratkaisuvaihtoehdot.
-* Ala keräämään projektiryhmää, joka on kiinnostunut ratkaisemaan saman ongelman. Vaihtakaa yhteystiedot ja sopikaa myös aikatauluista, jotta voisitte tavata toisianne säännöllisesti.
+* Opintojaksolla päädyimme kehittämään palvelua, joka toimii tuotteidenhallintarekisterinä sekä niiden hallintasovelluksena. Oleellisessa osassa tuotteen tietojen päivittäminen/muokkaus sekä tuotteen elinkaaren vaiheen ylläpito.
 
 ## Projektin eteneminen... 
 
-* Kirjaa tähän mitkä olivat tärkeimmät teemat omasta mielestäsi. 
-* Tärkeintä on, että kerrot mitä uutta itse asiassa opit. Se voi olla jotain yleistä, kuten ”Opin, että x-suunnittelun eri vaiheissa tulisi kiinnittää huomiota seuraaviin asioihin: ...”,  ”Erityisesti XX on tärkeää …” tai voit myös mainita jonkin pikku niksin, josta on itsellesi hyötyä, esim. ”Nn-työkalussa Zz tapahtuu Xx-valikon Yy-komennolla” ja voit vaikka Alt+PrintScreen-näppäinyhdistelmällä napata näytöltä kuvan. Älä täytä tätä kohtaa vain ”pakosta” vaan pohdi opitko oikeasti jotakin uutta!. Sen lisäksi sinun pitää miettiä, mikä merkitys opetetuilla asioilla on sinulle joko nyt tai tulevaisuudessa. 
-* Kirjaa myös, mitä opetustilanteessa tai aiheeseen tutustuessasi heränneitä ideoita, tuntemuksia tai epäselviä asioita tuli mieleen. Esimerkiksi jos jokin erityinen asia sai sinut pohdiskelemaan, että onkohan asia todellakin noin, niin voisit tuoda sen esille. Myös yleinen palaute esim. opintojakson tahdista tms. auttaa opettajaa jatkossa tekemään korjauksia opintojaksoon.
-* Voit kirjata myös omassa (työ)elämässäsi heränneitä ajatuksia tai etsiä tietoa opintojakson aiheista esim. webistä tietoa hakien.
+* Projektia aloittaessa dokumentaatio tuntui sujuvan jo suhteellisen rutiininomaisesti sekä sulavasti. Vaatimusmäärittely sekä muut dokumentit saatiin tuotettua ryhmän kanssa kätevästi jakamalla hommaa kaikille.
+* Toteteutusvaiheeseen päästyämme intoa alkoi löytymään ihan uudella tavalla. Mielenkiintoisten teknologioiden käyttö sekä hyvä ryhmähenki pitivät myös innostusta yllä koko totetusvaiheen ajan.
+* Yrityksen toiveesta otimme käyttöön parikoodauksen, joka osoittautui todella hyväksi tavaksi toimia. Yhdessä tehdessä toinen pystyi tarkkailemaan koodausta helppojen virheiden varalta, antamaan tarvittaessa vinkkejä sekä auttamaan ongelmien ratkaisemisessa. Parikoodaus lisäsi myös huomattavasti keskustelua siitä, miten totetus kannattaisi rakentaa.
+* Toteutus antoi myös hyvää kokemusta REST-rajapinnan luomisesta sekä front-end kehityksestä Reactilla. Erityisesti palvelinpuolen käyttäjän autentikaatio sekä istunnon luominen ja sen ylläpitäminen olivat hyviä oppeja. Palvelun käytettävyyteen sekä bugien korjaamiseen kiinnitettiin myös paljon huomiota ja ratkaisuista keskusteltiin koko tiimin voimin.
+* Palvelun demoaminen sekä "avointen ovien päivä" yrityksen työntekijöille antoi myös paljon hyviä huomioita toteutuksesta ja sen mahdollisista ongelmista.
+* CSC:n palveluiden käyttö vaati hieman tutustumista openshiftin käyttöön, mutta pienen ihmettelyn jälkeen saimme sovelluksen sekä tietokannan toimimaan pilvessä. 
+* Teknologioiden ollessa muuten suhteellisen tuttuja, pystyimme keskittymään palvelun laatuun huomattavasti paremmin ja panostamaan siihen uusien teknologioiden opettelun sijasta.
 
 ## Lopuksi
 
 **Kirjaa opintojakson päätteeksi, miten saavutit**
-* 1) asettamasi tavoitteet 
-* 2) opintojaksolle asetetut osaamistavoitteet
-* Kerro vaikeimmat ongelmat ja kuinka ne ratkaisit
-* Kerro myös, miten aiot jatkossa tehostaa omaa tapaasi oppia uusia asioita
-* Anna myös itsellesi rehellisesti arvosana perusteluineen
-* Viimeiseksi kirjaa muutama asia, kuinka kehittäisit opintojaksoa tai opettajan opetustyyliä eteenpäin.
+* 1) asettamasi tavoitteet: Hyvin. Otimme yrityksen käytäntöjä mukaan työskentelyymme sekä saimme hyviä vinkkejä ja näkökulmia kokonaisuuden hallintaan.
+* 2) opintojaksolle asetetut osaamistavoitteet: Myös hyvin. Saimme toimivan tuotteen aikaan moderneilla teknologioilla eikä suurempia ongelmia jäänyt ratkaisematta.
+
+* Erityisiä ongelmia ei projektin aikana esiintynyt ja pienemmät jutut saatiin porukalla ratkaistua. Nämä liittyivät lähinnä yksittäisiin koodauspulmiin ja openshiftin sekä putken käyttöön.
+* Arvosanaksi itselleni antaisin 5, sillä toimin tehokkasti toteutuksen parissa sekä ryhmän jäsenenä. Otin myös aktiivisesti kantaa keskusteltaessa ratkaisuista sekä autoin muita ryhmän jäseniä ongelmien ilmaantuessa ja parikoodauksen yhteydessä.
+* Opintojakson kehittämisen puolesta tenttiä voisi hieman miettiä uudelleen, sillä ehdin itse tekemään noin puolet tehtävistä ennen ajan loppumista. Tenttiin lukeminen oppilaiden kirjoittamista materiaaleista on myös ehkä hieman kyseenalalaista.
 
